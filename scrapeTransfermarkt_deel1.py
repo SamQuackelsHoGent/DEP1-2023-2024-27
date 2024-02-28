@@ -133,15 +133,13 @@ def prepareData(soup, seizoen, speeldag):
        print(seizoen, speeldag, datum, tijd, afkortingHuisploeg, huisploeg, huisstand, uitstand, afkortingUitploeg, uitploeg)
        quit
 
-     for x in range(0, len(data)-1):
+    for x in range(0, len(data)-1):
         if x >= len(data)-1:
           break
         if data[x] == data[x+1]:
           data.remove(data[x])
 
-     print(data)
-
-     while (len(data) > 0):
+    while (len(data) > 0):
           if len(data) < 1:
             break
           if any(month in data[0] for month in months):
@@ -172,7 +170,7 @@ def prepareData(soup, seizoen, speeldag):
           else:
             uitploeg = data.pop(0)
 
-          writeData(seizoen, speeldag, datum, tijd, afkortingHuisploeg, huisploeg, stand, afkortingUitploeg, uitploeg)
+          writeData(seizoen, speeldag, datum, tijd, afkortingHuisploeg, huisploeg, huisstand, uitstand, afkortingUitploeg, uitploeg)
 
 
 getData()
