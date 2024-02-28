@@ -53,11 +53,11 @@ def getData():
           prepareData(soup, seizoen, speeldag)
     print("Done")
 
-def writeData(seizoen, speeldag, datum, tijd, afkortingHuisploeg, huisploeg, huisstand, uitstand, afkortingUitploeg, uitploeg):
+def writeData(id, seizoen, speeldag, datum, tijd, afkortingHuisploeg, huisploeg, huisstand, uitstand, afkortingUitploeg, uitploeg):
     #with open('test.csv', 'a', newline='\n') as file:
     with open('dataTransfermarktDeel1.csv', 'a', newline='\n') as file:
         writer = csv.writer(file)
-        writer.writerow([seizoen, speeldag, datum, tijd, afkortingHuisploeg, huisploeg, huisstand, uitstand, afkortingUitploeg, uitploeg])
+        writer.writerow([id, seizoen, speeldag, datum, tijd, afkortingHuisploeg, huisploeg, huisstand, uitstand, afkortingUitploeg, uitploeg])
 
 
 
@@ -75,6 +75,16 @@ def prepareData(soup, seizoen, speeldag):
   stand = ""
   months = ["sep", "okt", "nov", "dec", "jan", "feb", "mrt", "apr", "mei", "jun", "jul", "aug"]
   table = soup.select("#main main div.row div.box:nth-of-type(2) table tbody tr")
+  idstext = soup.select("#main main div.row div.box:nth-of-type(2) table tbody tr td span a[title='Wedstrijdverslag']")
+  idstext += soup.select("#main main div.row div.box:nth-of-type(2) table tbody tr td span a[title='Voorbeschouwing']")
+
+  ids = []
+  for a in idstext:
+    href = a['href']
+    if re.match(r'/spielbericht/index/spielbericht/(\d+)', href):
+      ids.append(str(re.findall(r'\d+', href)))
+  ids.sort()
+  
 
   data = ""
   for row in table:
@@ -83,6 +93,9 @@ def prepareData(soup, seizoen, speeldag):
   for x in data:
       if "." in x and "(" in x:
             data.remove(x)
+
+  if data == ['']:
+    return
 
   x = 0
   while (x < len(data)-1):
@@ -127,52 +140,15 @@ def prepareData(soup, seizoen, speeldag):
        uitploeg = "Germinal Ekeren"
     else:
       uitploeg = data.pop(0)
-
-    if datum == "" or tijd == "" or speeldag == "" or seizoen == "":
-       print("Fuck")
-       print(seizoen, speeldag, datum, tijd, afkortingHuisploeg, huisploeg, huisstand, uitstand, afkortingUitploeg, uitploeg)
+    if stand != "verplaatst":
+      id = ids.pop(0)[2:-2]
+    else:
+      id = "-"
+    if id == "" or datum == "" or tijd == "" or speeldag == "" or seizoen == "":
+       print("Er is iets foutgelopen")
+       print(id, seizoen, speeldag, datum, tijd, afkortingHuisploeg, huisploeg, huisstand, uitstand, afkortingUitploeg, uitploeg)
        quit
 
-     for x in range(0, len(data)-1):
-        if x >= len(data)-1:
-          break
-        if data[x] == data[x+1]:
-          data.remove(data[x])
-
-     print(data)
-
-     while (len(data) > 0):
-          if len(data) < 1:
-            break
-          if any(month in data[0] for month in months):
-               datum = data.pop(0)
-          if len(data) < 1:
-            break
-          if re.match("[0-9][0-9]:[0-9][0-9]", data[0]):
-            tijd = data.pop(0)
-          if len(data) < 1:
-            break
-          afkortingHuisploeg = data.pop(0)
-          if len(data) < 1:
-            break
-          if afkortingHuisploeg == "Standard Luik":
-            huisploeg = "Standard Luik"
-          else:
-            huisploeg = data.pop(0)
-          if len(data) < 1:
-            break
-          stand = data.pop(0)
-          if len(data) < 1:
-            break
-          afkortingUitploeg = data.pop(0)
-          if len(data) < 1:
-            break
-          if afkortingUitploeg == "Standard Luik":
-            uitploeg = "Standard Luik"
-          else:
-            uitploeg = data.pop(0)
-
-          writeData(seizoen, speeldag, datum, tijd, afkortingHuisploeg, huisploeg, stand, afkortingUitploeg, uitploeg)
-
-
+    writeData(id, seizoen, speeldag, datum, tijd, afkortingHuisploeg, huisploeg, huisstand, uitstand, afkortingUitploeg, uitploeg)
+      
 getData()
