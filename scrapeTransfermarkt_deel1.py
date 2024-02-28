@@ -133,7 +133,46 @@ def prepareData(soup, seizoen, speeldag):
        print(seizoen, speeldag, datum, tijd, afkortingHuisploeg, huisploeg, huisstand, uitstand, afkortingUitploeg, uitploeg)
        quit
 
-    writeData(seizoen, speeldag, datum, tijd, afkortingHuisploeg, huisploeg, huisstand, uitstand, afkortingUitploeg, uitploeg)
+     for x in range(0, len(data)-1):
+        if x >= len(data)-1:
+          break
+        if data[x] == data[x+1]:
+          data.remove(data[x])
+
+     print(data)
+
+     while (len(data) > 0):
+          if len(data) < 1:
+            break
+          if any(month in data[0] for month in months):
+               datum = data.pop(0)
+          if len(data) < 1:
+            break
+          if re.match("[0-9][0-9]:[0-9][0-9]", data[0]):
+            tijd = data.pop(0)
+          if len(data) < 1:
+            break
+          afkortingHuisploeg = data.pop(0)
+          if len(data) < 1:
+            break
+          if afkortingHuisploeg == "Standard Luik":
+            huisploeg = "Standard Luik"
+          else:
+            huisploeg = data.pop(0)
+          if len(data) < 1:
+            break
+          stand = data.pop(0)
+          if len(data) < 1:
+            break
+          afkortingUitploeg = data.pop(0)
+          if len(data) < 1:
+            break
+          if afkortingUitploeg == "Standard Luik":
+            uitploeg = "Standard Luik"
+          else:
+            uitploeg = data.pop(0)
+
+          writeData(seizoen, speeldag, datum, tijd, afkortingHuisploeg, huisploeg, stand, afkortingUitploeg, uitploeg)
 
 
 getData()
