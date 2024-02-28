@@ -60,6 +60,12 @@ def prepareData(soup, seizoen, speeldag):
 
      months = ["sep", "okt", "nov", "dec", "jan", "feb", "ma", "apr", "mei", "jun", "jul", "aug"]
 
+     idstext = soup.select("#main main div.row div.box:nth-of-type(2) table tbody tr td span a[title='Wedstrijdverslag']")
+     href = idstext[0]['href']
+     match = re.search(r'/spielbericht/index/spielbericht/(\d+)', href)
+     if match:
+      match_id = match.group(1)
+
      datum = ""
      tijd= ""
      afkortingHuisploeg = ""
@@ -131,7 +137,7 @@ def prepareData(soup, seizoen, speeldag):
       if '%' in data[x]:
         del data[x]
       
-     print(data)
+    #  print(data)
 
      while len(data) > 0:
             item = data.pop(0)
@@ -157,9 +163,6 @@ def prepareData(soup, seizoen, speeldag):
                 scorendePloeg = uitploeg
               else:
                 scorendePloeg = huisploeg
-            
-
-
 
 
     #  print(f"Jaar: ", jaar)
