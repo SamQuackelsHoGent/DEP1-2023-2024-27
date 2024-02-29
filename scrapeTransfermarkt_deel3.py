@@ -107,73 +107,86 @@ def prepareData(soup, seizoen, speeldag):
       new_data.extend(re.split(r"([0-9]+:[0-9]+)", x))
      data = new_data
 
-     for x in range(0, len(data)-1):
-      if x >= len(data)-1:
-          break
-      if data[x].startswith('-'):
-        del data[x]
-      
-     for x in range(0, len(data)-1):
-      if x >= len(data)-1:
-          break
-      if 'uur' in data[x]:
-        del data[x]
-      
-     for x in range(0, len(data)-1):
-      if x >= len(data)-1:
-          break
-      if len(data[x]) <= 2:
-        del data[x]
-      
-     for x in range(0, len(data)-1):
-      if x >= len(data)-1:
-          break
-      if 'Spelverloop' in data[x]:
-        del data[x]
-      
-     for x in range(0, len(data)-1):
-      if x >= len(data)-1:
-          break
-      if '%' in data[x]:
-        del data[x]
+     x = 0
+     while (x < len(data)-1):
+      if x >= len(data):
+        pass
+      elif len(data[x]) <= 2:
+        data.remove(data[x])
+        x -= 1
+      elif data[x].startswith('-'):
+        data.remove(data[x])
+        x -= 1
+      elif 'uur' in data[x]:
+        data.remove(data[x])
+        x -= 1
+      elif 'Spelverloop' in data[x]:
+        data.remove(data[x])
+        x -= 1
+      elif '%' in data[x]:
+        data.remove(data[x])
+        x -= 1
+      x += 1
       
     #  print(data)
 
-     while len(data) > 0:
-            item = data.pop(0)
-            if any(month in item for month in months):
-                datum = item.strip()
-            if re.match(r"\d{2}:\d{2}", item):
-                tijd = item.strip()
-            if 'uur' in item:
-                match = re.search(r"\d{2}:\d{2}", item)
-                if match:
-                    tijd = match.group()
-            if re.search(r"saison_id/(\d{4})", URL):
-              jaar = re.search(r"saison_id/(\d{4})", URL).group(1)
-            if re.search(r"spieltag/(\d+)", URL):
-              speeldag = re.search(r"spieltag/(\d+)", URL).group(1)
+    #  while (len(data) > 0):
+    #         item = data.pop(0)
+    #         if any(month in item for month in months):
+    #             datum = item.strip()
+    #         if re.match(r"\d{2}:\d{2}", item):
+    #             tijd = item.strip()
+    #         if re.search(r"saison_id/(\d{4})", URL):
+    #           jaar = re.search(r"saison_id/(\d{4})", URL).group(1)
+    #         if re.search(r"spieltag/(\d+)", URL):
+    #           speeldag = re.search(r"spieltag/(\d+)", URL).group(1)
 
-            if ":" in item:
-              for d in data:
-                if "'" in d:
-                    tijdstipDoelpunt = d
-                    data.remove(d)
-              if data and data[0].isdigit():
-                scorendePloeg = uitploeg
-              else:
-                scorendePloeg = huisploeg
+            # if ":" in item:
+            #   for d in data:
+            #     if "'" in d:
+            #         tijdstipDoelpunt = d
+            #         data.remove(d)
+            #   if data and data[0].isdigit():
+            #     scorendePloeg = uitploeg
+            #   else:
+            #     scorendePloeg = huisploeg
+
+    #  while (len(data) > 0):
+    #   if any(month in data[0] for month in months):
+    #     datum = data.pop(0)
+    #   if re.match("[0-9]{2}:[0-9]{2}", data[0]):
+    #     tijd = data.pop(0)
+    #   afkortingHuisploeg = data.pop(0)
+    #   if afkortingHuisploeg == "Standard Luik":
+    #     huisploeg = "Standard Luik"
+    #   elif afkortingHuisploeg == "Germinal Ekeren":
+    #     huisploeg = "Germinal Ekeren"
+    #   else:
+    #     huisploeg = data.pop(0)
+    #   stand = data.pop(0)
+    #   print (f"stand: ", stand)
+    #   if re.match("^[\d:]+$", stand):
+    #     huisstand, uitstand = stand.split(":")
+    #   else:
+    #     huisstand = 0
+    #     uitstand = 0
+    #   afkortingUitploeg = data.pop(0)
+    #   if afkortingUitploeg == "Standard Luik":
+    #     uitploeg = "Standard Luik"
+    #   elif afkortingUitploeg == "Germinal Ekeren":
+    #     uitploeg = "Germinal Ekeren"
+    #   else:
+    #     uitploeg = data.pop(0)  
 
 
-    #  print(f"Jaar: ", jaar)
-    #  print(f"Speeldag: ", speeldag)
     #  print(f"datum: ", datum)
     #  print(f"tijd: ", tijd)
-    #  print(f"scorendePloeg: ", scorendePloeg)
-    #  print(f"tijdstipDoelpunt: ", tijdstipDoelpunt)
-    #  print(f"standThuisploeg: ", standThuisploeg)
-    #  print(f"standUitploeg: ", standUitploeg)
-    
+    #  print(f"afkortingHuisploeg: ", afkortingHuisploeg)
+    #  print(f"huisploeg: ", huisploeg)
+    #  print(f"afkortingUitploeg: ", afkortingUitploeg)
+    #  print(f"Uitploeg: ", uitploeg)
+    #  print(f"huisstand: ", huisstand)
+    #  print(f"uitsstand: ", uitstand)
 
 
 getData()
