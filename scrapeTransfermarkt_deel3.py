@@ -40,7 +40,7 @@ for i in range(0, 34):
 def getData():
     for year in range (2022, datetime.date.today().year - 1):
         seizoen = seizoenen.pop()
-        for day in range (1, 3):
+        for day in range (1, 2):
           speeldag = speeldagen[day-1]
           URL= f"https://www.transfermarkt.be/jupiler-pro-league/spieltag/wettbewerb/BE1/saison_id/2019/spieltag/13"
           headers={'User-Agent': 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Odin/88.4324.2.10 Safari/537.36 Model/Hisense-MT9602 VIDAA/6.0(Hisense;SmartTV;43A53FUV;MTK9602/V0000.06.12A.N0406;UHD;HU43A6100F;)'}
@@ -58,7 +58,7 @@ def writeData(seizoen, speeldag, datum, tijd, afkortingHuisploeg, huisploeg, sta
 
 def prepareData(soup, seizoen, speeldag):
 
-     months = ["sep", "okt", "nov", "dec", "jan", "feb", "ma", "apr", "mei", "jun", "jul", "aug"]
+     months = ["sep", "okt", "nov", "dec", "jan", "feb", "mrt", "apr", "mei", "jun", "jul", "aug"]
 
      idstext = soup.select("#main main div.row div.box:nth-of-type(2) table tbody tr td span a[title='Wedstrijdverslag']")
      href = idstext[0]['href']
@@ -80,55 +80,127 @@ def prepareData(soup, seizoen, speeldag):
      scorendePloeg= ""
      tijdstipDoelpunt= ""
 
-     table = soup.select("#main main div.row div.box:nth-of-type(2) table tbody tr")
+     table = soup.select("#main main div.row div[class='large-8 columns'] table tbody tr.table-grosse-schrift:nth-of-type(1)")
 
-     data = ""
+     ploegData = ""
      for row in table:
-          data += row.get_text("|", strip=True)
-     data = data.split("|")
-     for x in data:
+          ploegData += row.get_text("|", strip=True)
+     ploegData = ploegData.split("|")
+
+     for x in ploegData:
           if "." in x and "(" in x:
-               data.remove(x)
+               ploegData.remove(x)
 
-     for x in range(0, len(data)-1):
-        if x >= len(data):
-          break
-        if re.match("[0-9]{2}:[0-9]{2}..", data[x]):
-          data.remove(data[x])
+     for x in ploegData:
+          if ":" in x:
+               ploegData.remove(x)
+     
+     for i in range(1, int(len(ploegData)/2)):
+      ploegData.pop(i)
+     
+     print(ploegData)
 
-     for x in range(0, len(data)-1):
-        if x >= len(data)-1:
-          break
-        if data[x] == data[x+1]:
-          data.remove(data[x])    
+     table = soup.select("#main main div.row div[class='large-8 columns'] table tbody tr td[class='zentriert no-border']")
 
+     tijdData = ""
+     for row in table:
+          tijdData += row.get_text("|", strip=True)
+     tijdData = tijdData.split("|")
+     
      new_data = []
-     for x in data:
+     for x in tijdData:
       new_data.extend(re.split(r"([0-9]+:[0-9]+)", x))
-     data = new_data
+     tijdData = new_data
 
      x = 0
-     while (x < len(data)-1):
-      if x >= len(data):
+     while (x < len(tijdData)-1):
+      if x >= len(tijdData):
         pass
-      elif len(data[x]) <= 2:
-        data.remove(data[x])
+      elif len(tijdData[x]) <= 2:
+        tijdData.remove(tijdData[x])
         x -= 1
-      elif data[x].startswith('-'):
-        data.remove(data[x])
+      elif tijdData[x].startswith('-'):
+        tijdData.remove(tijdData[x])
         x -= 1
-      elif 'uur' in data[x]:
-        data.remove(data[x])
+      elif 'uur' in tijdData[x]:
+        tijdData.remove(tijdData[x])
         x -= 1
-      elif 'Spelverloop' in data[x]:
-        data.remove(data[x])
+      elif 'Spelverloop' in tijdData[x]:
+        tijdData.remove(tijdData[x])
         x -= 1
-      elif '%' in data[x]:
-        data.remove(data[x])
+      elif '%' in tijdData[x]:
+        tijdData.remove(tijdData[x])
         x -= 1
       x += 1
+     
+     dagen = ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"]
+     i=0
+     while i<len(tijdData):
+      if any(dag in tijdData[i] for dag in dagen):
+        tijdData.pop(i)
+      i+=1
+     tijdData.pop()
+     tijdData.pop()
+     print(tijdData)
+
+     table = soup.select("#main main div.row div[class='large-8 columns'] table tbody tr[class='no-border spieltagsansicht-aktionen']")
+
+     scoreData = ""
+     for row in table:
+          scoreData += row.get_text("|", strip=True)
+     scoreData = scoreData.split("|")
+     
+     new_data = []
+     for x in scoreData:
+      new_data.extend(re.split(r"([0-9]:[0-9])", x))
+     scoreData = new_data
+     
+     tempdata = []
+     for i in range(0,len(scoreData)-1):
+        if re.match("[\W\d]+", scoreData[i]):
+          tempdata.append(scoreData[i])
+     
+     print(tempdata)
+
+    #  for x in range(0, len(data)-1):
+    #     if x >= len(data):
+    #       break
+    #     if re.match("[0-9]{2}:[0-9]{2}..", data[x]):
+    #       data.remove(data[x])
+
+    #  for x in range(0, len(data)-1):
+    #     if x >= len(data)-1:
+    #       break
+    #     if data[x] == data[x+1]:
+    #       data.remove(data[x])    
+
+    #  new_data = []
+    #  for x in data:
+    #   new_data.extend(re.split(r"([0-9]+:[0-9]+)", x))
+    #  data = new_data
+
+    #  x = 0
+    #  while (x < len(data)-1):
+    #   if x >= len(data):
+    #     pass
+    #   elif len(data[x]) <= 2:
+    #     data.remove(data[x])
+    #     x -= 1
+    #   elif data[x].startswith('-'):
+    #     data.remove(data[x])
+    #     x -= 1
+    #   elif 'uur' in data[x]:
+    #     data.remove(data[x])
+    #     x -= 1
+    #   elif 'Spelverloop' in data[x]:
+    #     data.remove(data[x])
+    #     x -= 1
+    #   elif '%' in data[x]:
+    #     data.remove(data[x])
+    #     x -= 1
+    #   x += 1
       
-    #  print(data)
+    # #  print(data)
 
     #  while (len(data) > 0):
     #         item = data.pop(0)
@@ -141,15 +213,28 @@ def prepareData(soup, seizoen, speeldag):
     #         if re.search(r"spieltag/(\d+)", URL):
     #           speeldag = re.search(r"spieltag/(\d+)", URL).group(1)
 
-            # if ":" in item:
-            #   for d in data:
-            #     if "'" in d:
-            #         tijdstipDoelpunt = d
-            #         data.remove(d)
-            #   if data and data[0].isdigit():
-            #     scorendePloeg = uitploeg
-            #   else:
-            #     scorendePloeg = huisploeg
+    #         if ":" in item:
+    #           standThuisploeg = item[0]
+    #           standUitploeg = item[2]
+    #           if "'" in data[0]:
+    #                 tijdstipDoelpunt = data[0]
+    #           if data and data[0].isdigit():
+    #             scorendePloeg = uitploeg
+    #           else:
+    #             scorendePloeg = huisploeg
+            # print(f"speeldag: ", speeldag)
+            # print(f"jaar: ", jaar)
+            # print(f"datum: ", datum)
+            # print(f"tijd: ", tijd)
+            # print(f"afkortingHuisploeg: ", afkortingHuisploeg)
+            # print(f"huisploeg: ", huisploeg)
+            # print(f"afkortingUitploeg: ", afkortingUitploeg)
+            # print(f"Uitploeg: ", uitploeg)
+            # print(f"tijdstipdoelpunt: ", tijdstipDoelpunt)
+
+
+            # print(f"huisstand: ", standThuisploeg)
+            # print(f"uitsstand: ", standUitploeg)
 
     #  while (len(data) > 0):
     #   if any(month in data[0] for month in months):
@@ -178,15 +263,19 @@ def prepareData(soup, seizoen, speeldag):
     #   else:
     #     uitploeg = data.pop(0)  
 
-
+    #  print(f"speeldag: ", speeldag)
+    #  print(f"jaar: ", jaar)
     #  print(f"datum: ", datum)
     #  print(f"tijd: ", tijd)
     #  print(f"afkortingHuisploeg: ", afkortingHuisploeg)
     #  print(f"huisploeg: ", huisploeg)
     #  print(f"afkortingUitploeg: ", afkortingUitploeg)
     #  print(f"Uitploeg: ", uitploeg)
-    #  print(f"huisstand: ", huisstand)
-    #  print(f"uitsstand: ", uitstand)
+    #  print(f"tijdstipdoelpunt: ", tijdstipDoelpunt)
+
+
+    #  print(f"huisstand: ", standThuisploeg)
+    #  print(f"uitsstand: ", standUitploeg)
 
 
 getData()
