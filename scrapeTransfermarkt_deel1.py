@@ -1,49 +1,16 @@
-# Deel 1
-
+# Used imports 
 import requests
 from bs4 import BeautifulSoup
-import json
-import jmespath
 import datetime
 import csv
 import re
 
-# Seizoenen en speeldagen
-
-# soup = ""
-# URL= f"https://www.transfermarkt.be/jupiler-pro-league/spieltagtabelle/wettbewerb/BE1?saison_id=1960&spieltag=1"
-# headers={'User-Agent': 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Odin/88.4324.2.10 Safari/537.36 Model/Hisense-MT9602 VIDAA/6.0(Hisense;SmartTV;43A53FUV;MTK9602/V0000.06.12A.N0406;UHD;HU43A6100F;)'}
-# page= requests.get(URL, headers=headers)
-# soup= BeautifulSoup(page.content, "html.parser")
-# table = soup.select("#main main, div.row div.box:nth-of-type(1) div.content div.row tbody tr td:nth-of-type(2) div.inline-select div.chzn-container a.chzn-single span")
-
-# data = ""
-# for row in table:
-#   data += row.get_text("|", strip=True)
-# data = data.split("|")
-
-# for i in range(0, 28):
-#   data.pop(0)
-     
-# seizoenen = [0] * 64
-
-# for i in range(0, 64):
-#   seizoenen[i] = data.pop(0)
-
-# data.pop(0)
-     
-# speeldagen = [0] * 34
-
-# for i in range(0, 34):
-#   speeldag = data.pop(0)
-#   if (re.match("^[0-9].*", speeldag)):
-#     speeldagen[i] = re.findall(r'\d+', speeldag)
-
-# print(speeldagen)
-
+# Methode om de data per seizoen en per speeldag te scrapen
 def getData():
-    for year in range (1960, datetime.date.today().year - 1):
+    # For loop om alle seizoenen te doorlopen
+    for year in range (1960, datetime.date.today().year):
         seizoen = (str(year)[2:] + "/" + str(year + 1)[2:])
+        # For loop om alle speeldagen te doorlopen voor elk seizoen
         for day in range (1, 35):
           speeldag = day
           URL= f"https://www.transfermarkt.be/jupiler-pro-league/spieltagtabelle/wettbewerb/BE1?saison_id={year}&spieltag={day}"
@@ -53,16 +20,16 @@ def getData():
           prepareData(soup, seizoen, speeldag)
     print("Done")
 
+# Methode die de data schrijft naar het wedstrijden.csv file
 def writeData(id, seizoen, speeldag, datum, tijd, afkortingHuisploeg, huisploeg, huisstand, uitstand, afkortingUitploeg, uitploeg):
-    #with open('test.csv', 'a', newline='\n') as file:
-    with open('dataTransfermarktDeel1.csv', 'a', newline='\n') as file:
+    with open('wedstrijden.csv', 'a', newline='\n') as file:
         writer = csv.writer(file)
         writer.writerow([id, seizoen, speeldag, datum, tijd, afkortingHuisploeg, huisploeg, huisstand, uitstand, afkortingUitploeg, uitploeg])
 
-
-
-
+# Methode om de data te scheiden
 def prepareData(soup, seizoen, speeldag):
+  
+  # Decraleer variabelen
   global datum, tijd, afkortingHuisploeg, huisploeg, standThuisploeg, standUitploeg, afkortingUitploeg, uitploeg, stand
   datum = ""
   tijd= ""
@@ -74,10 +41,13 @@ def prepareData(soup, seizoen, speeldag):
   uitploeg = ""
   stand = ""
   months = ["sep", "okt", "nov", "dec", "jan", "feb", "mrt", "apr", "mei", "jun", "jul", "aug"]
+
+  # Soup selects
   table = soup.select("#main main div.row div.box:nth-of-type(2) table tbody tr")
   idstext = soup.select("#main main div.row div.box:nth-of-type(2) table tbody tr td span a[title='Wedstrijdverslag']")
   idstext += soup.select("#main main div.row div.box:nth-of-type(2) table tbody tr td span a[title='Voorbeschouwing']")
 
+  # Haal alle id's op
   ids = []
   for a in idstext:
     href = a['href']
@@ -85,18 +55,22 @@ def prepareData(soup, seizoen, speeldag):
       ids.append(str(re.findall(r'\d+', href)))
   ids.sort()
   
-
+  # Split de data
   data = ""
   for row in table:
       data += row.get_text("|", strip=True)
   data = data.split("|")
+
+  # Verwijder foute data
   for x in data:
       if "." in x and "(" in x:
             data.remove(x)
 
+  # Verwijder lege values
   if data == ['']:
     return
-
+  
+  # Verwijder de onnodige data
   x = 0
   while (x < len(data)-1):
     if x >= len(data):
@@ -113,7 +87,7 @@ def prepareData(soup, seizoen, speeldag):
         x -= 1
     x += 1
 
-
+  # While loop om de data op te halen en weg te schrijven
   while (len(data) > 0):
     if any(month in data[0] for month in months):
         datum = data.pop(0)
@@ -150,5 +124,6 @@ def prepareData(soup, seizoen, speeldag):
        quit
 
     writeData(id, seizoen, speeldag, datum, tijd, afkortingHuisploeg, huisploeg, huisstand, uitstand, afkortingUitploeg, uitploeg)
-      
+
+# roep de methode getData() op
 getData()

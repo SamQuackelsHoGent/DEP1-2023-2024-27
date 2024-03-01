@@ -1,15 +1,13 @@
 # Deel 3
 
+# Used imports
 import requests
 from bs4 import BeautifulSoup
-import json
-import jmespath
 import datetime
 import csv
 import re
 
-# Tijdstip
-
+# 
 soup = ""
 URL= f"https://www.transfermarkt.be/jupiler-pro-league/spieltag/wettbewerb/BE1/saison_id/2019/spieltag/13"
 headers={'User-Agent': 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Odin/88.4324.2.10 Safari/537.36 Model/Hisense-MT9602 VIDAA/6.0(Hisense;SmartTV;43A53FUV;MTK9602/V0000.06.12A.N0406;UHD;HU43A6100F;)'}

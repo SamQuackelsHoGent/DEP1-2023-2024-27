@@ -1,11 +1,13 @@
+# Used imports
 import requests
 from bs4 import BeautifulSoup
-import json
-import jmespath
 import datetime
 import csv
 import re
 
+# Code om de seizoenen en speeldagen te scrapen.
+
+# Soup select om de seizoenen en speeldagen te selecteren
 soup = ""
 URL= f"https://www.transfermarkt.be/jupiler-pro-league/spieltagtabelle/wettbewerb/BE1?saison_id=1960&spieltag=1"
 headers={'User-Agent': 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Odin/88.4324.2.10 Safari/537.36 Model/Hisense-MT9602 VIDAA/6.0(Hisense;SmartTV;43A53FUV;MTK9602/V0000.06.12A.N0406;UHD;HU43A6100F;)'}
@@ -13,14 +15,17 @@ page= requests.get(URL, headers=headers)
 soup= BeautifulSoup(page.content, "html.parser")
 table = soup.select("#main main, div.row div.box:nth-of-type(1) div.content div.row tbody tr td:nth-of-type(2) div.inline-select div.chzn-container a.chzn-single span")
 
+# Split de data
 data = ""
 for row in table:
   data += row.get_text("|", strip=True)
 data = data.split("|")
 
+# Verwijder onodige data
 for i in range(0, 28):
   data.pop(0)
 
+# Voeg de seizoenen en speeldagen in aparte lijsten
 seizoenen = [0] * 64
 
 for i in range(0, 64):
@@ -33,10 +38,13 @@ speeldagen = [0] * 34
 for i in range(0, 34):
   speeldagen[i] = data.pop(0)
 
+# Methode om de data per seizoen en per speeldag te scrapen
 def getData():
-    for year in range (1960, datetime.date.today().year - 1):
+    # For loop om alle seizoenen te doorlopen
+    for year in range (1960, datetime.date.today().year):
         seizoen = seizoenen.pop()
-        for day in range (1, 31):
+        # For loop om alle speeldagen te doorlopen voor elk seizoen
+        for day in range (1, 35):
           speeldag = speeldagen[day-1]
           URL= f"https://www.transfermarkt.be/jupiler-pro-league/spieltagtabelle/wettbewerb/BE1?saison_id={year}&spieltag={day}"
           headers={'User-Agent': 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Odin/88.4324.2.10 Safari/537.36 Model/Hisense-MT9602 VIDAA/6.0(Hisense;SmartTV;43A53FUV;MTK9602/V0000.06.12A.N0406;UHD;HU43A6100F;)'}
@@ -46,19 +54,25 @@ def getData():
           prepareData(soup, seizoen, speeldag)
     print("Done")
 
+# Methode die de data schrijft naar het klassementen.csv file
 def writeData(seizoen, speeldag, stand, clubnaam, gespeeldeMatchen, gewonnenMatchen, gelijkspeeldeMatchen, verlorenMatchen, doelpunten, puntenverschil, punten):
-    with open('voetbalData_Deel_2.csv', 'a', newline='\n') as file:
+    with open('klassementen.csv', 'a', newline='\n') as file:
         writer = csv.writer(file)
         writer.writerow([seizoen, speeldag, stand, clubnaam, gespeeldeMatchen, gewonnenMatchen, gelijkspeeldeMatchen, verlorenMatchen, doelpunten, puntenverschil, punten])
 
+# Methode om de data te scheiden
 def prepareData(soup, seizoen, speeldag):
+  
+  # Soup select om alle tabellen te scrapen
   table = soup.select("#main main div.row div.box:nth-of-type(3) table tbody tr")
 
+  # Split de data
   data = ""
   for row in table:
     data += row.get_text("|", strip=True)
   data = data.split("|")
 
+  # Decraleer variabelen
   stand = ""
   clubnaam = ""
   gespeeldeMatchen = ""
@@ -70,6 +84,7 @@ def prepareData(soup, seizoen, speeldag):
   punten = ""
   i = 0
 
+  # While loop om de data per row weg te schrijven
   while (len(data) > 0):
 
           stand = ""
@@ -120,4 +135,5 @@ def prepareData(soup, seizoen, speeldag):
           writeData(seizoen, speeldag, stand,  clubnaam, gespeeldeMatchen, gewonnenMatchen, gelijkspeeldeMatchen, verlorenMatchen, doelpunten, puntenverschil, punten)
           i+=1
 
+# roep de methode getData() op
 getData()
