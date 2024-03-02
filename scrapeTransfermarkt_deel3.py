@@ -66,11 +66,9 @@ def prepareData(soup, seizoen, speeldag):
 
      datum = ""
      tijd= ""
-     afkortingHuisploeg = ""
      huisploeg = ""
      standThuisploeg = ""
      standUitploeg = ""
-     afkortingUitploeg = ""
      uitploeg = ""
      stand = ""
      jaar= ""
@@ -95,8 +93,10 @@ def prepareData(soup, seizoen, speeldag):
      
      for i in range(1, int(len(ploegData)/2)):
       ploegData.pop(i)
-     
-     print(ploegData)
+
+     ploegen= [ploegData[i:i+2] for i in range(0, len(ploegData), 2)]
+      
+    #  print(ploegData)
 
      table = soup.select("#main main div.row div[class='large-8 columns'] table tbody tr td[class='zentriert no-border']")
 
@@ -139,7 +139,8 @@ def prepareData(soup, seizoen, speeldag):
       i+=1
      tijdData.pop()
      tijdData.pop()
-     print(tijdData)
+
+    #  print(tijdData)
 
      table = soup.select("#main main div.row div[class='large-8 columns'] table tbody tr[class='no-border spieltagsansicht-aktionen']")
 
@@ -159,6 +160,27 @@ def prepareData(soup, seizoen, speeldag):
           tempdata.append(scoreData[i])
      
      print(tempdata)
+
+     wedstrijden = []
+
+     index = 0
+
+     for item in range(0, len(tijdData)):
+      if item % 2 == 0:  
+        datum = tijdData[item].strip()
+      else:  
+        tijd = tijdData[item].strip()
+        wedstrijd = {
+            "datum": datum,
+            "tijd": tijd,
+            "huisploeg": ploegen[index][0],
+            "uitploeg": ploegen[index][1]
+        }
+        wedstrijden.append(wedstrijd)
+        index += 1
+
+     for wedstrijd in wedstrijden:
+      print(wedstrijd)
 
     #  for x in range(0, len(data)-1):
     #     if x >= len(data):
@@ -201,11 +223,11 @@ def prepareData(soup, seizoen, speeldag):
     # #  print(data)
 
     #  while (len(data) > 0):
-    #         item = data.pop(0)
-    #         if any(month in item for month in months):
-    #             datum = item.strip()
-    #         if re.match(r"\d{2}:\d{2}", item):
-    #             tijd = item.strip()
+            # item = data.pop(0)
+            # if any(month in item for month in months):
+            #     datum = item.strip()
+            # if re.match(r"\d{2}:\d{2}", item):
+            #     tijd = item.strip()
     #         if re.search(r"saison_id/(\d{4})", URL):
     #           jaar = re.search(r"saison_id/(\d{4})", URL).group(1)
     #         if re.search(r"spieltag/(\d+)", URL):
