@@ -19,12 +19,32 @@ def getData():
           soup= BeautifulSoup(page.content, "html.parser")
           prepareData(soup, seizoen, speeldag)
     print("Done")
-
 # Methode die de data schrijft naar het wedstrijden.csv file
-def writeData(id, seizoen, speeldag, datum, tijd, afkortingHuisploeg, huisploeg, huisstand, uitstand, afkortingUitploeg, uitploeg):
-    with open('wedstrijden.csv', 'a', newline='\n') as file:
+def writeData(id, seizoen, speeldag, datum, tijd, huisploeg, huisstand, uitstand, uitploeg):
+    #with open('test.csv', 'a', newline='\n') as file:
+    with open('voetbalData_Deel2.csv', 'a', newline='\n') as file:
         writer = csv.writer(file)
-        writer.writerow([id, seizoen, speeldag, datum, tijd, afkortingHuisploeg, huisploeg, huisstand, uitstand, afkortingUitploeg, uitploeg])
+        writer.writerow([id, seizoen, speeldag, datum, tijd, huisploeg, huisstand, uitstand, uitploeg])
+
+def changeDateFormat(datum):
+    maand_afkortingen = {
+        "jan.": "01",
+        "feb.": "02",
+        "mrt.": "03",
+        "apr.": "04",
+        "mei": "05",  
+        "jun.": "06",
+        "jul.": "07",
+        "aug.": "08",
+        "sep.": "09",
+        "okt.": "10",
+        "nov.": "11",
+        "dec.": "12"
+    }
+    dag, maand, jaar = datum.split()
+    maand = maand_afkortingen[maand.lower()]
+    print(dag)
+    return f"{dag}/{maand}/{jaar}"
 
 # Methode om de data te scheiden
 def prepareData(soup, seizoen, speeldag):
@@ -90,7 +110,7 @@ def prepareData(soup, seizoen, speeldag):
   # While loop om de data op te halen en weg te schrijven
   while (len(data) > 0):
     if any(month in data[0] for month in months):
-        datum = data.pop(0)
+        datum = changeDateFormat(data.pop(0))
     if re.match("[0-9]{2}:[0-9]{2}", data[0]):
       tijd = data.pop(0)
     afkortingHuisploeg = data.pop(0)
@@ -120,10 +140,9 @@ def prepareData(soup, seizoen, speeldag):
       id = "-"
     if id == "" or datum == "" or tijd == "" or speeldag == "" or seizoen == "":
        print("Er is iets foutgelopen")
-       print(id, seizoen, speeldag, datum, tijd, afkortingHuisploeg, huisploeg, huisstand, uitstand, afkortingUitploeg, uitploeg)
+       print(id, seizoen, speeldag, datum, tijd, huisploeg, huisstand, uitstand, uitploeg)
        quit
 
-    writeData(id, seizoen, speeldag, datum, tijd, afkortingHuisploeg, huisploeg, huisstand, uitstand, afkortingUitploeg, uitploeg)
-
-# roep de methode getData() op
+    writeData(id, seizoen, speeldag, datum, tijd, huisploeg, huisstand, uitstand, uitploeg)
+      
 getData()
