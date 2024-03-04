@@ -1,3 +1,4 @@
+id,seizoen,speeldag,datum,tijd,afkortingThuisPloeg,thuisploeg,standThuisploeg,standUitploeg,afkortingUitploeg,uitploeg
 4008203,60/61,1,4 sep. 1960,15:00,STVV,Sint-Truidense VV,0,2,Standard Luik,Standard Luik
 4008204,60/61,1,4 sep. 1960,15:00,Aalst,KSC Eendracht Aalst,3,2,RAFC,R Antwerp FC
 4008205,60/61,1,4 sep. 1960,15:00,Olympi,Olympic Charleroi,0,7,RSCA,RSC Anderlecht
@@ -16716,7 +16717,7 @@
 3302959,19/20,29,7 mrt. 2020,20:00,KVK,KV Kortrijk,0,1,RAFC,R Antwerp FC
 3302960,19/20,29,7 mrt. 2020,20:00,REM,Royal Excel Moeskroen (-2022),1,0,W-B,KVRS Waasland - SK Beveren
 3302961,19/20,29,7 mrt. 2020,20:00,KVO,KV Oostende,2,4,Genk,KRC Genk
-3302962,19/20,29,7 mrt. 2020,20:00,KVM,KV Mechelen,1,1,Eupen,KAS Eupen3413839,20/21,1,8 aug. 2020,16:30,FCB,Club Brugge,0,1,RCSC,R Charleroi SC
+3302962,19/20,29,7 mrt. 2020,20:00,KVM,KV Mechelen,1,1,Eupen,KAS Eupen3413839
 3413840,20/21,1,8 aug. 2020,16:30,RAFC,R Antwerp FC,1,1,REM,Royal Excel Moeskroen (-2022)
 3413841,20/21,1,8 aug. 2020,16:30,Standard Luik,Standard Luik,1,0,Cercle,Cercle Brugge
 3413842,20/21,1,9 aug. 2020,13:30,STVV,Sint-Truidense VV,2,1,Gent,KAA Gent
