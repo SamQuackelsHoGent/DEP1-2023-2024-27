@@ -17884,3 +17884,174 @@
 4098848,23/24,30,17/03/2024,18:30,Cercle Brugge,18,30,RWD Molenbeek
 4098849,23/24,30,17/03/2024,18:30,Sint-Truidense VV,18,30,Club Brugge
 4098850,23/24,30,17/03/2024,18:30,KVC Westerlo,18,30,KRC Genk
+4008203,60/61,1,4/09/1960,15:00,Sint-Truidense VV,0,2,Standard Luik
+4008204,60/61,1,4/09/1960,15:00,KSC Eendracht Aalst,3,2,R Antwerp FC
+4008205,60/61,1,4/09/1960,15:00,Olympic Charleroi,0,7,RSC Anderlecht
+4008206,60/61,1,4/09/1960,15:00,Royal Beerschot AC,1,0,Stade Verviétois
+4008207,60/61,1,4/09/1960,15:00,Club Brugge,1,2,Union Saint-Gilloise
+4008208,60/61,1,4/09/1960,15:00,Daring Club Brussel,2,1,K Patro Eisden
+4008209,60/61,1,4/09/1960,15:00,RFC Luik,2,1,Association Royale Athlétique Gent
+4008210,60/61,1,4/09/1960,15:00,Waterschei SV THOR (- 1988),5,0,Lierse SK (- 2018)
+4008211,60/61,2,11/09/1960,15:00,Standard Luik,3,0,KSC Eendracht Aalst
+4008212,60/61,2,11/09/1960,15:00,RSC Anderlecht,2,3,RFC Luik
+4008213,60/61,2,11/09/1960,15:00,R Antwerp FC,2,3,Daring Club Brussel
+4008214,60/61,2,11/09/1960,15:00,Association Royale Athlétique Gent,3,0,Royal Beerschot AC
+4008215,60/61,2,11/09/1960,15:00,K Patro Eisden,1,1,Club Brugge
+4008216,60/61,2,11/09/1960,15:00,Lierse SK (- 2018),1,0,Olympic Charleroi
+4008217,60/61,2,11/09/1960,15:00,Union Saint-Gilloise,3,0,Sint-Truidense VV
+4008218,60/61,2,11/09/1960,15:00,Stade Verviétois,1,3,Waterschei SV THOR (- 1988)
+4008219,60/61,3,18/09/1960,15:00,Standard Luik,0,0,Olympic Charleroi
+4008220,60/61,3,18/09/1960,15:00,KSC Eendracht Aalst,0,0,RSC Anderlecht
+4008221,60/61,3,18/09/1960,15:00,Union Saint-Gilloise,0,1,R Antwerp FC
+4008222,60/61,3,18/09/1960,15:00,Royal Beerschot AC,3,0,Lierse SK (- 2018)
+4008223,60/61,3,18/09/1960,15:00,Club Brugge,1,1,Stade Verviétois
+4008224,60/61,3,18/09/1960,15:00,Daring Club Brussel,3,1,Association Royale Athlétique Gent
+4008225,60/61,3,18/09/1960,15:00,Sint-Truidense VV,2,0,K Patro Eisden
+4008226,60/61,3,18/09/1960,15:00,Waterschei SV THOR (- 1988),0,1,RFC Luik
+4008227,60/61,4,25/09/1960,15:00,K Patro Eisden,0,3,Standard Luik
+4008228,60/61,4,25/09/1960,15:00,Stade Verviétois,0,4,KSC Eendracht Aalst
+4008229,60/61,4,25/09/1960,15:00,RSC Anderlecht,3,1,Waterschei SV THOR (- 1988)
+4008230,60/61,4,25/09/1960,15:00,R Antwerp FC,0,0,Club Brugge
+4008231,60/61,4,25/09/1960,15:00,Olympic Charleroi,4,1,Royal Beerschot AC
+4008232,60/61,4,25/09/1960,15:00,Lierse SK (- 2018),3,4,Daring Club Brussel
+4008233,60/61,4,25/09/1960,15:00,Association Royale Athlétique Gent,3,0,Sint-Truidense VV
+4008234,60/61,4,25/09/1960,15:00,RFC Luik,2,1,Union Saint-Gilloise
+4008235,60/61,5,9/10/1960,15:00,Club Brugge,0,0,Waterschei SV THOR (- 1988)
+4008236,60/61,5,9/10/1960,15:00,Daring Club Brussel,1,1,RFC Luik
+4008237,60/61,5,9/10/1960,15:00,K Patro Eisden,0,2,Lierse SK (- 2018)
+4008238,60/61,5,9/10/1960,15:00,Association Royale Athlétique Gent,1,1,Olympic Charleroi
+4008239,60/61,5,9/10/1960,15:00,Standard Luik,5,2,Stade Verviétois
+4008240,60/61,5,9/10/1960,15:00,Union Saint-Gilloise,5,2,KSC Eendracht Aalst
+4008241,60/61,5,9/10/1960,15:00,Sint-Truidense VV,2,2,RSC Anderlecht
+4008242,60/61,5,9/10/1960,15:00,Royal Beerschot AC,2,1,R Antwerp FC
+4008243,60/61,6,16/10/1960,15:00,RFC Luik,0,0,Standard Luik
+4008244,60/61,6,16/10/1960,15:00,KSC Eendracht Aalst,3,0,Sint-Truidense VV
+4008245,60/61,6,16/10/1960,15:00,RSC Anderlecht,4,0,Lierse SK (- 2018)
+4008246,60/61,6,16/10/1960,15:00,R Antwerp FC,2,2,K Patro Eisden
+4008247,60/61,6,16/10/1960,15:00,Club Brugge,3,2,Royal Beerschot AC
+4008248,60/61,6,16/10/1960,15:00,Olympic Charleroi,2,1,Daring Club Brussel
+4008249,60/61,6,16/10/1960,15:00,Waterschei SV THOR (- 1988),2,2,Association Royale Athlétique Gent
+4008250,60/61,6,16/10/1960,15:00,Stade Verviétois,1,0,Union Saint-Gilloise
+4008251,60/61,7,23/10/1960,15:00,Standard Luik,2,1,RSC Anderlecht
+4008252,60/61,7,23/10/1960,15:00,KSC Eendracht Aalst,3,1,Club Brugge
+4008253,60/61,7,23/10/1960,15:00,R Antwerp FC,4,1,Stade Verviétois
+4008254,60/61,7,23/10/1960,15:00,Daring Club Brussel,0,0,Royal Beerschot AC
+4008255,60/61,7,23/10/1960,15:00,K Patro Eisden,2,1,Waterschei SV THOR (- 1988)
+4008256,60/61,7,23/10/1960,15:00,Lierse SK (- 2018),1,0,Association Royale Athlétique Gent
+4008257,60/61,7,23/10/1960,15:00,Sint-Truidense VV,1,0,RFC Luik
+4008258,60/61,7,23/10/1960,15:00,Union Saint-Gilloise,1,0,Olympic Charleroi
+4008259,60/61,8,6/11/1960,15:00,Olympic Charleroi,1,0,K Patro Eisden
+4008260,60/61,8,6/11/1960,15:00,Lierse SK (- 2018),2,0,Sint-Truidense VV
+4008261,60/61,8,6/11/1960,15:00,Royal Beerschot AC,1,2,Standard Luik
+4008262,60/61,8,6/11/1960,15:00,Association Royale Athlétique Gent,1,2,KSC Eendracht Aalst
+4008263,60/61,8,6/11/1960,15:00,RSC Anderlecht,2,2,Stade Verviétois
+4008264,60/61,8,6/11/1960,15:00,Waterschei SV THOR (- 1988),3,1,R Antwerp FC
+4008265,60/61,8,6/11/1960,15:00,RFC Luik,1,1,Club Brugge
+4008266,60/61,8,6/11/1960,15:00,Daring Club Brussel,1,3,Union Saint-Gilloise
+4008267,60/61,9,13/11/1960,15:00,Standard Luik,2,1,Lierse SK (- 2018)
+4008268,60/61,9,13/11/1960,15:00,KSC Eendracht Aalst,3,1,Waterschei SV THOR (- 1988)
+4008269,60/61,9,13/11/1960,15:00,Union Saint-Gilloise,0,2,RSC Anderlecht
+4008270,60/61,9,13/11/1960,15:00,R Antwerp FC,1,3,Association Royale Athlétique Gent
+4008271,60/61,9,13/11/1960,15:00,K Patro Eisden,0,1,Royal Beerschot AC
+4008272,60/61,9,13/11/1960,15:00,Club Brugge,4,2,Daring Club Brussel
+4008273,60/61,9,13/11/1960,15:00,Stade Verviétois,0,1,RFC Luik
+4008274,60/61,9,13/11/1960,15:00,Sint-Truidense VV,1,1,Olympic Charleroi
+4008275,60/61,10,27/11/1960,15:00,Association Royale Athlétique Gent,2,1,Standard Luik
+4008276,60/61,10,27/11/1960,15:00,Royal Beerschot AC,9,2,KSC Eendracht Aalst
+4008277,60/61,10,27/11/1960,15:00,RSC Anderlecht,3,2,R Antwerp FC
+4008278,60/61,10,27/11/1960,15:00,Olympic Charleroi,3,0,Club Brugge
+4008279,60/61,10,27/11/1960,15:00,Daring Club Brussel,2,0,Stade Verviétois
+4008280,60/61,10,27/11/1960,15:00,RFC Luik,3,1,K Patro Eisden
+4008281,60/61,10,27/11/1960,15:00,Lierse SK (- 2018),3,2,Union Saint-Gilloise
+4008282,60/61,10,27/11/1960,15:00,Waterschei SV THOR (- 1988),2,1,Sint-Truidense VV
+4008283,60/61,11,4/12/1960,14:45,KSC Eendracht Aalst,2,0,K Patro Eisden
+4008284,60/61,11,4/12/1960,14:45,RFC Luik,3,2,Royal Beerschot AC
+4008375,60/61,11,12/03/1961,15:00,Club Brugge,2,0,Sint-Truidense VV
+4008376,60/61,11,12/03/1961,15:00,Waterschei SV THOR (- 1988),5,0,Olympic Charleroi
+4008379,60/61,11,12/03/1961,15:00,Union Saint-Gilloise,0,0,Standard Luik
+4008381,60/61,11,19/03/1961,15:00,R Antwerp FC,2,1,Lierse SK (- 2018)
+4008391,60/61,11,29/03/1961,19:30,RSC Anderlecht,1,0,Daring Club Brussel
+4008394,60/61,11,2/04/1961,15:00,Stade Verviétois,2,2,Association Royale Athlétique Gent
+4008285,60/61,12,11/12/1960,14:45,Standard Luik,1,2,Waterschei SV THOR (- 1988)
+4008286,60/61,12,11/12/1960,14:45,KSC Eendracht Aalst,2,2,RFC Luik
+4008287,60/61,12,11/12/1960,14:45,K Patro Eisden,0,1,RSC Anderlecht
+4008288,60/61,12,11/12/1960,14:45,R Antwerp FC,1,0,Olympic Charleroi
+4008289,60/61,12,11/12/1960,14:45,Union Saint-Gilloise,1,3,Royal Beerschot AC
+4008290,60/61,12,11/12/1960,14:45,Club Brugge,0,1,Association Royale Athlétique Gent
+4008291,60/61,12,11/12/1960,14:45,Sint-Truidense VV,1,0,Daring Club Brussel
+4008292,60/61,12,11/12/1960,14:45,Stade Verviétois,2,0,Lierse SK (- 2018)
+4008293,60/61,13,18/12/1960,14:45,Daring Club Brussel,3,1,Standard Luik
+4008294,60/61,13,18/12/1960,14:45,Lierse SK (- 2018),3,1,KSC Eendracht Aalst
+4008295,60/61,13,18/12/1960,14:45,RSC Anderlecht,0,0,Club Brugge
+4008203,60/61,1,4/09/1960,15:00,Sint-Truidense VV,0,2,Standard Luik
+4008204,60/61,1,4/09/1960,15:00,KSC Eendracht Aalst,3,2,R Antwerp FC
+4008205,60/61,1,4/09/1960,15:00,Olympic Charleroi,0,7,RSC Anderlecht
+4008206,60/61,1,4/09/1960,15:00,Royal Beerschot AC,1,0,Stade Verviétois
+4008207,60/61,1,4/09/1960,15:00,Club Brugge,1,2,Union Saint-Gilloise
+4008208,60/61,1,4/09/1960,15:00,Daring Club Brussel,2,1,K Patro Eisden
+4008209,60/61,1,4/09/1960,15:00,RFC Luik,2,1,Association Royale Athlétique Gent
+4008210,60/61,1,4/09/1960,15:00,Waterschei SV THOR (- 1988),5,0,Lierse SK (- 2018)
+4008211,60/61,2,11/09/1960,15:00,Standard Luik,3,0,KSC Eendracht Aalst
+4008212,60/61,2,11/09/1960,15:00,RSC Anderlecht,2,3,RFC Luik
+4008213,60/61,2,11/09/1960,15:00,R Antwerp FC,2,3,Daring Club Brussel
+4008214,60/61,2,11/09/1960,15:00,Association Royale Athlétique Gent,3,0,Royal Beerschot AC
+4008215,60/61,2,11/09/1960,15:00,K Patro Eisden,1,1,Club Brugge
+4008216,60/61,2,11/09/1960,15:00,Lierse SK (- 2018),1,0,Olympic Charleroi
+4008217,60/61,2,11/09/1960,15:00,Union Saint-Gilloise,3,0,Sint-Truidense VV
+4008218,60/61,2,11/09/1960,15:00,Stade Verviétois,1,3,Waterschei SV THOR (- 1988)
+4008219,60/61,3,18/09/1960,15:00,Standard Luik,0,0,Olympic Charleroi
+4008220,60/61,3,18/09/1960,15:00,KSC Eendracht Aalst,0,0,RSC Anderlecht
+4008221,60/61,3,18/09/1960,15:00,Union Saint-Gilloise,0,1,R Antwerp FC
+4008222,60/61,3,18/09/1960,15:00,Royal Beerschot AC,3,0,Lierse SK (- 2018)
+4008223,60/61,3,18/09/1960,15:00,Club Brugge,1,1,Stade Verviétois
+4008224,60/61,3,18/09/1960,15:00,Daring Club Brussel,3,1,Association Royale Athlétique Gent
+4008225,60/61,3,18/09/1960,15:00,Sint-Truidense VV,2,0,K Patro Eisden
+4008226,60/61,3,18/09/1960,15:00,Waterschei SV THOR (- 1988),0,1,RFC Luik
+4008227,60/61,4,25/09/1960,15:00,K Patro Eisden,0,3,Standard Luik
+4008228,60/61,4,25/09/1960,15:00,Stade Verviétois,0,4,KSC Eendracht Aalst
+4008229,60/61,4,25/09/1960,15:00,RSC Anderlecht,3,1,Waterschei SV THOR (- 1988)
+4008230,60/61,4,25/09/1960,15:00,R Antwerp FC,0,0,Club Brugge
+4008231,60/61,4,25/09/1960,15:00,Olympic Charleroi,4,1,Royal Beerschot AC
+4008232,60/61,4,25/09/1960,15:00,Lierse SK (- 2018),3,4,Daring Club Brussel
+4008233,60/61,4,25/09/1960,15:00,Association Royale Athlétique Gent,3,0,Sint-Truidense VV
+4008234,60/61,4,25/09/1960,15:00,RFC Luik,2,1,Union Saint-Gilloise
+4008235,60/61,5,9/10/1960,15:00,Standard Luik,5,2,Stade Verviétois
+4008236,60/61,5,9/10/1960,15:00,Union Saint-Gilloise,5,2,KSC Eendracht Aalst
+4008237,60/61,5,9/10/1960,15:00,Sint-Truidense VV,2,2,RSC Anderlecht
+4008238,60/61,5,9/10/1960,15:00,Royal Beerschot AC,2,1,R Antwerp FC
+4008239,60/61,5,9/10/1960,15:00,Club Brugge,0,0,Waterschei SV THOR (- 1988)
+4008240,60/61,5,9/10/1960,15:00,Daring Club Brussel,1,1,RFC Luik
+4008241,60/61,5,9/10/1960,15:00,K Patro Eisden,0,2,Lierse SK (- 2018)
+4008242,60/61,5,9/10/1960,15:00,Association Royale Athlétique Gent,1,1,Olympic Charleroi
+4008243,60/61,6,16/10/1960,15:00,Waterschei SV THOR (- 1988),2,2,Association Royale Athlétique Gent
+4008244,60/61,6,16/10/1960,15:00,Stade Verviétois,1,0,Union Saint-Gilloise
+4008245,60/61,6,16/10/1960,15:00,RFC Luik,0,0,Standard Luik
+4008246,60/61,6,16/10/1960,15:00,KSC Eendracht Aalst,3,0,Sint-Truidense VV
+4008247,60/61,6,16/10/1960,15:00,RSC Anderlecht,4,0,Lierse SK (- 2018)
+4008248,60/61,6,16/10/1960,15:00,R Antwerp FC,2,2,K Patro Eisden
+4008249,60/61,6,16/10/1960,15:00,Club Brugge,3,2,Royal Beerschot AC
+4008250,60/61,6,16/10/1960,15:00,Olympic Charleroi,2,1,Daring Club Brussel
+4008251,60/61,7,23/10/1960,15:00,Standard Luik,2,1,RSC Anderlecht
+4008252,60/61,7,23/10/1960,15:00,KSC Eendracht Aalst,3,1,Club Brugge
+4008253,60/61,7,23/10/1960,15:00,R Antwerp FC,4,1,Stade Verviétois
+4008254,60/61,7,23/10/1960,15:00,Daring Club Brussel,0,0,Royal Beerschot AC
+4008255,60/61,7,23/10/1960,15:00,K Patro Eisden,2,1,Waterschei SV THOR (- 1988)
+4008256,60/61,7,23/10/1960,15:00,Lierse SK (- 2018),1,0,Association Royale Athlétique Gent
+4008257,60/61,7,23/10/1960,15:00,Sint-Truidense VV,1,0,RFC Luik
+4008258,60/61,7,23/10/1960,15:00,Union Saint-Gilloise,1,0,Olympic Charleroi
+4008259,60/61,8,6/11/1960,15:00,RSC Anderlecht,2,2,Stade Verviétois
+4008260,60/61,8,6/11/1960,15:00,Waterschei SV THOR (- 1988),3,1,R Antwerp FC
+4008261,60/61,8,6/11/1960,15:00,RFC Luik,1,1,Club Brugge
+4008262,60/61,8,6/11/1960,15:00,Daring Club Brussel,1,3,Union Saint-Gilloise
+4008263,60/61,8,6/11/1960,15:00,Olympic Charleroi,1,0,K Patro Eisden
+4008264,60/61,8,6/11/1960,15:00,Lierse SK (- 2018),2,0,Sint-Truidense VV
+4008265,60/61,8,6/11/1960,15:00,Royal Beerschot AC,1,2,Standard Luik
+4008266,60/61,8,6/11/1960,15:00,Association Royale Athlétique Gent,1,2,KSC Eendracht Aalst
+4008267,60/61,9,13/11/1960,15:00,Standard Luik,2,1,Lierse SK (- 2018)
+4008268,60/61,9,13/11/1960,15:00,KSC Eendracht Aalst,3,1,Waterschei SV THOR (- 1988)
+4008269,60/61,9,13/11/1960,15:00,Union Saint-Gilloise,0,2,RSC Anderlecht
+4008270,60/61,9,13/11/1960,15:00,R Antwerp FC,1,3,Association Royale Athlétique Gent
+4008271,60/61,9,13/11/1960,15:00,K Patro Eisden,0,1,Royal Beerschot AC
+4008272,60/61,9,13/11/1960,15:00,Club Brugge,4,2,Daring Club Brussel
+4008273,60/61,9,13/11/1960,15:00,Stade Verviétois,0,1,RFC Luik
+4008274,60/61,9,13/11/1960,15:00,Sint-Truidense VV,1,1,Olympic Charleroi
