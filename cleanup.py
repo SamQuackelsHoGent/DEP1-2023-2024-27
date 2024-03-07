@@ -1,8 +1,8 @@
 import pandas as pd
 
 # wedstrijden_df = pd.read_csv('voetbalData_Deel1.csv')
-# klassementen_df = pd.read_csv('voetbalData_Deel2.csv')
-# doelpunten_df = pd.read_csv('voetbalData_Deel3.csv')
+klassementen_df = pd.read_csv('voetbalData_Deel2.csv', encoding='latin1', header=None)
+doelpunten_df = pd.read_csv('voetbalData_Deel3.csv', encoding='latin1', header=None)
 
 def convert(row):
     startuur = row[4]
@@ -16,7 +16,6 @@ def convert(row):
     
     return absolute_minuten
 
-voorbeeld_rij = [4009206,'64/65',6,'18/10/1964','15:00','Lierse SK','Standard Luik','Lierse SK','16:17',7,0]
+doelpunten_df['11'] = doelpunten_df.apply(convert, axis=1)
 
-minuten_na_start = convert(voorbeeld_rij)
-print(f"Aantal minuten na starttijd van de wedstrijd: {minuten_na_start}")
+print(doelpunten_df.head(30))
