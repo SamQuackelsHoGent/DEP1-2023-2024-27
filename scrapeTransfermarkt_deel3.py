@@ -1,5 +1,3 @@
-# Deel 3
-
 # Used imports
 import requests
 from bs4 import BeautifulSoup
@@ -8,13 +6,17 @@ import csv
 import re
 import numpy
 
+# Declareer lijst om ploegen in op te slaan
 ploegen = []
 
-
+# Methode om de data te scrapen
 def getData():
+    # For loop om alle seizoenen te doorlopen
     for year in range (1960, datetime.date.today().year - 1):
         seizoen = (str(year)[2:] + "/" + str(year + 1)[2:])
+        # For loop om alle dagen per seizoen te doorlopen.
         for day in range (1, 34):
+          # Gebruik soup om data te scrapen
           URL= f"https://www.transfermarkt.be/jupiler-pro-league/spieltag/wettbewerb/BE1/saison_id/{year}/spieltag/{day}"
           headers={'User-Agent': 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Odin/88.4324.2.10 Safari/537.36 Model/Hisense-MT9602 VIDAA/6.0(Hisense;SmartTV;43A53FUV;MTK9602/V0000.06.12A.N0406;UHD;HU43A6100F;)'}
           page= requests.get(URL, headers=headers)
@@ -27,15 +29,15 @@ def getData():
           getPloegen(soup, seizoen, day)
           for matchcount in range(1,amountOfGames):
             prepareDataMatch(soup, seizoen, day, matchcount)
-          # print(soup)
     print("Done")
 
-
+# Methode om de data weg te schrijven naar het doelpunten.csv file
 def writeData(match_id, seizoen, speeldag, datum, tijd, huisteam, uitteam, goalploeg, tijdstip, newhuisstand, newuitstand):
-    with open('voetbalData_Deel3.csv', 'a', newline='\n') as file:
+    with open('doelpunten.csv', 'a', newline='\n') as file:
         writer = csv.writer(file)
         writer.writerow([match_id, seizoen, speeldag, datum, tijd, huisteam, uitteam, goalploeg, tijdstip, newhuisstand, newuitstand])
 
+# Methode om de verschillende ploegen op te halen
 def getPloegen(soup, seizoen, speeldag):
     global ploegen
     table = soup.select("#main main div.row div[class='large-8 columns'] table tbody tr.table-grosse-schrift:nth-of-type(1)")
@@ -57,7 +59,9 @@ def getPloegen(soup, seizoen, speeldag):
       ploegData.pop(i)
     ploegen= [ploegData[i] for i in range(0, len(ploegData))]
 
+# methode om datum in het goede formaat om te zetten
 def changeDateFormat(datum):
+    # dict om maanden om te zetten naar nummer formaat
     maand_afkortingen = {
         "jan.": "01",
         "feb.": "02",
@@ -72,15 +76,19 @@ def changeDateFormat(datum):
         "nov.": "11",
         "dec.": "12"
     }
+    # Veranderd de maand naar het juiste formaat
     dag, maand, jaar = datum.split()
     maand = maand_afkortingen[maand.lower()]
     return f"{dag}/{maand}/{jaar}"
 
+# methode om de data te scrapen
 def prepareDataMatch(soup, seizoen, speeldag, matchnumber):
+     # declareer de variabelen
      global ploegen
      datum = ""
      tijd= ""
-
+     
+     # Soup om de match id op te halen
      idstext = soup.select(f"#main main div.row div[class='large-8 columns'] div[class='box']:nth-of-type({str(matchnumber + 1)}) table tbody tr td span a[title='Wedstrijdverslag']")
      if idstext == []:
         return
@@ -89,7 +97,8 @@ def prepareDataMatch(soup, seizoen, speeldag, matchnumber):
      match_id = ""
      if match:
       match_id = match.group(1)
-    
+     
+     
      table = soup.select(f"#main main div.row div[class='large-8 columns'] div[class='box']:nth-of-type({str(matchnumber + 1)}) > table")
 
      data = ""

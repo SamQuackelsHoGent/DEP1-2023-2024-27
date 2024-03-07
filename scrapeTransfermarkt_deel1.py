@@ -21,12 +21,13 @@ def getData():
     print("Done")
 # Methode die de data schrijft naar het wedstrijden.csv file
 def writeData(id, seizoen, speeldag, datum, tijd, huisploeg, huisstand, uitstand, uitploeg):
-    #with open('test.csv', 'a', newline='\n') as file:
-    with open('voetbalData_Deel2.csv', 'a', newline='\n') as file:
+    with open('wedstrijden.csv', 'a', newline='\n') as file:
         writer = csv.writer(file)
         writer.writerow([id, seizoen, speeldag, datum, tijd, huisploeg, huisstand, uitstand, uitploeg])
 
+# methode om datum in het goede formaat om te zetten
 def changeDateFormat(datum):
+    # dict om maanden om te zetten naar nummer formaat
     maand_afkortingen = {
         "jan.": "01",
         "feb.": "02",
@@ -41,9 +42,9 @@ def changeDateFormat(datum):
         "nov.": "11",
         "dec.": "12"
     }
+    # Veranderd de maand naar het juiste formaat
     dag, maand, jaar = datum.split()
     maand = maand_afkortingen[maand.lower()]
-    print(dag)
     return f"{dag}/{maand}/{jaar}"
 
 # Methode om de data te scheiden
