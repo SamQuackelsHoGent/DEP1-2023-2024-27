@@ -93,57 +93,78 @@ def prepareDataMatch(soup, seizoen, speeldag, matchnumber):
      if idstext == []:
         return
      href = idstext[0]['href']
+     # regex om de match id te zoeken
      match = re.search(r'/spielbericht/index/spielbericht/(\d+)', href)
      match_id = ""
      if match:
       match_id = match.group(1)
      
-     
+     # Soup om de generieke data op te halen
      table = soup.select(f"#main main div.row div[class='large-8 columns'] div[class='box']:nth-of-type({str(matchnumber + 1)}) > table")
-
+     
+     # Steek de data in een list
      data = ""
      for row in table:
        data += row.get_text("|", strip=True)
      data = data.split("|")
      if len(data) <= 1:
         return
-
+     
+     # Soup om de tijdstippen op te halen
      table = soup.select(f"#main main div.row div[class='large-8 columns'] div[class='box']:nth-of-type({str(matchnumber + 1)})")
-
+     
+     # Steek de tijdstippen in een list
      tijdData = ""
      for row in table:
           tijdData += row.get_text("|", strip=True)
      tijdData = tijdData.split("|")
+
+     # Zoek voor geldige tijdstippen
      for x in tijdData:
         match = re.match(".*[\d]{2}:[\d]{2}.*", x)
         if match:
            tijd = re.search("[\d]{2}:[\d]{2}", x).group()
+     
+     # Doorloop de genrieke data adhv een while loop
      x = 0
      while x < len(data)-1:
+      # Als data leeg is -> break
       if x >= len(data)-1:
           break
+      # Verwijder foute data
       if data[x].startswith('-'):
         del data[x]
+      # Verwijder foute data
       elif 'uur' in data[x]:
         del data[x]
+      # Verwijder foute data
       elif len(data[x]) <= 2:
         del data[x]
+      # Verwijder foute data
       elif 'Spelverloop' in data[x]:
         del data[x]
+      # Verwijder foute data
       elif '%' in data[x]:
         del data[x]
+      # Verwijder foute data
       elif "." in data[x] and "(" in data[x]:
         del data[x]
+      # Verwijder foute data
       elif "   " in data[x]:
         del data[x]
+      # Verwijder foute data
       elif any(ploeg in str(data[x]) for ploeg in ploegen):
         del data[x]
+      # Verwijder foute data
       elif "voorspellingen" in data[x] or "Wedstrijdverslag" in data[x]:
         del data[x]
       else:
          x += 1
+     # Ploegen ophalen
      huisploeg = ploegen.pop(0)
      uitploeg = ploegen.pop(0)
+     
+     # While loop om de doelpunten per match te vinden
      goalData = []
      x = 0
      while x < len(data)-1:
@@ -154,25 +175,36 @@ def prepareDataMatch(soup, seizoen, speeldag, matchnumber):
      datum = changeDateFormat(goalData.pop(0))
      huisstand = 0
      uitstand = 0
+     
+     # While loop om de doelpunten te doorlopen per match
      i = 0
      while i < len(goalData):
+        # Als er een : teken is -> split de data om de stand te krijgen.
         if ":" in goalData[i]:
            standen = goalData[i].split(":")
            newhuisstand = standen[0]
            newuitstand = standen[1]
+           
+           # Als de thuisploeg scoort
            if int(newhuisstand) > int(huisstand):
               tijdpunt = int(re.search("[\d]*", goalData[i-1]).group())
               tijdstip = str(int(tijd.split(":")[0]) + int(tijdpunt/60)) + ":" + str(int(tijd.split(":")[1]) + tijdpunt % 60)
+              # Schrijf de data weg naar de csv file
               writeData(match_id, seizoen, speeldag, datum, tijd, huisploeg, uitploeg, huisploeg, tijdstip, newhuisstand, newuitstand)
+           
+           # Als de uitploeg scoort
            if int(newuitstand) > int(uitstand):
               tijdpunt = int(re.search("[\d]*", goalData[i+1]).group())
               minuten = int(tijd.split(":")[0]) * 60 + int(tijd.split(":")[1]) + tijdpunt % 60
               tijdstip = str(int(minuten/60)) + ":" + str(int(minuten % 60))
               tijdstip = datetime.datetime.strptime(tijdstip, "%H:%M")
               tijdstip = tijdstip.strftime("%H:%M")
+              # Schrijf de data weg naar de csv file
               writeData(match_id, seizoen, speeldag, datum, tijd, huisploeg, uitploeg, uitploeg, tijdstip, newhuisstand, newuitstand)
+           
            huisstand = newhuisstand
            uitstand = newuitstand
+
         i += 1
 
 getData()
