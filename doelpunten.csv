@@ -34,6 +34,7 @@
 4008214,60/61,2,11/09/1960,15:00,ARA Gent,Beerschot AC,ARA Gent,15:14,1,0
 4008214,60/61,2,11/09/1960,15:00,ARA Gent,Beerschot AC,ARA Gent,15:52,2,0
 4008226,60/61,3,18/09/1960,15:00,Union SG,Antwerp FC,Antwerp FC,15:05,0,1
+<<<<<<< HEAD
 4008203,60/61,1,4/09/1960,15:00,St-Truidense VV,Standard Luik,Standard Luik,15:14,0,1
 4008203,60/61,1,4/09/1960,15:00,St-Truidense VV,Standard Luik,Standard Luik,15:19,0,2
 4008204,60/61,1,4/09/1960,15:00,Eendracht Aalst,Antwerp FC,Antwerp FC,15:18,0,1
@@ -73,6 +74,11 @@
 4008443,61/62,1,2/09/1961,19:30,ARA Gent,Daring Club,ARA Gent,19:48,1,0
 4008443,61/62,1,2/09/1961,19:30,ARA Gent,Daring Club,Daring Club,19:58,1,1
 4008443,61/62,1,2/09/1961,19:30,ARA Gent,Daring Club,ARA Gent,20:15,2,1
+=======
+4008443,61/62,1,2/09/1961,19:30,ARA Gent,Daring Club,ARA Gent,19:48,1,0
+4008443,61/62,1,2/09/1961,19:30,ARA Gent,Daring Club,Daring Club,19:58,1,1
+4008443,61/62,1,2/09/1961,19:30,ARA Gent,Daring Club,ARA Gent,19:75,2,1
+>>>>>>> 73f33c9 (Update)
 4008443,61/62,1,2/09/1961,19:30,ARA Gent,Daring Club,Daring Club,19:53,2,2
 4008444,61/62,1,3/09/1961,15:00,Standard Luik,Beerschot AC,Beerschot AC,15:15,0,1
 4008445,61/62,1,3/09/1961,15:00,Lierse SK,Eendracht Aalst,Lierse SK,15:10,1,0
@@ -105,11 +111,19 @@
 4008453,61/62,2,10/09/1961,15:00,Eendracht Aalst,St-Truidense VV,St-Truidense VV,15:12,0,3
 4008456,61/62,2,10/09/1961,15:00,KFC Diest,RSC Anderlecht,KFC Diest,15:37,1,0
 4008456,61/62,2,10/09/1961,15:00,KFC Diest,RSC Anderlecht,KFC Diest,15:29,2,0
+<<<<<<< HEAD
 4008461,61/62,3,17/09/1961,15:00,Antwerp FC,RSC Anderlecht,RSC Anderlecht,15:00,0,1
 4008461,61/62,3,17/09/1961,15:00,Antwerp FC,RSC Anderlecht,RSC Anderlecht,15:10,0,2
 4008461,61/62,3,17/09/1961,15:00,Antwerp FC,RSC Anderlecht,Antwerp FC,15:10,1,2
 4008461,61/62,3,17/09/1961,15:00,Antwerp FC,RSC Anderlecht,RSC Anderlecht,15:39,1,3
 4008461,61/62,3,17/09/1961,15:00,Antwerp FC,RSC Anderlecht,RSC Anderlecht,15:03,1,4
+=======
+4008461,61/62,3,17/09/1961,15:00,Union SG,RFC Luik,RFC Luik,15:00,0,1
+4008461,61/62,3,17/09/1961,15:00,Union SG,RFC Luik,RFC Luik,15:10,0,2
+4008461,61/62,3,17/09/1961,15:00,Union SG,RFC Luik,Union SG,15:10,1,2
+4008461,61/62,3,17/09/1961,15:00,Union SG,RFC Luik,RFC Luik,15:39,1,3
+4008461,61/62,3,17/09/1961,15:00,Union SG,RFC Luik,RFC Luik,15:03,1,4
+>>>>>>> 73f33c9 (Update)
 4008683,62/63,1,1/09/1962,19:30,RSC Anderlecht,KFC Diest,RSC Anderlecht,19:78,1,0
 4008684,62/63,1,1/09/1962,19:30,Antwerp FC,ARA Gent,Antwerp FC,20:50,1,0
 4008684,62/63,1,1/09/1962,19:30,Antwerp FC,ARA Gent,ARA Gent,19:40,1,1
@@ -175,6 +189,7 @@
 4008703,62/63,3,16/09/1962,15:00,Beringen FC,Daring Club,Beringen FC,15:52,5,0
 4008703,62/63,3,16/09/1962,15:00,Beringen FC,Daring Club,Beringen FC,16:10,6,0
 4008703,62/63,3,16/09/1962,15:00,Beringen FC,Daring Club,Daring Club,15:18,6,1
+<<<<<<< HEAD
 4008723,62/63,6,7/10/1962,15:00,Olymp. Charleroi,RFC Luik,Olymp. Charleroi,15:21,1,0
 4008723,62/63,6,7/10/1962,15:00,Olymp. Charleroi,RFC Luik,Olymp. Charleroi,15:32,2,0
 4008723,62/63,6,7/10/1962,15:00,Olymp. Charleroi,RFC Luik,Olymp. Charleroi,15:34,3,0
@@ -182,6 +197,15 @@
 4008724,62/63,6,7/10/1962,15:00,St-Truidense VV,Union SG,St-Truidense VV,16:2,2,0
 4008724,62/63,6,7/10/1962,15:00,St-Truidense VV,Union SG,St-Truidense VV,16:3,3,0
 4008724,62/63,6,7/10/1962,15:00,St-Truidense VV,Union SG,Union SG,15:29,3,1
+=======
+4008723,62/63,6,7/10/1962,15:00,Standard Luik,ARA Gent,Standard Luik,15:21,1,0
+4008723,62/63,6,7/10/1962,15:00,Standard Luik,ARA Gent,Standard Luik,15:32,2,0
+4008723,62/63,6,7/10/1962,15:00,Standard Luik,ARA Gent,Standard Luik,15:34,3,0
+4008724,62/63,6,7/10/1962,15:00,RSC Anderlecht,Antwerp FC,RSC Anderlecht,15:38,1,0
+4008724,62/63,6,7/10/1962,15:00,RSC Anderlecht,Antwerp FC,RSC Anderlecht,16:2,2,0
+4008724,62/63,6,7/10/1962,15:00,RSC Anderlecht,Antwerp FC,RSC Anderlecht,16:3,3,0
+4008724,62/63,6,7/10/1962,15:00,RSC Anderlecht,Antwerp FC,Antwerp FC,15:29,3,1
+>>>>>>> 73f33c9 (Update)
 4008739,62/63,8,28/10/1962,15:00,RSC Anderlecht,Standard Luik,RSC Anderlecht,15:20,1,0
 4008739,62/63,8,28/10/1962,15:00,RSC Anderlecht,Standard Luik,Standard Luik,15:25,1,1
 4008739,62/63,8,28/10/1962,15:00,RSC Anderlecht,Standard Luik,RSC Anderlecht,15:44,2,1
@@ -232,6 +256,7 @@
 4008940,63/64,3,22/09/1963,15:00,KV Mechelen,Standard Luik,Standard Luik,15:43,0,2
 4008940,63/64,3,22/09/1963,15:00,KV Mechelen,Standard Luik,Standard Luik,15:02,0,3
 4008941,63/64,3,22/09/1963,15:00,RSC Anderlecht,Beerschot AC,Beerschot AC,15:06,0,1
+<<<<<<< HEAD
 4008948,63/64,4,29/09/1963,15:00,Standard Luik,St-Truidense VV,St-Truidense VV,15:00,0,1
 4008948,63/64,4,29/09/1963,15:00,Standard Luik,St-Truidense VV,St-Truidense VV,15:42,0,2
 4008948,63/64,4,29/09/1963,15:00,Standard Luik,St-Truidense VV,St-Truidense VV,15:44,0,3
@@ -250,6 +275,26 @@
 4008958,63/64,5,6/10/1963,15:00,ARA Gent,Standard Luik,Standard Luik,15:29,6,5
 4008961,63/64,5,6/10/1963,15:00,RSC Anderlecht,St-Truidense VV,St-Truidense VV,15:37,0,1
 4008961,63/64,5,6/10/1963,15:00,RSC Anderlecht,St-Truidense VV,RSC Anderlecht,15:37,1,1
+=======
+4008948,63/64,4,29/09/1963,15:00,Daring Club,KV Mechelen,KV Mechelen,15:00,0,1
+4008948,63/64,4,29/09/1963,15:00,Daring Club,KV Mechelen,KV Mechelen,15:42,0,2
+4008948,63/64,4,29/09/1963,15:00,Daring Club,KV Mechelen,KV Mechelen,15:44,0,3
+4008948,63/64,4,29/09/1963,15:00,Daring Club,KV Mechelen,KV Mechelen,15:52,0,4
+4008948,63/64,4,29/09/1963,15:00,Daring Club,KV Mechelen,KV Mechelen,15:20,0,5
+4008958,63/64,5,6/10/1963,15:00,Antwerp FC,Lierse SK,Antwerp FC,16:29,1,0
+4008958,63/64,5,6/10/1963,15:00,Antwerp FC,Lierse SK,Lierse SK,15:15,1,1
+4008958,63/64,5,6/10/1963,15:00,Antwerp FC,Lierse SK,Antwerp FC,15:15,2,1
+4008958,63/64,5,6/10/1963,15:00,Antwerp FC,Lierse SK,Antwerp FC,15:35,3,1
+4008958,63/64,5,6/10/1963,15:00,Antwerp FC,Lierse SK,Antwerp FC,15:36,4,1
+4008958,63/64,5,6/10/1963,15:00,Antwerp FC,Lierse SK,Lierse SK,15:37,4,2
+4008958,63/64,5,6/10/1963,15:00,Antwerp FC,Lierse SK,Antwerp FC,15:40,5,2
+4008958,63/64,5,6/10/1963,15:00,Antwerp FC,Lierse SK,Antwerp FC,16:7,6,2
+4008958,63/64,5,6/10/1963,15:00,Antwerp FC,Lierse SK,Lierse SK,15:25,6,3
+4008958,63/64,5,6/10/1963,15:00,Antwerp FC,Lierse SK,Lierse SK,15:26,6,4
+4008958,63/64,5,6/10/1963,15:00,Antwerp FC,Lierse SK,Lierse SK,15:29,6,5
+4008961,63/64,5,6/10/1963,15:00,KFC Diest,Beerschot AC,Beerschot AC,15:37,0,1
+4008961,63/64,5,6/10/1963,15:00,KFC Diest,Beerschot AC,KFC Diest,15:37,1,1
+>>>>>>> 73f33c9 (Update)
 4009092,63/64,22,16/02/1964,15:00,Standard Luik,Daring Club,Standard Luik,15:14,1,0
 4009092,63/64,22,16/02/1964,15:00,Standard Luik,Daring Club,Standard Luik,15:29,2,0
 4009092,63/64,22,16/02/1964,15:00,Standard Luik,Daring Club,Standard Luik,15:37,3,0
@@ -270,8 +315,13 @@
 4009165,64/65,1,5/09/1964,20:00,ARA Gent,RFC Luik,RFC Luik,20:27,1,3
 4009165,64/65,1,5/09/1964,20:00,ARA Gent,RFC Luik,ARA Gent,20:38,2,3
 4009166,64/65,1,6/09/1964,15:00,Standard Luik,Cercle Brugge,Standard Luik,15:22,1,0
+<<<<<<< HEAD
 4009166,64/65,1,6/09/1964,15:00,Standard Luik,Cercle Brugge,Cercle Brugge,15:07,1,1
 4009166,64/65,1,6/09/1964,15:00,Standard Luik,Cercle Brugge,Standard Luik,16:7,2,1
+=======
+4009166,64/65,1,6/09/1964,15:00,Standard Luik,Cercle Brugge,Standard Luik,16:7,2,1
+4009166,64/65,1,6/09/1964,15:00,Standard Luik,Cercle Brugge,Cercle Brugge,15:01,2,1
+>>>>>>> 73f33c9 (Update)
 4009167,64/65,1,6/09/1964,15:00,St-Truidense VV,Beerschot AC,Beerschot AC,15:22,0,1
 4009168,64/65,1,6/09/1964,15:00,Beringen FC,RFC Tilleur,RFC Tilleur,15:11,0,1
 4009168,64/65,1,6/09/1964,15:00,Beringen FC,RFC Tilleur,Beringen FC,15:20,1,1
@@ -356,6 +406,7 @@
 4009194,64/65,4,27/09/1964,15:00,RFC Tilleur,Club Brugge,RFC Tilleur,15:38,1,1
 4009194,64/65,4,27/09/1964,15:00,RFC Tilleur,Club Brugge,Club Brugge,15:58,1,2
 4009195,64/65,5,10/10/1964,19:30,ARA Gent,Beringen FC,ARA Gent,19:40,1,0
+<<<<<<< HEAD
 4009200,64/65,5,11/10/1964,15:00,Berchem Sport,Lierse SK,Berchem Sport,15:48,1,0
 4009200,64/65,5,11/10/1964,15:00,Berchem Sport,Lierse SK,Lierse SK,15:54,1,1
 4009200,64/65,5,11/10/1964,15:00,Berchem Sport,Lierse SK,Berchem Sport,16:7,2,1
@@ -365,6 +416,17 @@
 4009275,64/65,5,3/01/1965,14:30,KFC Diest,Club Brugge,KFC Diest,14:60,1,0
 4009275,64/65,5,3/01/1965,14:30,KFC Diest,Club Brugge,KFC Diest,14:73,2,0
 4009275,64/65,5,3/01/1965,14:30,KFC Diest,Club Brugge,KFC Diest,14:81,3,0
+=======
+4009200,64/65,5,11/10/1964,15:00,RFC Luik,Antwerp FC,RFC Luik,15:48,1,0
+4009200,64/65,5,11/10/1964,15:00,RFC Luik,Antwerp FC,Antwerp FC,15:54,1,1
+4009200,64/65,5,11/10/1964,15:00,RFC Luik,Antwerp FC,RFC Luik,16:7,2,1
+4009198,64/65,5,11/10/1964,19:00,Berchem Sport,Lierse SK,Lierse SK,19:00,0,1
+4009198,64/65,5,11/10/1964,19:00,Berchem Sport,Lierse SK,Lierse SK,19:26,0,2
+4009198,64/65,5,11/10/1964,19:00,Berchem Sport,Lierse SK,Lierse SK,19:00,0,3
+4009275,64/65,5,3/01/1965,14:30,Cercle Brugge,RFC Tilleur,Cercle Brugge,14:60,1,0
+4009275,64/65,5,3/01/1965,14:30,Cercle Brugge,RFC Tilleur,Cercle Brugge,14:73,2,0
+4009275,64/65,5,3/01/1965,14:30,Cercle Brugge,RFC Tilleur,Cercle Brugge,14:81,3,0
+>>>>>>> 73f33c9 (Update)
 4009202,64/65,6,17/10/1964,19:30,RSC Anderlecht,KFC Diest,RSC Anderlecht,20:59,1,0
 4009202,64/65,6,17/10/1964,19:30,RSC Anderlecht,KFC Diest,KFC Diest,19:55,1,1
 4009202,64/65,6,17/10/1964,19:30,RSC Anderlecht,KFC Diest,RSC Anderlecht,19:80,2,1
@@ -382,11 +444,19 @@
 4009240,64/65,10,22/11/1964,14:00,RFC Tilleur,Lierse SK,RFC Tilleur,15:12,1,0
 4009240,64/65,10,22/11/1964,14:00,RFC Tilleur,Lierse SK,RFC Tilleur,14:12,2,0
 4009240,64/65,10,22/11/1964,14:00,RFC Tilleur,Lierse SK,RFC Tilleur,14:50,3,0
+<<<<<<< HEAD
 4009247,64/65,11,29/11/1964,15:00,Daring Club,RFC Tilleur,Daring Club,16:14,1,0
 4009247,64/65,11,29/11/1964,15:00,Daring Club,RFC Tilleur,RFC Tilleur,15:52,1,1
 4009247,64/65,11,29/11/1964,15:00,Daring Club,RFC Tilleur,RFC Tilleur,15:00,1,2
 4009247,64/65,11,29/11/1964,15:00,Daring Club,RFC Tilleur,RFC Tilleur,15:11,1,3
 4009247,64/65,11,29/11/1964,15:00,Daring Club,RFC Tilleur,Daring Club,16:12,2,3
+=======
+4009247,64/65,11,29/11/1964,15:00,RFC Luik,Standard Luik,RFC Luik,16:14,1,0
+4009247,64/65,11,29/11/1964,15:00,RFC Luik,Standard Luik,Standard Luik,15:52,1,1
+4009247,64/65,11,29/11/1964,15:00,RFC Luik,Standard Luik,Standard Luik,15:00,1,2
+4009247,64/65,11,29/11/1964,15:00,RFC Luik,Standard Luik,Standard Luik,15:11,1,3
+4009247,64/65,11,29/11/1964,15:00,RFC Luik,Standard Luik,RFC Luik,16:12,2,3
+>>>>>>> 73f33c9 (Update)
 4009252,64/65,12,6/12/1964,14:00,RFC Tilleur,Antwerp FC,RFC Tilleur,15:29,1,0
 4009252,64/65,12,6/12/1964,14:00,RFC Tilleur,Antwerp FC,RFC Tilleur,14:13,2,0
 4009252,64/65,12,6/12/1964,14:00,RFC Tilleur,Antwerp FC,RFC Tilleur,14:16,3,0
@@ -403,10 +473,17 @@
 4009267,64/65,14,20/12/1964,14:30,Standard Luik,Club Brugge,Standard Luik,14:76,4,0
 4009267,64/65,14,20/12/1964,14:30,Standard Luik,Club Brugge,Standard Luik,14:80,5,0
 4009267,64/65,14,20/12/1964,14:30,Standard Luik,Club Brugge,Standard Luik,15:39,6,0
+<<<<<<< HEAD
 4009277,64/65,16,10/01/1965,14:30,Beerschot AC,St-Truidense VV,St-Truidense VV,14:44,0,1
 4009277,64/65,16,10/01/1965,14:30,Beerschot AC,St-Truidense VV,St-Truidense VV,15:01,0,2
 4009277,64/65,16,10/01/1965,14:30,Beerschot AC,St-Truidense VV,St-Truidense VV,14:35,0,3
 4009277,64/65,16,10/01/1965,14:30,Beerschot AC,St-Truidense VV,St-Truidense VV,14:55,0,4
+=======
+4009277,64/65,16,10/01/1965,14:30,Cercle Brugge,Standard Luik,Standard Luik,14:44,0,1
+4009277,64/65,16,10/01/1965,14:30,Cercle Brugge,Standard Luik,Standard Luik,15:01,0,2
+4009277,64/65,16,10/01/1965,14:30,Cercle Brugge,Standard Luik,Standard Luik,14:35,0,3
+4009277,64/65,16,10/01/1965,14:30,Cercle Brugge,Standard Luik,Standard Luik,14:55,0,4
+>>>>>>> 73f33c9 (Update)
 4009323,64/65,22,20/02/1965,19:30,RSC Anderlecht,ARA Gent,RSC Anderlecht,19:72,1,0
 4009323,64/65,22,20/02/1965,19:30,RSC Anderlecht,ARA Gent,RSC Anderlecht,20:38,2,0
 4009396,64/65,30,2/05/1965,15:00,Beerschot AC,Lierse SK,Beerschot AC,16:23,1,0
@@ -433,10 +510,17 @@
 4009407,65/66,1,5/09/1965,15:00,RFC Luik,Beringen FC,RFC Luik,15:43,3,0
 4009407,65/66,1,5/09/1965,15:00,RFC Luik,Beringen FC,RFC Luik,15:50,4,0
 4009408,65/66,1,5/09/1965,15:00,Cercle Brugge,St-Truidense VV,St-Truidense VV,15:12,0,1
+<<<<<<< HEAD
 4009410,65/66,1,5/09/1965,15:00,ARA Gent,RRC Brï¿½ssel,RRC Brï¿½ssel,15:47,0,1
 4009410,65/66,1,5/09/1965,15:00,ARA Gent,RRC Brï¿½ssel,ARA Gent,16:17,1,1
 4009412,65/66,2,12/09/1965,15:00,RRC Brï¿½ssel,Standard Luik,RRC Brï¿½ssel,15:20,1,0
 4009412,65/66,2,12/09/1965,15:00,RRC Brï¿½ssel,Standard Luik,Standard Luik,15:18,1,1
+=======
+4009410,65/66,1,5/09/1965,15:00,ARA Gent,RRC Brüssel,RRC Brüssel,15:47,0,1
+4009410,65/66,1,5/09/1965,15:00,ARA Gent,RRC Brüssel,ARA Gent,16:17,1,1
+4009412,65/66,2,12/09/1965,15:00,RRC Brüssel,Standard Luik,RRC Brüssel,15:20,1,0
+4009412,65/66,2,12/09/1965,15:00,RRC Brüssel,Standard Luik,Standard Luik,15:18,1,1
+>>>>>>> 73f33c9 (Update)
 4009414,65/66,2,12/09/1965,15:00,Club Brugge,Beerschot AC,Club Brugge,15:43,1,0
 4009414,65/66,2,12/09/1965,15:00,Club Brugge,Beerschot AC,Beerschot AC,15:03,1,1
 4009414,65/66,2,12/09/1965,15:00,Club Brugge,Beerschot AC,Beerschot AC,15:13,1,2
@@ -473,6 +557,7 @@
 4009494,65/66,13,12/12/1965,14:30,RFC Tilleur,Standard Luik,RFC Tilleur,14:54,1,0
 4009494,65/66,13,12/12/1965,14:30,RFC Tilleur,Standard Luik,RFC Tilleur,14:57,2,0
 4009494,65/66,13,12/12/1965,14:30,RFC Tilleur,Standard Luik,Standard Luik,15:29,2,1
+<<<<<<< HEAD
 4009503,65/66,14,19/12/1965,14:30,Beerschot AC,RRC Brï¿½ssel,RRC Brï¿½ssel,14:51,0,1
 4009503,65/66,14,19/12/1965,14:30,Beerschot AC,RRC Brï¿½ssel,RRC Brï¿½ssel,14:52,0,2
 4009503,65/66,14,19/12/1965,14:30,Beerschot AC,RRC Brï¿½ssel,RRC Brï¿½ssel,14:57,0,3
@@ -485,3 +570,1124 @@
 4009503,65/66,14,19/12/1965,14:30,Beerschot AC,RRC Brï¿½ssel,RRC Brï¿½ssel,14:56,3,7
 4009622,65/66,15,30/04/1966,19:30,Lierse SK,Daring Club,Daring Club,19:47,0,1
 4009622,65/66,15,30/04/1966,19:30,Lierse SK,Daring Club,Daring Club,20:12,0,2
+=======
+4009503,65/66,14,19/12/1965,14:30,Beerschot AC,RRC Brüssel,RRC Brüssel,14:51,0,1
+4009503,65/66,14,19/12/1965,14:30,Beerschot AC,RRC Brüssel,RRC Brüssel,14:52,0,2
+4009503,65/66,14,19/12/1965,14:30,Beerschot AC,RRC Brüssel,RRC Brüssel,14:57,0,3
+4009503,65/66,14,19/12/1965,14:30,Beerschot AC,RRC Brüssel,Beerschot AC,14:64,1,3
+4009503,65/66,14,19/12/1965,14:30,Beerschot AC,RRC Brüssel,Beerschot AC,14:76,2,3
+4009503,65/66,14,19/12/1965,14:30,Beerschot AC,RRC Brüssel,RRC Brüssel,14:33,2,4
+4009503,65/66,14,19/12/1965,14:30,Beerschot AC,RRC Brüssel,RRC Brüssel,14:36,2,5
+4009503,65/66,14,19/12/1965,14:30,Beerschot AC,RRC Brüssel,RRC Brüssel,14:44,2,6
+4009503,65/66,14,19/12/1965,14:30,Beerschot AC,RRC Brüssel,Beerschot AC,15:47,3,6
+4009503,65/66,14,19/12/1965,14:30,Beerschot AC,RRC Brüssel,RRC Brüssel,14:56,3,7
+4009622,65/66,15,30/04/1966,19:30,RFC Tilleur,Antwerp FC,Antwerp FC,19:47,0,1
+4009622,65/66,15,30/04/1966,19:30,RFC Tilleur,Antwerp FC,Antwerp FC,20:12,0,2
+4009525,65/66,17,16/01/1966,15:00,Standard Luik,RRC Brüssel,Standard Luik,15:31,1,0
+4009525,65/66,17,16/01/1966,15:00,Standard Luik,RRC Brüssel,Standard Luik,15:40,2,0
+4009525,65/66,17,16/01/1966,15:00,Standard Luik,RRC Brüssel,Standard Luik,15:50,3,0
+4009525,65/66,17,16/01/1966,15:00,Standard Luik,RRC Brüssel,Standard Luik,15:56,4,0
+4009525,65/66,17,16/01/1966,15:00,Standard Luik,RRC Brüssel,RRC Brüssel,15:01,4,1
+4009525,65/66,17,16/01/1966,15:00,Standard Luik,RRC Brüssel,Standard Luik,16:2,5,1
+4009525,65/66,17,16/01/1966,15:00,Standard Luik,RRC Brüssel,Standard Luik,16:18,6,1
+4009534,65/66,18,23/01/1966,15:00,RFC Tilleur,KV Mechelen,KV Mechelen,15:41,0,1
+4009534,65/66,18,23/01/1966,15:00,RFC Tilleur,KV Mechelen,KV Mechelen,15:47,0,2
+4009534,65/66,18,23/01/1966,15:00,RFC Tilleur,KV Mechelen,KV Mechelen,15:08,0,3
+4009540,65/66,19,30/01/1966,15:00,ARA Gent,Standard Luik,ARA Gent,16:25,1,0
+4009540,65/66,19,30/01/1966,15:00,ARA Gent,Standard Luik,ARA Gent,15:29,2,0
+4009540,65/66,19,30/01/1966,15:00,ARA Gent,Standard Luik,ARA Gent,15:53,3,0
+4009540,65/66,19,30/01/1966,15:00,ARA Gent,Standard Luik,ARA Gent,16:10,4,0
+4009540,65/66,19,30/01/1966,15:00,ARA Gent,Standard Luik,ARA Gent,16:14,5,0
+4009547,65/66,20,6/02/1966,15:00,RRC Brüssel,RSC Anderlecht,RSC Anderlecht,15:40,0,1
+4009547,65/66,20,6/02/1966,15:00,RRC Brüssel,RSC Anderlecht,RSC Anderlecht,15:03,0,2
+4009547,65/66,20,6/02/1966,15:00,RRC Brüssel,RSC Anderlecht,RSC Anderlecht,15:24,0,3
+4009554,65/66,21,13/02/1966,15:00,RSC Anderlecht,Standard Luik,Standard Luik,15:06,0,1
+4009578,65/66,24,6/03/1966,15:00,Standard Luik,Beringen FC,Standard Luik,15:15,1,0
+4009578,65/66,24,6/03/1966,15:00,Standard Luik,Beringen FC,Beringen FC,15:35,1,1
+4009578,65/66,24,6/03/1966,15:00,Standard Luik,Beringen FC,Standard Luik,15:56,2,1
+4009578,65/66,24,6/03/1966,15:00,Standard Luik,Beringen FC,Beringen FC,15:02,2,2
+4009586,65/66,25,13/03/1966,15:00,Lierse SK,Standard Luik,Lierse SK,16:7,1,0
+4009586,65/66,25,13/03/1966,15:00,Lierse SK,Standard Luik,Standard Luik,15:23,1,1
+4009595,65/66,26,20/03/1966,15:00,RFC Luik,KV Mechelen,KV Mechelen,15:00,0,1
+4009595,65/66,26,20/03/1966,15:00,RFC Luik,KV Mechelen,KV Mechelen,15:35,0,2
+4009595,65/66,26,20/03/1966,15:00,RFC Luik,KV Mechelen,KV Mechelen,15:55,0,3
+4009602,65/66,27,27/03/1966,15:00,Cercle Brugge,Standard Luik,Cercle Brugge,15:29,1,0
+4009602,65/66,27,27/03/1966,15:00,Cercle Brugge,Standard Luik,Cercle Brugge,15:53,2,0
+4009602,65/66,27,27/03/1966,15:00,Cercle Brugge,Standard Luik,Cercle Brugge,15:55,3,0
+4009611,65/66,28,3/04/1966,15:00,RFC Luik,Cercle Brugge,RFC Luik,15:16,1,0
+4009611,65/66,28,3/04/1966,15:00,RFC Luik,Cercle Brugge,Cercle Brugge,15:49,1,1
+4009629,65/66,29,8/05/1966,15:00,ARA Gent,RFC Luik,RFC Luik,15:29,0,1
+4009629,65/66,29,8/05/1966,15:00,ARA Gent,RFC Luik,ARA Gent,16:0,1,1
+4009635,65/66,30,14/05/1966,18:00,RSC Anderlecht,Cercle Brugge,RSC Anderlecht,18:10,1,0
+4009635,65/66,30,14/05/1966,18:00,RSC Anderlecht,Cercle Brugge,RSC Anderlecht,18:12,2,0
+4009635,65/66,30,14/05/1966,18:00,RSC Anderlecht,Cercle Brugge,RSC Anderlecht,18:18,3,0
+4009635,65/66,30,14/05/1966,18:00,RSC Anderlecht,Cercle Brugge,RSC Anderlecht,18:20,4,0
+4009635,65/66,30,14/05/1966,18:00,RSC Anderlecht,Cercle Brugge,RSC Anderlecht,18:35,5,0
+4009635,65/66,30,14/05/1966,18:00,RSC Anderlecht,Cercle Brugge,RSC Anderlecht,18:45,6,0
+4009635,65/66,30,14/05/1966,18:00,RSC Anderlecht,Cercle Brugge,RSC Anderlecht,18:56,7,0
+4009635,65/66,30,14/05/1966,18:00,RSC Anderlecht,Cercle Brugge,RSC Anderlecht,18:57,8,0
+4009635,65/66,30,14/05/1966,18:00,RSC Anderlecht,Cercle Brugge,RSC Anderlecht,19:10,9,0
+4009635,65/66,30,14/05/1966,18:00,RSC Anderlecht,Cercle Brugge,RSC Anderlecht,19:11,10,0
+4009635,65/66,30,14/05/1966,18:00,RSC Anderlecht,Cercle Brugge,RSC Anderlecht,19:19,11,0
+4009643,66/67,1,4/09/1966,15:00,Daring Club,Standard Luik,Daring Club,16:21,1,0
+4009643,66/67,1,4/09/1966,15:00,Daring Club,Standard Luik,Standard Luik,15:01,1,1
+4009643,66/67,1,4/09/1966,15:00,Daring Club,Standard Luik,Standard Luik,15:54,1,2
+4009643,66/67,1,4/09/1966,15:00,Daring Club,Standard Luik,Daring Club,16:14,2,2
+4009644,66/67,1,4/09/1966,15:00,KSV Waregem,RSC Anderlecht,KSV Waregem,15:39,1,0
+4009644,66/67,1,4/09/1966,15:00,KSV Waregem,RSC Anderlecht,RSC Anderlecht,15:39,1,1
+4009645,66/67,1,4/09/1966,15:00,St-Truidense VV,Antwerp FC,Antwerp FC,15:35,0,1
+4009646,66/67,1,4/09/1966,15:00,Beerschot AC,RFC Tilleur,Beerschot AC,15:46,1,0
+4009646,66/67,1,4/09/1966,15:00,Beerschot AC,RFC Tilleur,Beerschot AC,15:54,2,0
+4009646,66/67,1,4/09/1966,15:00,Beerschot AC,RFC Tilleur,Beerschot AC,16:1,3,0
+4009646,66/67,1,4/09/1966,15:00,Beerschot AC,RFC Tilleur,RFC Tilleur,15:08,3,1
+4009647,66/67,1,4/09/1966,15:00,RFC Luik,Beringen FC,RFC Luik,15:19,1,0
+4009647,66/67,1,4/09/1966,15:00,RFC Luik,Beringen FC,Beringen FC,15:20,1,1
+4009647,66/67,1,4/09/1966,15:00,RFC Luik,Beringen FC,Beringen FC,15:30,1,2
+4009647,66/67,1,4/09/1966,15:00,RFC Luik,Beringen FC,Beringen FC,15:33,1,3
+4009648,66/67,1,4/09/1966,15:00,Club Brugge,Lierse SK,Club Brugge,16:23,1,0
+4009648,66/67,1,4/09/1966,15:00,Club Brugge,Lierse SK,Club Brugge,15:52,2,0
+4009648,66/67,1,4/09/1966,15:00,Club Brugge,Lierse SK,Club Brugge,16:8,3,0
+4009648,66/67,1,4/09/1966,15:00,Club Brugge,Lierse SK,Lierse SK,15:23,3,1
+4009649,66/67,1,4/09/1966,15:00,KV Mechelen,R Charleroi SC,KV Mechelen,16:0,1,0
+4009649,66/67,1,4/09/1966,15:00,KV Mechelen,R Charleroi SC,R Charleroi SC,15:24,1,1
+4009650,66/67,1,4/09/1966,15:00,RRC Brüssel,ARA Gent,RRC Brüssel,16:4,1,0
+4009651,66/67,2,10/09/1966,19:30,RSC Anderlecht,KV Mechelen,RSC Anderlecht,19:50,1,0
+4009651,66/67,2,10/09/1966,19:30,RSC Anderlecht,KV Mechelen,RSC Anderlecht,19:69,2,0
+4009651,66/67,2,10/09/1966,19:30,RSC Anderlecht,KV Mechelen,KV Mechelen,20:10,2,1
+4009651,66/67,2,10/09/1966,19:30,RSC Anderlecht,KV Mechelen,KV Mechelen,19:36,2,2
+4009652,66/67,2,11/09/1966,15:00,Standard Luik,Club Brugge,Standard Luik,15:10,1,0
+4009652,66/67,2,11/09/1966,15:00,Standard Luik,Club Brugge,Club Brugge,15:47,1,1
+4009652,66/67,2,11/09/1966,15:00,Standard Luik,Club Brugge,Standard Luik,16:27,2,1
+4009653,66/67,2,11/09/1966,15:00,Antwerp FC,Daring Club,Antwerp FC,15:19,1,0
+4009653,66/67,2,11/09/1966,15:00,Antwerp FC,Daring Club,Antwerp FC,16:3,2,0
+4009653,66/67,2,11/09/1966,15:00,Antwerp FC,Daring Club,Daring Club,15:13,2,1
+4009654,66/67,2,11/09/1966,15:00,R Charleroi SC,Beerschot AC,Beerschot AC,15:00,0,1
+4009655,66/67,2,11/09/1966,15:00,Beringen FC,St-Truidense VV,Beringen FC,15:33,1,0
+4009655,66/67,2,11/09/1966,15:00,Beringen FC,St-Truidense VV,Beringen FC,15:35,2,0
+4009655,66/67,2,11/09/1966,15:00,Beringen FC,St-Truidense VV,Beringen FC,15:42,3,0
+4009655,66/67,2,11/09/1966,15:00,Beringen FC,St-Truidense VV,St-Truidense VV,15:52,3,1
+4009655,66/67,2,11/09/1966,15:00,Beringen FC,St-Truidense VV,Beringen FC,16:0,4,1
+4009655,66/67,2,11/09/1966,15:00,Beringen FC,St-Truidense VV,St-Truidense VV,15:08,4,2
+4009656,66/67,2,11/09/1966,15:00,ARA Gent,KSV Waregem,ARA Gent,15:10,1,0
+4009656,66/67,2,11/09/1966,15:00,ARA Gent,KSV Waregem,KSV Waregem,15:17,1,1
+4009656,66/67,2,11/09/1966,15:00,ARA Gent,KSV Waregem,KSV Waregem,15:52,1,2
+4009658,66/67,2,11/09/1966,15:00,RFC Tilleur,RRC Brüssel,RFC Tilleur,15:33,1,0
+4009658,66/67,2,11/09/1966,15:00,RFC Tilleur,RRC Brüssel,RFC Tilleur,15:36,2,0
+4009658,66/67,2,11/09/1966,15:00,RFC Tilleur,RRC Brüssel,RRC Brüssel,15:24,2,1
+4009657,66/67,2,11/09/1966,16:00,Lierse SK,RFC Luik,Lierse SK,16:16,1,0
+4009657,66/67,2,11/09/1966,16:00,Lierse SK,RFC Luik,RFC Luik,16:58,1,1
+4009657,66/67,2,11/09/1966,16:00,Lierse SK,RFC Luik,RFC Luik,16:18,1,2
+4009660,66/67,3,17/09/1966,16:30,St-Truidense VV,RFC Tilleur,RFC Tilleur,16:47,0,1
+4009660,66/67,3,17/09/1966,16:30,St-Truidense VV,RFC Tilleur,St-Truidense VV,16:47,1,1
+4009660,66/67,3,17/09/1966,16:30,St-Truidense VV,RFC Tilleur,RFC Tilleur,17:06,1,2
+4009660,66/67,3,17/09/1966,16:30,St-Truidense VV,RFC Tilleur,St-Truidense VV,16:70,2,2
+4009660,66/67,3,17/09/1966,16:30,St-Truidense VV,RFC Tilleur,St-Truidense VV,17:45,3,2
+4009659,66/67,3,17/09/1966,20:00,Standard Luik,Beringen FC,Beringen FC,20:13,0,1
+4009659,66/67,3,17/09/1966,20:00,Standard Luik,Beringen FC,Standard Luik,20:19,1,1
+4009659,66/67,3,17/09/1966,20:00,Standard Luik,Beringen FC,Beringen FC,20:51,1,2
+4009659,66/67,3,17/09/1966,20:00,Standard Luik,Beringen FC,Standard Luik,21:20,2,2
+4009661,66/67,3,18/09/1966,15:00,Club Brugge,RSC Anderlecht,RSC Anderlecht,15:24,0,1
+4009661,66/67,3,18/09/1966,15:00,Club Brugge,RSC Anderlecht,Club Brugge,15:45,1,1
+4009661,66/67,3,18/09/1966,15:00,Club Brugge,RSC Anderlecht,RSC Anderlecht,15:02,1,2
+4009662,66/67,3,18/09/1966,15:00,Antwerp FC,Lierse SK,Antwerp FC,15:38,1,0
+4009664,66/67,3,18/09/1966,15:00,Daring Club,R Charleroi SC,Daring Club,15:52,1,0
+4009664,66/67,3,18/09/1966,15:00,Daring Club,R Charleroi SC,R Charleroi SC,15:07,1,1
+4009665,66/67,3,18/09/1966,15:00,KV Mechelen,ARA Gent,ARA Gent,15:30,0,1
+4009668,66/67,4,25/09/1966,15:00,Beerschot AC,Standard Luik,Beerschot AC,15:20,1,0
+4009668,66/67,4,25/09/1966,15:00,Beerschot AC,Standard Luik,Beerschot AC,16:1,2,0
+4009668,66/67,4,25/09/1966,15:00,Beerschot AC,Standard Luik,Standard Luik,15:10,2,1
+4009669,66/67,4,25/09/1966,15:00,ARA Gent,Antwerp FC,Antwerp FC,15:12,0,1
+4009669,66/67,4,25/09/1966,15:00,ARA Gent,Antwerp FC,ARA Gent,15:30,1,1
+4009669,66/67,4,25/09/1966,15:00,ARA Gent,Antwerp FC,ARA Gent,15:56,2,1
+4009669,66/67,4,25/09/1966,15:00,ARA Gent,Antwerp FC,Antwerp FC,15:15,2,2
+4009670,66/67,4,25/09/1966,15:00,Beringen FC,KV Mechelen,Beringen FC,15:27,1,0
+4009670,66/67,4,25/09/1966,15:00,Beringen FC,KV Mechelen,Beringen FC,15:40,2,0
+4009670,66/67,4,25/09/1966,15:00,Beringen FC,KV Mechelen,Beringen FC,16:25,3,0
+4009671,66/67,4,25/09/1966,15:00,RRC Brüssel,Club Brugge,Club Brugge,15:32,0,1
+4009671,66/67,4,25/09/1966,15:00,RRC Brüssel,Club Brugge,Club Brugge,15:03,0,2
+4009671,66/67,4,25/09/1966,15:00,RRC Brüssel,Club Brugge,RRC Brüssel,16:4,1,2
+4009671,66/67,4,25/09/1966,15:00,RRC Brüssel,Club Brugge,Club Brugge,15:10,1,3
+4009671,66/67,4,25/09/1966,15:00,RRC Brüssel,Club Brugge,Club Brugge,15:17,1,4
+4009674,66/67,4,25/09/1966,15:00,RFC Tilleur,KSV Waregem,RFC Tilleur,15:12,1,0
+4009674,66/67,4,25/09/1966,15:00,RFC Tilleur,KSV Waregem,RFC Tilleur,16:10,2,0
+4009674,66/67,4,25/09/1966,15:00,RFC Tilleur,KSV Waregem,KSV Waregem,15:15,2,1
+4009676,66/67,5,2/10/1966,15:00,Antwerp FC,RSC Anderlecht,RSC Anderlecht,15:09,0,1
+4009676,66/67,5,2/10/1966,15:00,Antwerp FC,RSC Anderlecht,RSC Anderlecht,15:22,0,2
+4009677,66/67,5,2/10/1966,15:00,RFC Luik,Beerschot AC,Beerschot AC,15:20,0,1
+4009679,66/67,5,2/10/1966,15:00,Lierse SK,Beringen FC,Lierse SK,15:50,1,0
+4009681,66/67,5,2/10/1966,15:00,R Charleroi SC,ARA Gent,R Charleroi SC,15:38,1,0
+4009681,66/67,5,2/10/1966,15:00,R Charleroi SC,ARA Gent,R Charleroi SC,15:40,2,0
+4009682,66/67,5,2/10/1966,15:00,Daring Club,RFC Tilleur,RFC Tilleur,15:36,0,1
+4009684,66/67,6,9/10/1966,15:00,Beerschot AC,Antwerp FC,Antwerp FC,15:00,0,1
+4009684,66/67,6,9/10/1966,15:00,Beerschot AC,Antwerp FC,Antwerp FC,15:12,0,2
+4009684,66/67,6,9/10/1966,15:00,Beerschot AC,Antwerp FC,Antwerp FC,15:38,0,3
+4009685,66/67,6,9/10/1966,15:00,Beringen FC,Club Brugge,Club Brugge,15:11,0,1
+4009685,66/67,6,9/10/1966,15:00,Beringen FC,Club Brugge,Beringen FC,15:55,1,1
+4009685,66/67,6,9/10/1966,15:00,Beringen FC,Club Brugge,Club Brugge,15:20,1,2
+4009686,66/67,6,9/10/1966,15:00,RFC Tilleur,R Charleroi SC,RFC Tilleur,15:27,1,0
+4009686,66/67,6,9/10/1966,15:00,RFC Tilleur,R Charleroi SC,R Charleroi SC,15:34,1,1
+4009686,66/67,6,9/10/1966,15:00,RFC Tilleur,R Charleroi SC,RFC Tilleur,15:44,2,1
+4009687,66/67,6,9/10/1966,15:00,St-Truidense VV,Daring Club,St-Truidense VV,16:25,1,0
+4009687,66/67,6,9/10/1966,15:00,St-Truidense VV,Daring Club,Daring Club,15:35,1,1
+4009687,66/67,6,9/10/1966,15:00,St-Truidense VV,Daring Club,Daring Club,15:11,1,2
+4009688,66/67,6,9/10/1966,15:00,ARA Gent,RFC Luik,RFC Luik,15:53,0,1
+4009689,66/67,6,9/10/1966,15:00,KSV Waregem,Lierse SK,KSV Waregem,16:7,1,0
+4009690,66/67,6,9/10/1966,15:00,RRC Brüssel,KV Mechelen,KV Mechelen,15:17,0,1
+4009690,66/67,6,9/10/1966,15:00,RRC Brüssel,KV Mechelen,KV Mechelen,15:17,0,2
+4009691,66/67,7,15/10/1966,20:00,RFC Luik,KV Mechelen,RFC Luik,20:47,1,0
+4009691,66/67,7,15/10/1966,20:00,RFC Luik,KV Mechelen,RFC Luik,20:51,2,0
+4009692,66/67,7,16/10/1966,15:00,Standard Luik,St-Truidense VV,St-Truidense VV,15:17,0,1
+4009692,66/67,7,16/10/1966,15:00,Standard Luik,St-Truidense VV,Standard Luik,15:17,1,1
+4009692,66/67,7,16/10/1966,15:00,Standard Luik,St-Truidense VV,Standard Luik,15:43,2,1
+4009692,66/67,7,16/10/1966,15:00,Standard Luik,St-Truidense VV,Standard Luik,15:54,3,1
+4009692,66/67,7,16/10/1966,15:00,Standard Luik,St-Truidense VV,St-Truidense VV,15:07,3,2
+4009692,66/67,7,16/10/1966,15:00,Standard Luik,St-Truidense VV,St-Truidense VV,15:10,3,3
+4009693,66/67,7,16/10/1966,15:00,Beringen FC,RSC Anderlecht,RSC Anderlecht,15:33,0,1
+4009693,66/67,7,16/10/1966,15:00,Beringen FC,RSC Anderlecht,RSC Anderlecht,15:28,0,2
+4009694,66/67,7,16/10/1966,15:00,Antwerp FC,RFC Tilleur,Antwerp FC,15:30,1,0
+4009695,66/67,7,16/10/1966,15:00,Daring Club,Beerschot AC,Daring Club,15:46,1,0
+4009695,66/67,7,16/10/1966,15:00,Daring Club,Beerschot AC,Daring Club,16:7,2,0
+4009695,66/67,7,16/10/1966,15:00,Daring Club,Beerschot AC,Daring Club,16:21,3,0
+4009698,66/67,7,16/10/1966,15:00,Lierse SK,ARA Gent,Lierse SK,15:10,1,0
+4009698,66/67,7,16/10/1966,15:00,Lierse SK,ARA Gent,Lierse SK,15:46,2,0
+4009699,66/67,8,28/10/1966,19:30,RFC Luik,Daring Club,RFC Luik,19:50,1,0
+4009700,66/67,8,30/10/1966,15:00,KSV Waregem,Standard Luik,Standard Luik,15:30,0,1
+4009701,66/67,8,30/10/1966,15:00,ARA Gent,RSC Anderlecht,RSC Anderlecht,15:23,0,1
+4009701,66/67,8,30/10/1966,15:00,ARA Gent,RSC Anderlecht,ARA Gent,15:27,1,1
+4009703,66/67,8,30/10/1966,15:00,Beerschot AC,Lierse SK,Lierse SK,15:01,0,1
+4009704,66/67,8,30/10/1966,15:00,RRC Brüssel,Beringen FC,RRC Brüssel,16:17,1,0
+4009704,66/67,8,30/10/1966,15:00,RRC Brüssel,Beringen FC,Beringen FC,15:36,1,1
+4009704,66/67,8,30/10/1966,15:00,RRC Brüssel,Beringen FC,Beringen FC,15:04,1,2
+4009705,66/67,8,30/10/1966,15:00,RFC Tilleur,Club Brugge,Club Brugge,15:41,0,1
+4009705,66/67,8,30/10/1966,15:00,RFC Tilleur,Club Brugge,RFC Tilleur,15:42,1,1
+4009705,66/67,8,30/10/1966,15:00,RFC Tilleur,Club Brugge,Club Brugge,15:50,1,2
+4009706,66/67,8,30/10/1966,15:00,St-Truidense VV,R Charleroi SC,R Charleroi SC,15:10,0,1
+4009706,66/67,8,30/10/1966,15:00,St-Truidense VV,R Charleroi SC,St-Truidense VV,15:46,1,1
+4009706,66/67,8,30/10/1966,15:00,St-Truidense VV,R Charleroi SC,St-Truidense VV,16:8,2,1
+4009708,66/67,9,6/11/1966,15:00,RSC Anderlecht,Beerschot AC,RSC Anderlecht,15:15,1,0
+4009709,66/67,9,6/11/1966,15:00,Antwerp FC,R Charleroi SC,Antwerp FC,16:15,1,0
+4009711,66/67,9,6/11/1966,15:00,Club Brugge,RFC Luik,Club Brugge,15:20,1,0
+4009711,66/67,9,6/11/1966,15:00,Club Brugge,RFC Luik,RFC Luik,15:26,1,1
+4009712,66/67,9,6/11/1966,15:00,Daring Club,RRC Brüssel,Daring Club,15:28,1,0
+4009712,66/67,9,6/11/1966,15:00,Daring Club,RRC Brüssel,RRC Brüssel,15:28,1,1
+4009716,66/67,10,20/11/1966,15:00,RRC Brüssel,RSC Anderlecht,RSC Anderlecht,15:26,0,1
+4009716,66/67,10,20/11/1966,15:00,RRC Brüssel,RSC Anderlecht,RSC Anderlecht,15:33,0,2
+4009716,66/67,10,20/11/1966,15:00,RRC Brüssel,RSC Anderlecht,RSC Anderlecht,15:47,0,3
+4009716,66/67,10,20/11/1966,15:00,RRC Brüssel,RSC Anderlecht,RSC Anderlecht,15:54,0,4
+4009716,66/67,10,20/11/1966,15:00,RRC Brüssel,RSC Anderlecht,RSC Anderlecht,15:55,0,5
+4009716,66/67,10,20/11/1966,15:00,RRC Brüssel,RSC Anderlecht,RSC Anderlecht,15:00,0,6
+4009716,66/67,10,20/11/1966,15:00,RRC Brüssel,RSC Anderlecht,RSC Anderlecht,15:27,0,7
+4009718,66/67,10,20/11/1966,15:00,Beerschot AC,Club Brugge,Club Brugge,15:00,0,1
+4009718,66/67,10,20/11/1966,15:00,Beerschot AC,Club Brugge,Club Brugge,15:16,0,2
+4009718,66/67,10,20/11/1966,15:00,Beerschot AC,Club Brugge,Club Brugge,15:27,0,3
+4009718,66/67,10,20/11/1966,15:00,Beerschot AC,Club Brugge,Club Brugge,15:32,0,4
+4009718,66/67,10,20/11/1966,15:00,Beerschot AC,Club Brugge,Beerschot AC,15:41,1,4
+4009718,66/67,10,20/11/1966,15:00,Beerschot AC,Club Brugge,Club Brugge,15:44,1,5
+4009718,66/67,10,20/11/1966,15:00,Beerschot AC,Club Brugge,Club Brugge,15:51,1,6
+4009718,66/67,10,20/11/1966,15:00,Beerschot AC,Club Brugge,Beerschot AC,16:10,2,6
+4009719,66/67,10,20/11/1966,15:00,R Charleroi SC,Beringen FC,R Charleroi SC,16:29,1,0
+4009719,66/67,10,20/11/1966,15:00,R Charleroi SC,Beringen FC,Beringen FC,15:52,1,1
+4009719,66/67,10,20/11/1966,15:00,R Charleroi SC,Beringen FC,R Charleroi SC,16:28,2,1
+4009719,66/67,10,20/11/1966,15:00,R Charleroi SC,Beringen FC,Beringen FC,15:29,2,2
+4009720,66/67,10,20/11/1966,15:00,ARA Gent,Daring Club,ARA Gent,16:7,1,0
+4009720,66/67,10,20/11/1966,15:00,ARA Gent,Daring Club,Daring Club,15:51,1,1
+4009720,66/67,10,20/11/1966,15:00,ARA Gent,Daring Club,ARA Gent,15:53,2,1
+4009721,66/67,10,20/11/1966,15:00,RFC Tilleur,Lierse SK,Lierse SK,15:16,0,1
+4009721,66/67,10,20/11/1966,15:00,RFC Tilleur,Lierse SK,RFC Tilleur,15:41,1,1
+4009721,66/67,10,20/11/1966,15:00,RFC Tilleur,Lierse SK,Lierse SK,15:42,1,2
+4009721,66/67,10,20/11/1966,15:00,RFC Tilleur,Lierse SK,RFC Tilleur,15:47,2,2
+4009721,66/67,10,20/11/1966,15:00,RFC Tilleur,Lierse SK,Lierse SK,15:55,2,3
+4009722,66/67,10,20/11/1966,15:00,KV Mechelen,St-Truidense VV,St-Truidense VV,15:16,0,1
+4009723,66/67,11,25/11/1966,19:30,Antwerp FC,RRC Brüssel,RRC Brüssel,19:44,0,1
+4009723,66/67,11,25/11/1966,19:30,Antwerp FC,RRC Brüssel,RRC Brüssel,20:05,0,2
+4009723,66/67,11,25/11/1966,19:30,Antwerp FC,RRC Brüssel,Antwerp FC,19:70,1,2
+4009729,66/67,11,27/11/1966,15:00,Lierse SK,R Charleroi SC,Lierse SK,16:17,1,0
+4009729,66/67,11,27/11/1966,15:00,Lierse SK,R Charleroi SC,Lierse SK,15:30,2,0
+4009729,66/67,11,27/11/1966,15:00,Lierse SK,R Charleroi SC,Lierse SK,16:15,3,0
+4009730,66/67,11,27/11/1966,15:00,Daring Club,KSV Waregem,KSV Waregem,15:00,0,1
+4009730,66/67,11,27/11/1966,15:00,Daring Club,KSV Waregem,KSV Waregem,15:20,0,2
+4009724,66/67,11,27/11/1966,15:00,Standard Luik,KV Mechelen,KV Mechelen,15:15,0,1
+4009724,66/67,11,27/11/1966,15:00,Standard Luik,KV Mechelen,KV Mechelen,15:32,0,2
+4009724,66/67,11,27/11/1966,15:00,Standard Luik,KV Mechelen,Standard Luik,15:43,1,2
+4009724,66/67,11,27/11/1966,15:00,Standard Luik,KV Mechelen,Standard Luik,15:57,2,2
+4009726,66/67,11,27/11/1966,15:00,St-Truidense VV,Beerschot AC,Beerschot AC,15:00,0,1
+4009726,66/67,11,27/11/1966,15:00,St-Truidense VV,Beerschot AC,Beerschot AC,15:25,0,2
+4009726,66/67,11,27/11/1966,15:00,St-Truidense VV,Beerschot AC,St-Truidense VV,15:40,1,2
+4009726,66/67,11,27/11/1966,15:00,St-Truidense VV,Beerschot AC,St-Truidense VV,15:55,2,2
+4009726,66/67,11,27/11/1966,15:00,St-Truidense VV,Beerschot AC,St-Truidense VV,15:57,3,2
+4009727,66/67,11,27/11/1966,15:00,Beringen FC,RFC Tilleur,Beringen FC,15:30,1,0
+4009727,66/67,11,27/11/1966,15:00,Beringen FC,RFC Tilleur,Beringen FC,15:44,2,0
+4009727,66/67,11,27/11/1966,15:00,Beringen FC,RFC Tilleur,Beringen FC,15:51,3,0
+4009728,66/67,11,27/11/1966,15:00,Club Brugge,ARA Gent,Club Brugge,16:15,1,0
+4009728,66/67,11,27/11/1966,15:00,Club Brugge,ARA Gent,Club Brugge,16:1,2,0
+4009728,66/67,11,27/11/1966,15:00,Club Brugge,ARA Gent,Club Brugge,16:5,3,0
+4009728,66/67,11,27/11/1966,15:00,Club Brugge,ARA Gent,ARA Gent,15:15,3,1
+4009731,66/67,12,3/12/1966,19:30,Beerschot AC,Beringen FC,Beerschot AC,20:30,1,0
+4009731,66/67,12,3/12/1966,19:30,Beerschot AC,Beringen FC,Beerschot AC,20:42,2,0
+4009731,66/67,12,3/12/1966,19:30,Beerschot AC,Beringen FC,Beerschot AC,20:44,3,0
+4009732,66/67,12,4/12/1966,14:30,ARA Gent,Standard Luik,Standard Luik,14:58,0,1
+4009732,66/67,12,4/12/1966,14:30,ARA Gent,Standard Luik,Standard Luik,15:17,0,2
+4009732,66/67,12,4/12/1966,14:30,ARA Gent,Standard Luik,Standard Luik,14:42,0,3
+4009733,66/67,12,4/12/1966,14:30,RFC Tilleur,RSC Anderlecht,RSC Anderlecht,14:55,0,1
+4009735,66/67,12,4/12/1966,14:30,R Charleroi SC,Club Brugge,Club Brugge,14:36,0,1
+4009736,66/67,12,4/12/1966,14:30,KV Mechelen,Daring Club,Daring Club,15:08,0,1
+4009736,66/67,12,4/12/1966,14:30,KV Mechelen,Daring Club,KV Mechelen,14:68,1,1
+4009736,66/67,12,4/12/1966,14:30,KV Mechelen,Daring Club,Daring Club,15:27,1,2
+4009738,66/67,12,4/12/1966,14:30,KSV Waregem,St-Truidense VV,St-Truidense VV,14:55,0,1
+4009739,66/67,13,11/12/1966,14:30,RSC Anderlecht,Daring Club,RSC Anderlecht,14:77,1,0
+4009739,66/67,13,11/12/1966,14:30,RSC Anderlecht,Daring Club,RSC Anderlecht,15:36,2,0
+4009739,66/67,13,11/12/1966,14:30,RSC Anderlecht,Daring Club,RSC Anderlecht,15:43,3,0
+4009739,66/67,13,11/12/1966,14:30,RSC Anderlecht,Daring Club,RSC Anderlecht,15:56,4,0
+4009740,66/67,13,11/12/1966,14:30,Club Brugge,Antwerp FC,Club Brugge,14:62,1,0
+4009740,66/67,13,11/12/1966,14:30,Club Brugge,Antwerp FC,Antwerp FC,15:09,1,1
+4009740,66/67,13,11/12/1966,14:30,Club Brugge,Antwerp FC,Antwerp FC,15:13,1,2
+4009741,66/67,13,11/12/1966,14:30,Beerschot AC,KV Mechelen,Beerschot AC,14:84,1,0
+4009741,66/67,13,11/12/1966,14:30,Beerschot AC,KV Mechelen,KV Mechelen,15:00,1,1
+4009742,66/67,13,11/12/1966,14:30,Beringen FC,ARA Gent,Beringen FC,14:84,1,0
+4009742,66/67,13,11/12/1966,14:30,Beringen FC,ARA Gent,ARA Gent,14:45,1,1
+4009743,66/67,13,11/12/1966,14:30,RFC Tilleur,RFC Luik,RFC Luik,14:51,0,1
+4009744,66/67,13,11/12/1966,14:30,St-Truidense VV,RRC Brüssel,St-Truidense VV,14:57,1,0
+4009744,66/67,13,11/12/1966,14:30,St-Truidense VV,RRC Brüssel,RRC Brüssel,15:05,1,1
+4009754,66/67,13,2/01/1967,19:30,Standard Luik,Lierse SK,Standard Luik,19:58,1,0
+4009754,66/67,13,2/01/1967,19:30,Standard Luik,Lierse SK,Standard Luik,20:32,2,0
+4009745,66/67,14,18/12/1966,14:30,Antwerp FC,Standard Luik,Antwerp FC,15:30,1,0
+4009745,66/67,14,18/12/1966,14:30,Antwerp FC,Standard Luik,Standard Luik,14:40,1,1
+4009746,66/67,14,18/12/1966,14:30,R Charleroi SC,RSC Anderlecht,RSC Anderlecht,14:53,0,1
+4009746,66/67,14,18/12/1966,14:30,R Charleroi SC,RSC Anderlecht,RSC Anderlecht,14:59,0,2
+4009746,66/67,14,18/12/1966,14:30,R Charleroi SC,RSC Anderlecht,RSC Anderlecht,14:32,0,3
+4009746,66/67,14,18/12/1966,14:30,R Charleroi SC,RSC Anderlecht,RSC Anderlecht,14:38,0,4
+4009746,66/67,14,18/12/1966,14:30,R Charleroi SC,RSC Anderlecht,RSC Anderlecht,14:46,0,5
+4009746,66/67,14,18/12/1966,14:30,R Charleroi SC,RSC Anderlecht,RSC Anderlecht,14:55,0,6
+4009746,66/67,14,18/12/1966,14:30,R Charleroi SC,RSC Anderlecht,RSC Anderlecht,14:59,0,7
+4009747,66/67,14,18/12/1966,14:30,RRC Brüssel,Beerschot AC,RRC Brüssel,14:47,1,0
+4009747,66/67,14,18/12/1966,14:30,RRC Brüssel,Beerschot AC,Beerschot AC,15:11,1,1
+4009747,66/67,14,18/12/1966,14:30,RRC Brüssel,Beerschot AC,Beerschot AC,15:15,1,2
+4009747,66/67,14,18/12/1966,14:30,RRC Brüssel,Beerschot AC,RRC Brüssel,14:83,2,2
+4009747,66/67,14,18/12/1966,14:30,RRC Brüssel,Beerschot AC,RRC Brüssel,14:88,3,2
+4009747,66/67,14,18/12/1966,14:30,RRC Brüssel,Beerschot AC,Beerschot AC,14:30,3,3
+4009747,66/67,14,18/12/1966,14:30,RRC Brüssel,Beerschot AC,RRC Brüssel,15:35,4,3
+4009748,66/67,14,18/12/1966,14:30,Daring Club,Beringen FC,Daring Club,14:40,1,0
+4009748,66/67,14,18/12/1966,14:30,Daring Club,Beringen FC,Daring Club,14:44,2,0
+4009748,66/67,14,18/12/1966,14:30,Daring Club,Beringen FC,Beringen FC,14:47,2,1
+4009748,66/67,14,18/12/1966,14:30,Daring Club,Beringen FC,Beringen FC,15:05,2,2
+4009749,66/67,14,18/12/1966,14:30,KV Mechelen,Club Brugge,KV Mechelen,14:49,1,0
+4009750,66/67,14,18/12/1966,14:30,ARA Gent,RFC Tilleur,ARA Gent,14:89,1,0
+4009750,66/67,14,18/12/1966,14:30,ARA Gent,RFC Tilleur,RFC Tilleur,14:32,1,1
+4009751,66/67,14,18/12/1966,14:30,RFC Luik,KSV Waregem,RFC Luik,14:75,1,0
+4009751,66/67,14,18/12/1966,14:30,RFC Luik,KSV Waregem,KSV Waregem,14:46,1,1
+4009751,66/67,14,18/12/1966,14:30,RFC Luik,KSV Waregem,KSV Waregem,14:55,1,2
+4009884,67/68,1,2/09/1967,17:00,KV Mechelen,Beringen FC,KV Mechelen,17:11,1,0
+4009884,67/68,1,2/09/1967,17:00,KV Mechelen,Beringen FC,KV Mechelen,17:19,2,0
+4009884,67/68,1,2/09/1967,17:00,KV Mechelen,Beringen FC,Beringen FC,17:40,2,1
+4009883,67/68,1,2/09/1967,19:00,Antwerp FC,RSC Anderlecht,RSC Anderlecht,19:15,0,1
+4009883,67/68,1,2/09/1967,19:00,Antwerp FC,RSC Anderlecht,Antwerp FC,19:37,1,1
+4009883,67/68,1,2/09/1967,19:00,Antwerp FC,RSC Anderlecht,RSC Anderlecht,19:38,1,2
+4009883,67/68,1,2/09/1967,19:00,Antwerp FC,RSC Anderlecht,Antwerp FC,19:55,2,2
+4009883,67/68,1,2/09/1967,19:00,Antwerp FC,RSC Anderlecht,RSC Anderlecht,19:27,2,3
+4009888,67/68,1,3/09/1967,15:00,St-Truidense VV,SK Beveren-Waes,SK Beveren-Waes,15:13,0,1
+4009890,67/68,1,3/09/1967,15:00,RRC Brüssel,RFC Luik,RRC Brüssel,15:21,1,0
+4009890,67/68,1,3/09/1967,15:00,RRC Brüssel,RFC Luik,RFC Luik,15:13,1,1
+4009886,67/68,1,3/09/1967,18:00,Standard Luik,Olymp. Charleroi,Standard Luik,19:23,1,0
+4009886,67/68,1,3/09/1967,18:00,Standard Luik,Olymp. Charleroi,Standard Luik,18:23,2,0
+4009886,67/68,1,3/09/1967,18:00,Standard Luik,Olymp. Charleroi,Olymp. Charleroi,18:52,2,1
+4009889,67/68,1,3/09/1967,19:00,Daring Club,Club Brugge,Club Brugge,19:57,0,1
+4009889,67/68,1,3/09/1967,19:00,Daring Club,Club Brugge,Daring Club,20:8,1,1
+4009889,67/68,1,3/09/1967,19:00,Daring Club,Club Brugge,Club Brugge,19:16,1,2
+4009889,67/68,1,3/09/1967,19:00,Daring Club,Club Brugge,Club Brugge,19:18,1,3
+4009889,67/68,1,3/09/1967,19:00,Daring Club,Club Brugge,Club Brugge,19:20,1,4
+4009892,67/68,2,10/09/1967,15:00,Club Brugge,Standard Luik,Club Brugge,15:30,1,0
+4009893,67/68,2,10/09/1967,15:00,RSC Anderlecht,St-Truidense VV,St-Truidense VV,15:01,0,1
+4009893,67/68,2,10/09/1967,15:00,RSC Anderlecht,St-Truidense VV,RSC Anderlecht,15:0,1,1
+4009893,67/68,2,10/09/1967,15:00,RSC Anderlecht,St-Truidense VV,RSC Anderlecht,15:30,2,1
+4009893,67/68,2,10/09/1967,15:00,RSC Anderlecht,St-Truidense VV,RSC Anderlecht,15:49,3,1
+4009893,67/68,2,10/09/1967,15:00,RSC Anderlecht,St-Truidense VV,RSC Anderlecht,16:6,4,1
+4009894,67/68,2,10/09/1967,15:00,Beerschot AC,KV Mechelen,Beerschot AC,15:55,1,0
+4009894,67/68,2,10/09/1967,15:00,Beerschot AC,KV Mechelen,KV Mechelen,15:15,1,1
+4009895,67/68,2,10/09/1967,15:00,Beringen FC,KSV Waregem,KSV Waregem,15:20,0,1
+4009895,67/68,2,10/09/1967,15:00,Beringen FC,KSV Waregem,Beringen FC,15:20,1,1
+4009895,67/68,2,10/09/1967,15:00,Beringen FC,KSV Waregem,Beringen FC,15:43,2,1
+4009895,67/68,2,10/09/1967,15:00,Beringen FC,KSV Waregem,KSV Waregem,15:57,2,2
+4009895,67/68,2,10/09/1967,15:00,Beringen FC,KSV Waregem,Beringen FC,16:8,3,2
+4009896,67/68,2,10/09/1967,15:00,SK Beveren-Waes,Daring Club,SK Beveren-Waes,15:21,1,0
+4009897,67/68,2,10/09/1967,15:00,RFC Luik,R Charleroi SC,RFC Luik,15:44,1,0
+4009898,67/68,2,10/09/1967,15:00,Lierse SK,RRC Brüssel,Lierse SK,16:24,1,0
+4009898,67/68,2,10/09/1967,15:00,Lierse SK,RRC Brüssel,Lierse SK,15:30,2,0
+4009898,67/68,2,10/09/1967,15:00,Lierse SK,RRC Brüssel,Lierse SK,15:35,3,0
+4009898,67/68,2,10/09/1967,15:00,Lierse SK,RRC Brüssel,Lierse SK,15:40,4,0
+4009898,67/68,2,10/09/1967,15:00,Lierse SK,RRC Brüssel,RRC Brüssel,15:01,4,1
+4009898,67/68,2,10/09/1967,15:00,Lierse SK,RRC Brüssel,Lierse SK,16:10,5,1
+4009898,67/68,2,10/09/1967,15:00,Lierse SK,RRC Brüssel,RRC Brüssel,15:24,5,2
+4009899,67/68,3,17/09/1967,15:00,Lierse SK,Standard Luik,Lierse SK,15:16,1,0
+4009899,67/68,3,17/09/1967,15:00,Lierse SK,Standard Luik,Standard Luik,15:52,1,1
+4009899,67/68,3,17/09/1967,15:00,Lierse SK,Standard Luik,Lierse SK,16:26,2,1
+4009899,67/68,3,17/09/1967,15:00,Lierse SK,Standard Luik,Standard Luik,15:27,2,2
+4009900,67/68,3,17/09/1967,15:00,R Charleroi SC,RSC Anderlecht,R Charleroi SC,16:8,1,0
+4009900,67/68,3,17/09/1967,15:00,R Charleroi SC,RSC Anderlecht,RSC Anderlecht,15:01,1,1
+4009900,67/68,3,17/09/1967,15:00,R Charleroi SC,RSC Anderlecht,RSC Anderlecht,15:07,1,2
+4009900,67/68,3,17/09/1967,15:00,R Charleroi SC,RSC Anderlecht,RSC Anderlecht,15:08,1,3
+4009901,67/68,3,17/09/1967,15:00,Antwerp FC,Daring Club,Daring Club,15:14,0,1
+4009901,67/68,3,17/09/1967,15:00,Antwerp FC,Daring Club,Antwerp FC,15:14,1,1
+4009901,67/68,3,17/09/1967,15:00,Antwerp FC,Daring Club,Daring Club,15:41,1,2
+4009901,67/68,3,17/09/1967,15:00,Antwerp FC,Daring Club,Daring Club,15:47,1,3
+4009901,67/68,3,17/09/1967,15:00,Antwerp FC,Daring Club,Antwerp FC,15:53,2,3
+4009901,67/68,3,17/09/1967,15:00,Antwerp FC,Daring Club,Daring Club,15:17,2,4
+4009901,67/68,3,17/09/1967,15:00,Antwerp FC,Daring Club,Daring Club,15:28,2,5
+4009903,67/68,3,17/09/1967,15:00,RFC Luik,Beringen FC,RFC Luik,15:58,1,0
+4009903,67/68,3,17/09/1967,15:00,RFC Luik,Beringen FC,Beringen FC,15:58,1,1
+4009905,67/68,3,17/09/1967,15:00,KV Mechelen,SK Beveren-Waes,KV Mechelen,15:57,1,0
+4009905,67/68,3,17/09/1967,15:00,KV Mechelen,SK Beveren-Waes,SK Beveren-Waes,15:17,1,1
+4009906,67/68,3,17/09/1967,15:00,St-Truidense VV,Club Brugge,Club Brugge,15:17,0,1
+4009906,67/68,3,17/09/1967,15:00,St-Truidense VV,Club Brugge,St-Truidense VV,15:48,1,1
+4009906,67/68,3,17/09/1967,15:00,St-Truidense VV,Club Brugge,St-Truidense VV,15:49,2,1
+4009907,67/68,4,23/09/1967,19:30,RSC Anderlecht,KSV Waregem,RSC Anderlecht,19:51,1,0
+4009907,67/68,4,23/09/1967,19:30,RSC Anderlecht,KSV Waregem,RSC Anderlecht,19:65,2,0
+4009907,67/68,4,23/09/1967,19:30,RSC Anderlecht,KSV Waregem,RSC Anderlecht,19:66,3,0
+4009907,67/68,4,23/09/1967,19:30,RSC Anderlecht,KSV Waregem,RSC Anderlecht,19:85,4,0
+4009908,67/68,4,24/09/1967,15:00,Standard Luik,St-Truidense VV,St-Truidense VV,15:15,0,1
+4009908,67/68,4,24/09/1967,15:00,Standard Luik,St-Truidense VV,Standard Luik,15:15,1,1
+4009908,67/68,4,24/09/1967,15:00,Standard Luik,St-Truidense VV,Standard Luik,15:59,2,1
+4009908,67/68,4,24/09/1967,15:00,Standard Luik,St-Truidense VV,St-Truidense VV,15:28,2,2
+4009909,67/68,4,24/09/1967,15:00,SK Beveren-Waes,Antwerp FC,Antwerp FC,15:16,0,1
+4009911,67/68,4,24/09/1967,15:00,Beerschot AC,Lierse SK,Lierse SK,15:00,0,1
+4009911,67/68,4,24/09/1967,15:00,Beerschot AC,Lierse SK,Lierse SK,15:18,0,2
+4009911,67/68,4,24/09/1967,15:00,Beerschot AC,Lierse SK,Beerschot AC,15:19,1,2
+4009911,67/68,4,24/09/1967,15:00,Beerschot AC,Lierse SK,Beerschot AC,15:27,2,2
+4009911,67/68,4,24/09/1967,15:00,Beerschot AC,Lierse SK,Lierse SK,15:35,2,3
+4009911,67/68,4,24/09/1967,15:00,Beerschot AC,Lierse SK,Beerschot AC,15:43,3,3
+4009913,67/68,4,24/09/1967,15:00,Club Brugge,R Charleroi SC,Club Brugge,15:25,1,0
+4009913,67/68,4,24/09/1967,15:00,Club Brugge,R Charleroi SC,R Charleroi SC,15:31,1,1
+4009913,67/68,4,24/09/1967,15:00,Club Brugge,R Charleroi SC,Club Brugge,15:34,2,1
+4010123,68/69,1,7/09/1968,19:30,RSC Anderlecht,St-Truidense VV,RSC Anderlecht,19:56,1,0
+4010123,68/69,1,7/09/1968,19:30,RSC Anderlecht,St-Truidense VV,St-Truidense VV,20:08,1,1
+4010123,68/69,1,7/09/1968,19:30,RSC Anderlecht,St-Truidense VV,St-Truidense VV,19:38,1,2
+4010124,68/69,1,8/09/1968,15:00,Standard Luik,Union SG,Standard Luik,15:11,1,0
+4010124,68/69,1,8/09/1968,15:00,Standard Luik,Union SG,Union SG,15:23,1,1
+4010124,68/69,1,8/09/1968,15:00,Standard Luik,Union SG,Standard Luik,15:24,2,1
+4010124,68/69,1,8/09/1968,15:00,Standard Luik,Union SG,Standard Luik,15:35,3,1
+4010124,68/69,1,8/09/1968,15:00,Standard Luik,Union SG,Standard Luik,15:41,4,1
+4010125,68/69,1,8/09/1968,15:00,RRC Brüssel,Beerschot VAV,RRC Brüssel,15:10,1,0
+4010125,68/69,1,8/09/1968,15:00,RRC Brüssel,Beerschot VAV,Beerschot VAV,15:11,1,1
+4010126,68/69,1,8/09/1968,15:00,Beringen FC,Daring Club,Beringen FC,16:2,1,0
+4010127,68/69,1,8/09/1968,15:00,SK Beveren-Waes,RFC Luik,SK Beveren-Waes,15:18,1,0
+4010127,68/69,1,8/09/1968,15:00,SK Beveren-Waes,RFC Luik,SK Beveren-Waes,15:43,2,0
+4010127,68/69,1,8/09/1968,15:00,SK Beveren-Waes,RFC Luik,RFC Luik,15:53,2,1
+4010128,68/69,1,8/09/1968,15:00,Lierse SK,Club Brugge,Club Brugge,15:23,0,1
+4010128,68/69,1,8/09/1968,15:00,Lierse SK,Club Brugge,Club Brugge,15:43,0,2
+4010129,68/69,1,8/09/1968,15:00,ARA Gent,R Charleroi SC,R Charleroi SC,15:14,0,1
+4010130,68/69,1,8/09/1968,15:00,KSV Waregem,KV Mechelen,KV Mechelen,15:15,0,1
+4010130,68/69,1,8/09/1968,15:00,KSV Waregem,KV Mechelen,KV Mechelen,15:18,0,2
+4010130,68/69,1,8/09/1968,15:00,KSV Waregem,KV Mechelen,KV Mechelen,15:20,0,3
+4010130,68/69,1,8/09/1968,15:00,KSV Waregem,KV Mechelen,KV Mechelen,15:36,0,4
+4010131,68/69,2,15/09/1968,15:00,Daring Club,Standard Luik,Standard Luik,15:11,0,1
+4010131,68/69,2,15/09/1968,15:00,Daring Club,Standard Luik,Standard Luik,15:47,0,2
+4010131,68/69,2,15/09/1968,15:00,Daring Club,Standard Luik,Standard Luik,15:01,0,3
+4010132,68/69,2,15/09/1968,15:00,Beerschot VAV,RSC Anderlecht,RSC Anderlecht,15:25,0,1
+4010132,68/69,2,15/09/1968,15:00,Beerschot VAV,RSC Anderlecht,Beerschot VAV,15:25,1,1
+4010133,68/69,2,15/09/1968,15:00,KV Mechelen,Beringen FC,KV Mechelen,15:36,1,0
+4010133,68/69,2,15/09/1968,15:00,KV Mechelen,Beringen FC,Beringen FC,15:02,1,1
+4010133,68/69,2,15/09/1968,15:00,KV Mechelen,Beringen FC,KV Mechelen,16:16,2,1
+4010133,68/69,2,15/09/1968,15:00,KV Mechelen,Beringen FC,Beringen FC,15:20,2,2
+4010133,68/69,2,15/09/1968,15:00,KV Mechelen,Beringen FC,Beringen FC,15:22,2,3
+4010135,68/69,2,15/09/1968,15:00,Club Brugge,ARA Gent,Club Brugge,16:10,1,0
+4010135,68/69,2,15/09/1968,15:00,Club Brugge,ARA Gent,Club Brugge,15:54,2,0
+4010136,68/69,2,15/09/1968,15:00,R Charleroi SC,KSV Waregem,R Charleroi SC,15:28,1,0
+4010136,68/69,2,15/09/1968,15:00,R Charleroi SC,KSV Waregem,KSV Waregem,15:23,1,1
+4010137,68/69,2,15/09/1968,15:00,RFC Luik,RRC Brüssel,RFC Luik,15:18,1,0
+4010138,68/69,2,15/09/1968,15:00,St-Truidense VV,Lierse SK,Lierse SK,15:10,0,1
+4010139,68/69,3,21/09/1968,19:30,RSC Anderlecht,RFC Luik,RSC Anderlecht,19:55,1,0
+4010139,68/69,3,21/09/1968,19:30,RSC Anderlecht,RFC Luik,RSC Anderlecht,19:57,2,0
+4010139,68/69,3,21/09/1968,19:30,RSC Anderlecht,RFC Luik,RSC Anderlecht,20:35,3,0
+4010139,68/69,3,21/09/1968,19:30,RSC Anderlecht,RFC Luik,RSC Anderlecht,20:45,4,0
+4010139,68/69,3,21/09/1968,19:30,RSC Anderlecht,RFC Luik,RSC Anderlecht,20:51,5,0
+4010139,68/69,3,21/09/1968,19:30,RSC Anderlecht,RFC Luik,RSC Anderlecht,20:54,6,0
+4010140,68/69,3,22/09/1968,15:00,Standard Luik,KV Mechelen,Standard Luik,15:22,1,0
+4010140,68/69,3,22/09/1968,15:00,Standard Luik,KV Mechelen,Standard Luik,15:47,2,0
+4010140,68/69,3,22/09/1968,15:00,Standard Luik,KV Mechelen,Standard Luik,15:52,3,0
+4010141,68/69,3,22/09/1968,15:00,Lierse SK,Beerschot VAV,Lierse SK,16:14,1,0
+4010141,68/69,3,22/09/1968,15:00,Lierse SK,Beerschot VAV,Beerschot VAV,15:28,1,1
+4010141,68/69,3,22/09/1968,15:00,Lierse SK,Beerschot VAV,Lierse SK,15:28,2,1
+4010141,68/69,3,22/09/1968,15:00,Lierse SK,Beerschot VAV,Lierse SK,15:46,3,1
+4010141,68/69,3,22/09/1968,15:00,Lierse SK,Beerschot VAV,Lierse SK,16:7,4,1
+4010142,68/69,3,22/09/1968,15:00,Beringen FC,R Charleroi SC,R Charleroi SC,15:24,0,1
+4010142,68/69,3,22/09/1968,15:00,Beringen FC,R Charleroi SC,R Charleroi SC,15:30,0,2
+4010142,68/69,3,22/09/1968,15:00,Beringen FC,R Charleroi SC,R Charleroi SC,15:25,0,3
+4010143,68/69,3,22/09/1968,15:00,SK Beveren-Waes,RRC Brüssel,SK Beveren-Waes,15:15,1,0
+4010143,68/69,3,22/09/1968,15:00,SK Beveren-Waes,RRC Brüssel,SK Beveren-Waes,15:48,2,0
+4010143,68/69,3,22/09/1968,15:00,SK Beveren-Waes,RRC Brüssel,RRC Brüssel,15:52,2,1
+4010143,68/69,3,22/09/1968,15:00,SK Beveren-Waes,RRC Brüssel,RRC Brüssel,15:06,2,2
+4010143,68/69,3,22/09/1968,15:00,SK Beveren-Waes,RRC Brüssel,SK Beveren-Waes,16:9,3,2
+4010143,68/69,3,22/09/1968,15:00,SK Beveren-Waes,RRC Brüssel,RRC Brüssel,15:19,3,3
+4010144,68/69,3,22/09/1968,15:00,KSV Waregem,Club Brugge,KSV Waregem,15:20,1,0
+4010144,68/69,3,22/09/1968,15:00,KSV Waregem,Club Brugge,KSV Waregem,15:42,2,0
+4010144,68/69,3,22/09/1968,15:00,KSV Waregem,Club Brugge,KSV Waregem,16:13,3,0
+4010144,68/69,3,22/09/1968,15:00,KSV Waregem,Club Brugge,Club Brugge,15:27,3,1
+4010145,68/69,3,22/09/1968,15:00,Union SG,Daring Club,Daring Club,15:59,0,1
+4010146,68/69,3,22/09/1968,15:00,ARA Gent,St-Truidense VV,St-Truidense VV,15:05,0,1
+4010148,68/69,4,29/09/1968,15:00,R Charleroi SC,Standard Luik,Standard Luik,15:34,0,1
+4010148,68/69,4,29/09/1968,15:00,R Charleroi SC,Standard Luik,Standard Luik,15:55,0,2
+4010148,68/69,4,29/09/1968,15:00,R Charleroi SC,Standard Luik,Standard Luik,15:59,0,3
+4010148,68/69,4,29/09/1968,15:00,R Charleroi SC,Standard Luik,Standard Luik,15:15,0,4
+4010148,68/69,4,29/09/1968,15:00,R Charleroi SC,Standard Luik,Standard Luik,15:28,0,5
+4010151,68/69,4,29/09/1968,15:00,Beerschot VAV,ARA Gent,ARA Gent,15:00,0,1
+4010151,68/69,4,29/09/1968,15:00,Beerschot VAV,ARA Gent,ARA Gent,15:51,0,2
+4010151,68/69,4,29/09/1968,15:00,Beerschot VAV,ARA Gent,Beerschot VAV,15:53,1,2
+4010151,68/69,4,29/09/1968,15:00,Beerschot VAV,ARA Gent,ARA Gent,15:07,1,3
+4010151,68/69,4,29/09/1968,15:00,Beerschot VAV,ARA Gent,Beerschot VAV,16:14,2,3
+4010152,68/69,4,29/09/1968,15:00,Club Brugge,Beringen FC,Beringen FC,15:25,0,1
+4010152,68/69,4,29/09/1968,15:00,Club Brugge,Beringen FC,Beringen FC,15:36,0,2
+4010152,68/69,4,29/09/1968,15:00,Club Brugge,Beringen FC,Club Brugge,15:44,1,2
+4010157,68/69,5,6/10/1968,15:00,KSV Waregem,Beerschot VAV,Beerschot VAV,15:38,0,1
+4010157,68/69,5,6/10/1968,15:00,KSV Waregem,Beerschot VAV,Beerschot VAV,15:43,0,2
+4010157,68/69,5,6/10/1968,15:00,KSV Waregem,Beerschot VAV,KSV Waregem,15:54,1,2
+4010157,68/69,5,6/10/1968,15:00,KSV Waregem,Beerschot VAV,Beerschot VAV,15:56,1,3
+4010157,68/69,5,6/10/1968,15:00,KSV Waregem,Beerschot VAV,KSV Waregem,16:20,2,3
+4010288,68/69,22,9/03/1969,15:00,RSC Anderlecht,ARA Gent,RSC Anderlecht,15:14,1,0
+4010288,68/69,22,9/03/1969,15:00,RSC Anderlecht,ARA Gent,RSC Anderlecht,15:29,2,0
+4010288,68/69,22,9/03/1969,15:00,RSC Anderlecht,ARA Gent,RSC Anderlecht,15:30,3,0
+4010288,68/69,22,9/03/1969,15:00,RSC Anderlecht,ARA Gent,ARA Gent,15:36,3,1
+4010288,68/69,22,9/03/1969,15:00,RSC Anderlecht,ARA Gent,RSC Anderlecht,15:50,4,1
+4010288,68/69,22,9/03/1969,15:00,RSC Anderlecht,ARA Gent,RSC Anderlecht,15:52,5,1
+4010288,68/69,22,9/03/1969,15:00,RSC Anderlecht,ARA Gent,RSC Anderlecht,15:55,6,1
+4010288,68/69,22,9/03/1969,15:00,RSC Anderlecht,ARA Gent,RSC Anderlecht,16:5,7,1
+4010288,68/69,22,9/03/1969,15:00,RSC Anderlecht,ARA Gent,ARA Gent,15:17,7,2
+4010288,68/69,22,9/03/1969,15:00,RSC Anderlecht,ARA Gent,RSC Anderlecht,16:18,8,2
+4010364,69/70,1,6/09/1969,19:30,RSC Anderlecht,Club Brugge,Club Brugge,19:49,0,1
+4010364,69/70,1,6/09/1969,19:30,RSC Anderlecht,Club Brugge,Club Brugge,19:52,0,2
+4010364,69/70,1,6/09/1969,19:30,RSC Anderlecht,Club Brugge,Club Brugge,19:48,0,3
+4010363,69/70,1,6/09/1969,20:00,Beerschot VAV,Standard Luik,Beerschot VAV,20:35,1,0
+4010363,69/70,1,6/09/1969,20:00,Beerschot VAV,Standard Luik,Beerschot VAV,20:55,2,0
+4010365,69/70,1,7/09/1969,15:00,Beringen FC,RRC Brüssel,Beringen FC,15:29,1,0
+4010365,69/70,1,7/09/1969,15:00,Beringen FC,RRC Brüssel,RRC Brüssel,15:47,1,1
+4010366,69/70,1,7/09/1969,15:00,RFC Luik,SK Beveren-Waes,SK Beveren-Waes,15:35,0,1
+4010367,69/70,1,7/09/1969,15:00,Lierse SK,R Charleroi SC,R Charleroi SC,15:51,0,1
+4010368,69/70,1,7/09/1969,15:00,RCC Schaerbeek,St-Truidense VV,St-Truidense VV,15:28,0,1
+4010368,69/70,1,7/09/1969,15:00,RCC Schaerbeek,St-Truidense VV,St-Truidense VV,15:30,0,2
+4010369,69/70,1,7/09/1969,15:00,KSV Waregem,ARA Gent,KSV Waregem,15:16,1,0
+4010370,69/70,1,7/09/1969,15:00,AS Oostende KM,Union SG,Union SG,15:47,0,1
+4010370,69/70,1,7/09/1969,15:00,AS Oostende KM,Union SG,Union SG,15:12,0,2
+4010371,69/70,2,13/09/1969,20:00,R Charleroi SC,Beringen FC,Beringen FC,20:25,0,1
+4010375,69/70,2,14/09/1969,15:00,Club Brugge,RCC Schaerbeek,Club Brugge,15:10,1,0
+4010375,69/70,2,14/09/1969,15:00,Club Brugge,RCC Schaerbeek,Club Brugge,15:25,2,0
+4010375,69/70,2,14/09/1969,15:00,Club Brugge,RCC Schaerbeek,RCC Schaerbeek,15:50,2,1
+4010376,69/70,2,14/09/1969,15:00,ARA Gent,RFC Luik,RFC Luik,15:17,0,1
+4010376,69/70,2,14/09/1969,15:00,ARA Gent,RFC Luik,ARA Gent,15:21,1,1
+4010376,69/70,2,14/09/1969,15:00,ARA Gent,RFC Luik,ARA Gent,15:25,2,1
+4010377,69/70,2,14/09/1969,15:00,RRC Brüssel,AS Oostende KM,RRC Brüssel,15:42,1,0
+4010377,69/70,2,14/09/1969,15:00,RRC Brüssel,AS Oostende KM,RRC Brüssel,15:51,2,0
+4010377,69/70,2,14/09/1969,15:00,RRC Brüssel,AS Oostende KM,RRC Brüssel,15:53,3,0
+4010378,69/70,2,14/09/1969,15:00,St-Truidense VV,KSV Waregem,St-Truidense VV,15:19,1,0
+4010378,69/70,2,14/09/1969,15:00,St-Truidense VV,KSV Waregem,KSV Waregem,15:02,1,1
+4010379,69/70,3,20/09/1969,19:30,RSC Anderlecht,St-Truidense VV,RSC Anderlecht,20:56,1,0
+4010379,69/70,3,20/09/1969,19:30,RSC Anderlecht,St-Truidense VV,RSC Anderlecht,20:50,2,0
+4010379,69/70,3,20/09/1969,19:30,RSC Anderlecht,St-Truidense VV,RSC Anderlecht,20:53,3,0
+4010380,69/70,3,21/09/1969,15:00,AS Oostende KM,Standard Luik,Standard Luik,15:20,0,1
+4010380,69/70,3,21/09/1969,15:00,AS Oostende KM,Standard Luik,Standard Luik,15:27,0,2
+4010380,69/70,3,21/09/1969,15:00,AS Oostende KM,Standard Luik,Standard Luik,15:14,0,3
+4010381,69/70,3,21/09/1969,15:00,KSV Waregem,Beerschot VAV,KSV Waregem,15:35,1,0
+4010381,69/70,3,21/09/1969,15:00,KSV Waregem,Beerschot VAV,Beerschot VAV,15:19,1,1
+4010382,69/70,3,21/09/1969,15:00,Beringen FC,ARA Gent,ARA Gent,15:42,0,1
+4010382,69/70,3,21/09/1969,15:00,Beringen FC,ARA Gent,ARA Gent,15:02,0,2
+4010382,69/70,3,21/09/1969,15:00,Beringen FC,ARA Gent,ARA Gent,15:14,0,3
+4010383,69/70,3,21/09/1969,15:00,SK Beveren-Waes,R Charleroi SC,SK Beveren-Waes,15:21,1,0
+4010383,69/70,3,21/09/1969,15:00,SK Beveren-Waes,R Charleroi SC,SK Beveren-Waes,15:42,2,0
+4010383,69/70,3,21/09/1969,15:00,SK Beveren-Waes,R Charleroi SC,SK Beveren-Waes,15:48,3,0
+4010383,69/70,3,21/09/1969,15:00,SK Beveren-Waes,R Charleroi SC,R Charleroi SC,15:00,3,1
+4010384,69/70,3,21/09/1969,15:00,RFC Luik,Club Brugge,Club Brugge,15:23,0,1
+4010387,69/70,4,27/09/1969,20:00,Beerschot VAV,Beringen FC,Beerschot VAV,20:53,1,0
+4010387,69/70,4,27/09/1969,20:00,Beerschot VAV,Beringen FC,Beerschot VAV,21:0,2,0
+4010388,69/70,4,28/09/1969,15:00,Standard Luik,RFC Luik,Standard Luik,15:51,1,0
+4010388,69/70,4,28/09/1969,15:00,Standard Luik,RFC Luik,RFC Luik,15:53,1,1
+4010389,69/70,4,28/09/1969,15:00,R Charleroi SC,RSC Anderlecht,RSC Anderlecht,15:49,0,1
+4010389,69/70,4,28/09/1969,15:00,R Charleroi SC,RSC Anderlecht,RSC Anderlecht,15:50,0,2
+4010389,69/70,4,28/09/1969,15:00,R Charleroi SC,RSC Anderlecht,R Charleroi SC,16:18,1,2
+4010389,69/70,4,28/09/1969,15:00,R Charleroi SC,RSC Anderlecht,RSC Anderlecht,15:20,1,3
+4010390,69/70,4,28/09/1969,15:00,Club Brugge,SK Beveren-Waes,SK Beveren-Waes,15:10,0,1
+4010390,69/70,4,28/09/1969,15:00,Club Brugge,SK Beveren-Waes,Club Brugge,15:23,1,1
+4010390,69/70,4,28/09/1969,15:00,Club Brugge,SK Beveren-Waes,Club Brugge,16:10,2,1
+4010390,69/70,4,28/09/1969,15:00,Club Brugge,SK Beveren-Waes,SK Beveren-Waes,15:25,2,2
+4010391,69/70,4,28/09/1969,15:00,RRC Brüssel,RCC Schaerbeek,RRC Brüssel,15:26,1,0
+4010391,69/70,4,28/09/1969,15:00,RRC Brüssel,RCC Schaerbeek,RRC Brüssel,15:30,2,0
+4010391,69/70,4,28/09/1969,15:00,RRC Brüssel,RCC Schaerbeek,RCC Schaerbeek,15:31,2,1
+4010391,69/70,4,28/09/1969,15:00,RRC Brüssel,RCC Schaerbeek,RRC Brüssel,15:51,3,1
+4010391,69/70,4,28/09/1969,15:00,RRC Brüssel,RCC Schaerbeek,RRC Brüssel,15:57,4,1
+4010392,69/70,4,28/09/1969,15:00,ARA Gent,AS Oostende KM,ARA Gent,15:20,1,0
+4010392,69/70,4,28/09/1969,15:00,ARA Gent,AS Oostende KM,ARA Gent,15:32,2,0
+4010392,69/70,4,28/09/1969,15:00,ARA Gent,AS Oostende KM,AS Oostende KM,15:48,2,1
+4010392,69/70,4,28/09/1969,15:00,ARA Gent,AS Oostende KM,AS Oostende KM,15:03,2,2
+4010393,69/70,4,28/09/1969,15:00,St-Truidense VV,Lierse SK,Lierse SK,15:59,0,1
+4010394,69/70,4,28/09/1969,15:00,Union SG,KSV Waregem,KSV Waregem,15:18,0,1
+4010394,69/70,4,28/09/1969,15:00,Union SG,KSV Waregem,Union SG,15:28,1,1
+4010394,69/70,4,28/09/1969,15:00,Union SG,KSV Waregem,KSV Waregem,15:29,1,2
+4010395,69/70,5,4/10/1969,19:30,RCC Schaerbeek,Beerschot VAV,RCC Schaerbeek,19:58,1,0
+4010396,69/70,5,4/10/1969,20:00,R Charleroi SC,ARA Gent,R Charleroi SC,20:30,1,0
+4010396,69/70,5,4/10/1969,20:00,R Charleroi SC,ARA Gent,ARA Gent,20:37,1,1
+4010396,69/70,5,4/10/1969,20:00,R Charleroi SC,ARA Gent,ARA Gent,20:43,1,2
+4010397,69/70,5,5/10/1969,15:00,Beringen FC,Standard Luik,Standard Luik,15:43,0,1
+4010397,69/70,5,5/10/1969,15:00,Beringen FC,Standard Luik,Standard Luik,15:05,0,2
+4010398,69/70,5,5/10/1969,15:00,RSC Anderlecht,KSV Waregem,RSC Anderlecht,15:13,1,0
+4010398,69/70,5,5/10/1969,15:00,RSC Anderlecht,KSV Waregem,RSC Anderlecht,15:22,2,0
+4010398,69/70,5,5/10/1969,15:00,RSC Anderlecht,KSV Waregem,RSC Anderlecht,15:26,3,0
+4010398,69/70,5,5/10/1969,15:00,RSC Anderlecht,KSV Waregem,RSC Anderlecht,15:28,4,0
+4010398,69/70,5,5/10/1969,15:00,RSC Anderlecht,KSV Waregem,KSV Waregem,15:38,4,1
+4010398,69/70,5,5/10/1969,15:00,RSC Anderlecht,KSV Waregem,RSC Anderlecht,16:0,5,1
+4010398,69/70,5,5/10/1969,15:00,RSC Anderlecht,KSV Waregem,RSC Anderlecht,16:12,6,1
+4010399,69/70,5,5/10/1969,15:00,SK Beveren-Waes,RRC Brüssel,SK Beveren-Waes,15:21,1,0
+4010399,69/70,5,5/10/1969,15:00,SK Beveren-Waes,RRC Brüssel,SK Beveren-Waes,15:56,2,0
+4010399,69/70,5,5/10/1969,15:00,SK Beveren-Waes,RRC Brüssel,SK Beveren-Waes,16:8,3,0
+4010399,69/70,5,5/10/1969,15:00,SK Beveren-Waes,RRC Brüssel,RRC Brüssel,15:15,3,1
+4010399,69/70,5,5/10/1969,15:00,SK Beveren-Waes,RRC Brüssel,SK Beveren-Waes,16:16,4,1
+4010399,69/70,5,5/10/1969,15:00,SK Beveren-Waes,RRC Brüssel,RRC Brüssel,15:18,4,2
+4010400,69/70,5,5/10/1969,15:00,Lierse SK,Club Brugge,Lierse SK,15:30,1,0
+4010400,69/70,5,5/10/1969,15:00,Lierse SK,Club Brugge,Lierse SK,16:2,2,0
+4010400,69/70,5,5/10/1969,15:00,Lierse SK,Club Brugge,Lierse SK,16:4,3,0
+4010401,69/70,5,5/10/1969,15:00,RFC Luik,Union SG,RFC Luik,16:26,1,0
+4010401,69/70,5,5/10/1969,15:00,RFC Luik,Union SG,RFC Luik,15:20,2,0
+4010401,69/70,5,5/10/1969,15:00,RFC Luik,Union SG,RFC Luik,15:30,3,0
+4010402,69/70,5,5/10/1969,15:00,AS Oostende KM,St-Truidense VV,AS Oostende KM,15:25,1,0
+4010402,69/70,5,5/10/1969,15:00,AS Oostende KM,St-Truidense VV,AS Oostende KM,15:41,2,0
+4010402,69/70,5,5/10/1969,15:00,AS Oostende KM,St-Truidense VV,St-Truidense VV,15:55,2,1
+4010406,69/70,6,12/10/1969,15:00,Club Brugge,Beringen FC,Club Brugge,15:50,1,0
+4010407,69/70,6,12/10/1969,15:00,St-Truidense VV,SK Beveren-Waes,St-Truidense VV,15:48,1,0
+4010407,69/70,6,12/10/1969,15:00,St-Truidense VV,SK Beveren-Waes,SK Beveren-Waes,15:05,1,1
+4010408,69/70,6,12/10/1969,15:00,RRC Brüssel,R Charleroi SC,RRC Brüssel,15:33,1,0
+4010408,69/70,6,12/10/1969,15:00,RRC Brüssel,R Charleroi SC,R Charleroi SC,15:40,1,1
+4010409,69/70,6,12/10/1969,15:00,ARA Gent,RCC Schaerbeek,ARA Gent,16:9,1,0
+4010412,69/70,7,19/10/1969,15:00,RCC Schaerbeek,KSV Waregem,RCC Schaerbeek,15:51,1,0
+4010412,69/70,7,19/10/1969,15:00,RCC Schaerbeek,KSV Waregem,RCC Schaerbeek,15:17,2,0
+4010412,69/70,7,19/10/1969,15:00,RCC Schaerbeek,KSV Waregem,KSV Waregem,15:49,2,1
+4010412,69/70,7,19/10/1969,15:00,RCC Schaerbeek,KSV Waregem,KSV Waregem,15:51,2,2
+4010484,69/70,7,28/12/1969,14:30,AS Oostende KM,Club Brugge,Club Brugge,15:14,0,1
+4010484,69/70,7,28/12/1969,14:30,AS Oostende KM,Club Brugge,Club Brugge,15:22,0,2
+4010484,69/70,7,28/12/1969,14:30,AS Oostende KM,Club Brugge,Club Brugge,14:41,0,3
+4010484,69/70,7,28/12/1969,14:30,AS Oostende KM,Club Brugge,Club Brugge,14:58,0,4
+4010486,69/70,7,28/12/1969,14:30,RFC Luik,St-Truidense VV,St-Truidense VV,15:13,0,1
+4010486,69/70,7,28/12/1969,14:30,RFC Luik,St-Truidense VV,St-Truidense VV,14:56,0,2
+4010413,69/70,8,25/10/1969,19:30,RCC Schaerbeek,RSC Anderlecht,RSC Anderlecht,19:49,0,1
+4010414,69/70,8,26/10/1969,15:00,Standard Luik,R Charleroi SC,Standard Luik,15:17,1,0
+4010414,69/70,8,26/10/1969,15:00,Standard Luik,R Charleroi SC,R Charleroi SC,15:59,1,1
+4010415,69/70,8,26/10/1969,15:00,Beerschot VAV,RFC Luik,Beerschot VAV,15:40,1,0
+4010415,69/70,8,26/10/1969,15:00,Beerschot VAV,RFC Luik,Beerschot VAV,15:46,2,0
+4010415,69/70,8,26/10/1969,15:00,Beerschot VAV,RFC Luik,Beerschot VAV,16:10,3,0
+4010416,69/70,8,26/10/1969,15:00,St-Truidense VV,Beringen FC,St-Truidense VV,15:31,1,0
+4010416,69/70,8,26/10/1969,15:00,St-Truidense VV,Beringen FC,Beringen FC,15:59,1,1
+4010417,69/70,8,26/10/1969,15:00,Lierse SK,SK Beveren-Waes,Lierse SK,15:20,1,0
+4010417,69/70,8,26/10/1969,15:00,Lierse SK,SK Beveren-Waes,Lierse SK,15:33,2,0
+4010417,69/70,8,26/10/1969,15:00,Lierse SK,SK Beveren-Waes,SK Beveren-Waes,15:15,2,1
+4010418,69/70,8,26/10/1969,15:00,Club Brugge,RRC Brüssel,Club Brugge,15:32,1,0
+4010418,69/70,8,26/10/1969,15:00,Club Brugge,RRC Brüssel,Club Brugge,16:5,2,0
+4010419,69/70,8,26/10/1969,15:00,Union SG,ARA Gent,ARA Gent,15:00,0,1
+4010419,69/70,8,26/10/1969,15:00,Union SG,ARA Gent,ARA Gent,15:42,0,2
+4010419,69/70,8,26/10/1969,15:00,Union SG,ARA Gent,ARA Gent,15:47,0,3
+4010419,69/70,8,26/10/1969,15:00,Union SG,ARA Gent,ARA Gent,15:15,0,4
+4010420,69/70,8,26/10/1969,15:00,KSV Waregem,AS Oostende KM,AS Oostende KM,15:13,0,1
+4010420,69/70,8,26/10/1969,15:00,KSV Waregem,AS Oostende KM,KSV Waregem,15:50,1,1
+4010434,69/70,10,11/11/1969,15:00,Beerschot VAV,ARA Gent,Beerschot VAV,15:12,1,0
+4010434,69/70,10,11/11/1969,15:00,Beerschot VAV,ARA Gent,Beerschot VAV,15:40,2,0
+4010434,69/70,10,11/11/1969,15:00,Beerschot VAV,ARA Gent,Beerschot VAV,15:42,3,0
+4010434,69/70,10,11/11/1969,15:00,Beerschot VAV,ARA Gent,Beerschot VAV,15:49,4,0
+4010434,69/70,10,11/11/1969,15:00,Beerschot VAV,ARA Gent,Beerschot VAV,15:52,5,0
+4010434,69/70,10,11/11/1969,15:00,Beerschot VAV,ARA Gent,Beerschot VAV,16:2,6,0
+4010434,69/70,10,11/11/1969,15:00,Beerschot VAV,ARA Gent,Beerschot VAV,16:8,7,0
+4010434,69/70,10,11/11/1969,15:00,Beerschot VAV,ARA Gent,Beerschot VAV,16:14,8,0
+4010579,69/70,27,5/04/1970,15:00,Lierse SK,Beerschot VAV,Lierse SK,16:15,1,0
+4010579,69/70,27,5/04/1970,15:00,Lierse SK,Beerschot VAV,Lierse SK,15:1,2,0
+4010579,69/70,27,5/04/1970,15:00,Lierse SK,Beerschot VAV,Lierse SK,15:22,3,0
+4010579,69/70,27,5/04/1970,15:00,Lierse SK,Beerschot VAV,Lierse SK,15:32,4,0
+4010579,69/70,27,5/04/1970,15:00,Lierse SK,Beerschot VAV,Lierse SK,16:3,5,0
+4010579,69/70,27,5/04/1970,15:00,Lierse SK,Beerschot VAV,Lierse SK,16:5,6,0
+4010579,69/70,27,5/04/1970,15:00,Lierse SK,Beerschot VAV,Lierse SK,16:8,7,0
+4010603,70/71,1,5/09/1970,20:00,RSC Anderlecht,R Charleroi SC,RSC Anderlecht,21:5,1,0
+4010603,70/71,1,5/09/1970,20:00,RSC Anderlecht,R Charleroi SC,RSC Anderlecht,21:7,2,0
+4010604,70/71,1,5/09/1970,20:00,Antwerp FC,RRC Brüssel,Antwerp FC,20:56,1,0
+4010605,70/71,1,5/09/1970,20:30,Lierse SK,Beerschot VAV,Beerschot VAV,20:55,0,1
+4010606,70/71,1,6/09/1970,15:00,Standard Luik,ARA Gent,Standard Luik,15:28,1,0
+4010606,70/71,1,6/09/1970,15:00,Standard Luik,ARA Gent,Standard Luik,15:45,2,0
+4010608,70/71,1,6/09/1970,15:00,Club Brugge,RFC Luik,Club Brugge,15:19,1,0
+4010608,70/71,1,6/09/1970,15:00,Club Brugge,RFC Luik,Club Brugge,15:30,2,0
+4010610,70/71,1,6/09/1970,15:00,St-Truidense VV,Union SG,St-Truidense VV,15:10,1,0
+4010610,70/71,1,6/09/1970,15:00,St-Truidense VV,Union SG,Union SG,15:20,1,1
+4010611,70/71,2,11/09/1970,20:00,Union SG,RCC Schaerbeek,Union SG,21:23,1,0
+4010611,70/71,2,11/09/1970,20:00,Union SG,RCC Schaerbeek,Union SG,20:13,2,0
+4010611,70/71,2,11/09/1970,20:00,Union SG,RCC Schaerbeek,Union SG,21:7,3,0
+4010612,70/71,2,12/09/1970,20:00,ARA Gent,Antwerp FC,ARA Gent,21:24,1,0
+4010612,70/71,2,12/09/1970,20:00,ARA Gent,Antwerp FC,ARA Gent,20:23,2,0
+4010612,70/71,2,12/09/1970,20:00,ARA Gent,Antwerp FC,ARA Gent,20:59,3,0
+4010614,70/71,2,12/09/1970,20:00,RRC Brüssel,Club Brugge,RRC Brüssel,20:16,1,0
+4010614,70/71,2,12/09/1970,20:00,RRC Brüssel,Club Brugge,Club Brugge,20:44,1,1
+4010616,70/71,2,13/09/1970,15:00,R Charleroi SC,Standard Luik,R Charleroi SC,15:48,1,0
+4010616,70/71,2,13/09/1970,15:00,R Charleroi SC,Standard Luik,Standard Luik,15:26,1,1
+4010617,70/71,2,13/09/1970,15:00,KFC Diest,RSC Anderlecht,RSC Anderlecht,15:25,0,1
+4010618,70/71,2,13/09/1970,15:00,RFC Luik,Lierse SK,RFC Luik,16:23,1,0
+4010620,70/71,3,19/09/1970,20:00,St-Truidense VV,RRC Brüssel,St-Truidense VV,20:26,1,0
+4010620,70/71,3,19/09/1970,20:00,St-Truidense VV,RRC Brüssel,RRC Brüssel,20:55,1,1
+4010621,70/71,3,20/09/1970,15:00,Standard Luik,Union SG,Standard Luik,16:16,1,0
+4010621,70/71,3,20/09/1970,15:00,Standard Luik,Union SG,Standard Luik,15:41,2,0
+4010621,70/71,3,20/09/1970,15:00,Standard Luik,Union SG,Standard Luik,15:49,3,0
+4010621,70/71,3,20/09/1970,15:00,Standard Luik,Union SG,Standard Luik,16:3,4,0
+4010621,70/71,3,20/09/1970,15:00,Standard Luik,Union SG,Standard Luik,16:12,5,0
+4010624,70/71,3,20/09/1970,15:00,Club Brugge,KFC Diest,KFC Diest,15:11,0,1
+4010625,70/71,3,20/09/1970,15:00,RCC Schaerbeek,ARA Gent,RCC Schaerbeek,15:11,1,0
+4010625,70/71,3,20/09/1970,15:00,RCC Schaerbeek,ARA Gent,RCC Schaerbeek,15:25,2,0
+4010625,70/71,3,20/09/1970,15:00,RCC Schaerbeek,ARA Gent,ARA Gent,15:40,2,1
+4010626,70/71,3,20/09/1970,15:00,Lierse SK,KSV Waregem,Lierse SK,15:20,1,0
+4010622,70/71,3,20/09/1970,20:00,RSC Anderlecht,Beerschot VAV,RSC Anderlecht,21:19,1,0
+4010622,70/71,3,20/09/1970,20:00,RSC Anderlecht,Beerschot VAV,RSC Anderlecht,20:34,2,0
+4010622,70/71,3,20/09/1970,20:00,RSC Anderlecht,Beerschot VAV,RSC Anderlecht,20:38,3,0
+4010627,70/71,4,26/09/1970,20:00,RRC Brüssel,RSC Anderlecht,RSC Anderlecht,20:54,0,1
+4010627,70/71,4,26/09/1970,20:00,RRC Brüssel,RSC Anderlecht,RSC Anderlecht,20:56,0,2
+4010629,70/71,4,27/09/1970,15:00,KSV Waregem,Standard Luik,KSV Waregem,15:43,1,0
+4010629,70/71,4,27/09/1970,15:00,KSV Waregem,Standard Luik,Standard Luik,15:06,1,1
+4010631,70/71,4,27/09/1970,15:00,RFC Luik,SK Beveren-Waes,RFC Luik,16:30,1,0
+4010631,70/71,4,27/09/1970,15:00,RFC Luik,SK Beveren-Waes,RFC Luik,15:25,2,0
+4010632,70/71,4,27/09/1970,15:00,R Charleroi SC,Club Brugge,Club Brugge,15:21,0,1
+4010632,70/71,4,27/09/1970,15:00,R Charleroi SC,Club Brugge,Club Brugge,15:33,0,2
+4010633,70/71,4,27/09/1970,15:00,ARA Gent,St-Truidense VV,ARA Gent,15:30,1,0
+4010633,70/71,4,27/09/1970,15:00,ARA Gent,St-Truidense VV,St-Truidense VV,15:46,1,1
+4010633,70/71,4,27/09/1970,15:00,ARA Gent,St-Truidense VV,ARA Gent,16:8,2,1
+4010633,70/71,4,27/09/1970,15:00,ARA Gent,St-Truidense VV,St-Truidense VV,15:14,2,2
+4010634,70/71,4,27/09/1970,15:00,Union SG,Lierse SK,Lierse SK,15:41,0,1
+4010634,70/71,4,27/09/1970,15:00,Union SG,Lierse SK,Lierse SK,15:56,0,2
+4010634,70/71,4,27/09/1970,15:00,Union SG,Lierse SK,Lierse SK,15:00,0,3
+4010635,70/71,5,3/10/1970,20:00,RSC Anderlecht,RFC Luik,RSC Anderlecht,21:25,1,0
+4010635,70/71,5,3/10/1970,20:00,RSC Anderlecht,RFC Luik,RSC Anderlecht,20:15,2,0
+4010635,70/71,5,3/10/1970,20:00,RSC Anderlecht,RFC Luik,RSC Anderlecht,20:39,3,0
+4010635,70/71,5,3/10/1970,20:00,RSC Anderlecht,RFC Luik,RSC Anderlecht,21:2,4,0
+4010635,70/71,5,3/10/1970,20:00,RSC Anderlecht,RFC Luik,RFC Luik,20:10,4,1
+4010636,70/71,5,3/10/1970,20:00,Antwerp FC,R Charleroi SC,R Charleroi SC,20:10,0,1
+4010636,70/71,5,3/10/1970,20:00,Antwerp FC,R Charleroi SC,Antwerp FC,21:10,1,1
+4010636,70/71,5,3/10/1970,20:00,Antwerp FC,R Charleroi SC,R Charleroi SC,20:17,1,2
+4010637,70/71,5,4/10/1970,15:00,Standard Luik,Beerschot VAV,Beerschot VAV,15:12,0,1
+4010637,70/71,5,4/10/1970,15:00,Standard Luik,Beerschot VAV,Standard Luik,15:13,1,1
+4010637,70/71,5,4/10/1970,15:00,Standard Luik,Beerschot VAV,Standard Luik,15:45,2,1
+4010638,70/71,5,4/10/1970,15:00,SK Beveren-Waes,RRC Brüssel,RRC Brüssel,15:21,0,1
+4010638,70/71,5,4/10/1970,15:00,SK Beveren-Waes,RRC Brüssel,RRC Brüssel,15:24,0,2
+4010638,70/71,5,4/10/1970,15:00,SK Beveren-Waes,RRC Brüssel,SK Beveren-Waes,16:9,1,2
+4010638,70/71,5,4/10/1970,15:00,SK Beveren-Waes,RRC Brüssel,RRC Brüssel,15:22,1,3
+4010639,70/71,5,4/10/1970,15:00,RCC Schaerbeek,Club Brugge,RCC Schaerbeek,16:26,1,0
+4010639,70/71,5,4/10/1970,15:00,RCC Schaerbeek,Club Brugge,Club Brugge,15:23,1,1
+4010639,70/71,5,4/10/1970,15:00,RCC Schaerbeek,Club Brugge,Club Brugge,15:00,1,2
+4010639,70/71,5,4/10/1970,15:00,RCC Schaerbeek,Club Brugge,Club Brugge,15:14,1,3
+4010639,70/71,5,4/10/1970,15:00,RCC Schaerbeek,Club Brugge,Club Brugge,15:26,1,4
+4010640,70/71,5,4/10/1970,15:00,St-Truidense VV,KFC Diest,St-Truidense VV,15:40,1,0
+4010640,70/71,5,4/10/1970,15:00,St-Truidense VV,KFC Diest,KFC Diest,15:29,1,1
+4010641,70/71,5,4/10/1970,15:00,Lierse SK,ARA Gent,Lierse SK,15:35,1,0
+4010642,70/71,5,4/10/1970,15:00,KSV Waregem,Union SG,KSV Waregem,15:36,1,0
+4010643,70/71,6,10/10/1970,20:00,Beerschot VAV,St-Truidense VV,Beerschot VAV,20:11,1,0
+4010643,70/71,6,10/10/1970,20:00,Beerschot VAV,St-Truidense VV,St-Truidense VV,20:54,1,1
+4010643,70/71,6,10/10/1970,20:00,Beerschot VAV,St-Truidense VV,Beerschot VAV,21:21,2,1
+4010644,70/71,6,10/10/1970,20:00,RRC Brüssel,ARA Gent,RRC Brüssel,20:23,1,0
+4010644,70/71,6,10/10/1970,20:00,RRC Brüssel,ARA Gent,RRC Brüssel,20:32,2,0
+4010644,70/71,6,10/10/1970,20:00,RRC Brüssel,ARA Gent,RRC Brüssel,21:3,3,0
+4010644,70/71,6,10/10/1970,20:00,RRC Brüssel,ARA Gent,ARA Gent,20:09,3,1
+4010645,70/71,6,11/10/1970,15:00,RFC Luik,Standard Luik,Standard Luik,15:23,0,1
+4010645,70/71,6,11/10/1970,15:00,RFC Luik,Standard Luik,Standard Luik,15:23,0,2
+4010645,70/71,6,11/10/1970,15:00,RFC Luik,Standard Luik,Standard Luik,15:29,0,3
+4010646,70/71,6,11/10/1970,15:00,Club Brugge,RSC Anderlecht,Club Brugge,15:56,1,0
+4010646,70/71,6,11/10/1970,15:00,Club Brugge,RSC Anderlecht,Club Brugge,15:38,2,0
+4010646,70/71,6,11/10/1970,15:00,Club Brugge,RSC Anderlecht,Club Brugge,15:49,3,0
+4010648,70/71,6,11/10/1970,15:00,SK Beveren-Waes,KSV Waregem,KSV Waregem,15:55,0,1
+4010648,70/71,6,11/10/1970,15:00,SK Beveren-Waes,KSV Waregem,KSV Waregem,15:17,0,2
+4010649,70/71,6,11/10/1970,15:00,R Charleroi SC,RCC Schaerbeek,RCC Schaerbeek,15:13,0,1
+4010649,70/71,6,11/10/1970,15:00,R Charleroi SC,RCC Schaerbeek,R Charleroi SC,15:32,1,1
+4010649,70/71,6,11/10/1970,15:00,R Charleroi SC,RCC Schaerbeek,RCC Schaerbeek,15:58,1,2
+4010649,70/71,6,11/10/1970,15:00,R Charleroi SC,RCC Schaerbeek,R Charleroi SC,16:15,2,2
+4010649,70/71,6,11/10/1970,15:00,R Charleroi SC,RCC Schaerbeek,RCC Schaerbeek,15:27,2,3
+4010650,70/71,6,11/10/1970,15:00,KFC Diest,Lierse SK,Lierse SK,15:15,0,1
+4010650,70/71,6,11/10/1970,15:00,KFC Diest,Lierse SK,KFC Diest,15:46,1,1
+4010652,70/71,7,17/10/1970,19:30,RCC Schaerbeek,Antwerp FC,RCC Schaerbeek,19:78,1,0
+4010652,70/71,7,17/10/1970,19:30,RCC Schaerbeek,Antwerp FC,RCC Schaerbeek,19:42,2,0
+4010652,70/71,7,17/10/1970,19:30,RCC Schaerbeek,Antwerp FC,Antwerp FC,19:43,2,1
+4010651,70/71,7,17/10/1970,20:00,St-Truidense VV,RSC Anderlecht,St-Truidense VV,20:19,1,0
+4010651,70/71,7,17/10/1970,20:00,St-Truidense VV,RSC Anderlecht,RSC Anderlecht,20:30,1,1
+4010653,70/71,7,17/10/1970,20:00,Beerschot VAV,RRC Brüssel,Beerschot VAV,20:13,1,0
+4010653,70/71,7,17/10/1970,20:00,Beerschot VAV,RRC Brüssel,Beerschot VAV,21:4,2,0
+4010654,70/71,7,17/10/1970,20:00,Lierse SK,Club Brugge,Lierse SK,20:21,1,0
+4010654,70/71,7,17/10/1970,20:00,Lierse SK,Club Brugge,Lierse SK,20:40,2,0
+4010654,70/71,7,17/10/1970,20:00,Lierse SK,Club Brugge,Club Brugge,20:02,2,1
+4010654,70/71,7,17/10/1970,20:00,Lierse SK,Club Brugge,Lierse SK,21:5,3,1
+4010655,70/71,7,17/10/1970,20:00,KSV Waregem,RFC Luik,KSV Waregem,21:28,1,0
+4010655,70/71,7,17/10/1970,20:00,KSV Waregem,RFC Luik,KSV Waregem,20:19,2,0
+4010655,70/71,7,17/10/1970,20:00,KSV Waregem,RFC Luik,KSV Waregem,21:25,3,0
+4010656,70/71,7,18/10/1970,15:00,Standard Luik,SK Beveren-Waes,Standard Luik,15:16,1,0
+4010656,70/71,7,18/10/1970,15:00,Standard Luik,SK Beveren-Waes,SK Beveren-Waes,15:13,1,1
+4010657,70/71,7,18/10/1970,15:00,ARA Gent,R Charleroi SC,R Charleroi SC,15:20,0,1
+4010658,70/71,7,18/10/1970,15:00,Union SG,KFC Diest,KFC Diest,15:12,0,1
+4010658,70/71,7,18/10/1970,15:00,Union SG,KFC Diest,Union SG,15:25,1,1
+4010658,70/71,7,18/10/1970,15:00,Union SG,KFC Diest,KFC Diest,15:47,1,2
+4010658,70/71,7,18/10/1970,15:00,Union SG,KFC Diest,Union SG,15:50,2,2
+4010658,70/71,7,18/10/1970,15:00,Union SG,KFC Diest,Union SG,15:53,3,2
+4010659,70/71,8,24/10/1970,20:00,RRC Brüssel,KSV Waregem,KSV Waregem,20:27,0,1
+4010660,70/71,8,25/10/1970,15:00,Antwerp FC,Standard Luik,Standard Luik,15:17,0,1
+4010660,70/71,8,25/10/1970,15:00,Antwerp FC,Standard Luik,Standard Luik,15:37,0,2
+4010661,70/71,8,25/10/1970,15:00,RSC Anderlecht,RCC Schaerbeek,RSC Anderlecht,15:36,1,0
+4010661,70/71,8,25/10/1970,15:00,RSC Anderlecht,RCC Schaerbeek,RCC Schaerbeek,15:15,1,1
+4010662,70/71,8,25/10/1970,15:00,R Charleroi SC,Beerschot VAV,R Charleroi SC,15:32,1,0
+4010662,70/71,8,25/10/1970,15:00,R Charleroi SC,Beerschot VAV,Beerschot VAV,15:33,1,1
+4010662,70/71,8,25/10/1970,15:00,R Charleroi SC,Beerschot VAV,R Charleroi SC,15:42,2,1
+4010662,70/71,8,25/10/1970,15:00,R Charleroi SC,Beerschot VAV,Beerschot VAV,15:50,2,2
+4010662,70/71,8,25/10/1970,15:00,R Charleroi SC,Beerschot VAV,Beerschot VAV,15:10,2,3
+4010663,70/71,8,25/10/1970,15:00,SK Beveren-Waes,Lierse SK,SK Beveren-Waes,15:46,1,0
+4010664,70/71,8,25/10/1970,15:00,Club Brugge,St-Truidense VV,Club Brugge,16:8,1,0
+4010664,70/71,8,25/10/1970,15:00,Club Brugge,St-Truidense VV,Club Brugge,15:34,2,0
+4010664,70/71,8,25/10/1970,15:00,Club Brugge,St-Truidense VV,Club Brugge,15:35,3,0
+4010664,70/71,8,25/10/1970,15:00,Club Brugge,St-Truidense VV,Club Brugge,15:44,4,0
+4010664,70/71,8,25/10/1970,15:00,Club Brugge,St-Truidense VV,St-Truidense VV,15:08,4,1
+4010665,70/71,8,25/10/1970,15:00,KFC Diest,ARA Gent,ARA Gent,15:00,0,1
+4010665,70/71,8,25/10/1970,15:00,KFC Diest,ARA Gent,ARA Gent,15:12,0,2
+4010671,70/71,9,31/10/1970,19:30,RCC Schaerbeek,RRC Brüssel,RRC Brüssel,19:47,0,1
+4010667,70/71,9,31/10/1970,20:00,Standard Luik,KFC Diest,Standard Luik,20:22,1,0
+4010667,70/71,9,31/10/1970,20:00,Standard Luik,KFC Diest,Standard Luik,20:36,2,0
+4010667,70/71,9,31/10/1970,20:00,Standard Luik,KFC Diest,Standard Luik,21:0,3,0
+4010669,70/71,9,31/10/1970,20:00,Beerschot VAV,RFC Luik,RFC Luik,20:20,0,1
+4010668,70/71,9,31/10/1970,20:30,Lierse SK,Antwerp FC,Antwerp FC,21:10,0,1
+4010668,70/71,9,31/10/1970,20:30,Lierse SK,Antwerp FC,Antwerp FC,21:25,0,2
+4010672,70/71,9,1/11/1970,15:00,ARA Gent,RSC Anderlecht,RSC Anderlecht,15:13,0,1
+4010672,70/71,9,1/11/1970,15:00,ARA Gent,RSC Anderlecht,RSC Anderlecht,15:27,0,2
+4010672,70/71,9,1/11/1970,15:00,ARA Gent,RSC Anderlecht,RSC Anderlecht,15:03,0,3
+4010673,70/71,9,1/11/1970,15:00,KSV Waregem,Club Brugge,KSV Waregem,15:48,1,0
+4010673,70/71,9,1/11/1970,15:00,KSV Waregem,Club Brugge,Club Brugge,15:48,1,1
+4010674,70/71,9,1/11/1970,15:00,Union SG,R Charleroi SC,R Charleroi SC,15:22,0,1
+4010674,70/71,9,1/11/1970,15:00,Union SG,R Charleroi SC,Union SG,15:34,1,1
+4010674,70/71,9,1/11/1970,15:00,Union SG,R Charleroi SC,Union SG,15:37,2,1
+4010674,70/71,9,1/11/1970,15:00,Union SG,R Charleroi SC,Union SG,15:57,3,1
+4010678,70/71,10,8/11/1970,15:00,RRC Brüssel,Standard Luik,RRC Brüssel,15:20,1,0
+4010678,70/71,10,8/11/1970,15:00,RRC Brüssel,Standard Luik,RRC Brüssel,15:49,2,0
+4010678,70/71,10,8/11/1970,15:00,RRC Brüssel,Standard Luik,Standard Luik,15:00,2,1
+4010678,70/71,10,8/11/1970,15:00,RRC Brüssel,Standard Luik,RRC Brüssel,16:14,3,1
+4010678,70/71,10,8/11/1970,15:00,RRC Brüssel,Standard Luik,Standard Luik,15:29,3,2
+4010681,70/71,10,8/11/1970,15:00,KFC Diest,Beerschot VAV,KFC Diest,15:16,1,0
+4010677,70/71,10,8/11/1970,19:00,SK Beveren-Waes,Union SG,SK Beveren-Waes,19:42,1,0
+4010677,70/71,10,8/11/1970,19:00,SK Beveren-Waes,Union SG,Union SG,19:48,1,1
+4010677,70/71,10,8/11/1970,19:00,SK Beveren-Waes,Union SG,SK Beveren-Waes,20:16,2,1
+4010782,70/71,24,21/03/1971,15:00,Club Brugge,KSV Waregem,Club Brugge,15:11,1,0
+4010782,70/71,24,21/03/1971,15:00,Club Brugge,KSV Waregem,Club Brugge,16:4,2,0
+4010782,70/71,24,21/03/1971,15:00,Club Brugge,KSV Waregem,Club Brugge,16:23,3,0
+4010829,70/71,29,2/05/1971,15:00,KSV Waregem,ARA Gent,ARA Gent,15:10,0,1
+4010829,70/71,29,2/05/1971,15:00,KSV Waregem,ARA Gent,ARA Gent,15:45,0,2
+4010829,70/71,29,2/05/1971,15:00,KSV Waregem,ARA Gent,ARA Gent,15:07,0,3
+4010829,70/71,29,2/05/1971,15:00,KSV Waregem,ARA Gent,KSV Waregem,16:15,1,3
+4010843,71/72,1,3/09/1971,20:00,RRC Brüssel,Standard Luik,RRC Brüssel,21:16,1,0
+4010843,71/72,1,3/09/1971,20:00,RRC Brüssel,Standard Luik,RRC Brüssel,20:20,2,0
+4010843,71/72,1,3/09/1971,20:00,RRC Brüssel,Standard Luik,Standard Luik,20:16,2,1
+4010844,71/72,1,4/09/1971,20:00,Beerschot VAV,RSC Anderlecht,Beerschot VAV,20:56,1,0
+4010844,71/72,1,4/09/1971,20:00,Beerschot VAV,RSC Anderlecht,RSC Anderlecht,20:56,1,1
+4010845,71/72,1,4/09/1971,20:00,Union SG,Club Brugge,Club Brugge,20:00,0,1
+4010845,71/72,1,4/09/1971,20:00,Union SG,Club Brugge,Club Brugge,20:48,0,2
+4010845,71/72,1,4/09/1971,20:00,Union SG,Club Brugge,Club Brugge,20:00,0,3
+4010849,71/72,1,5/09/1971,15:00,KFC Diest,RCC Schaerbeek,KFC Diest,15:47,1,0
+4010850,71/72,1,5/09/1971,15:00,KSV Waregem,Lierse SK,Lierse SK,15:15,0,1
+4010850,71/72,1,5/09/1971,15:00,KSV Waregem,Lierse SK,KSV Waregem,16:18,1,1
+4010850,71/72,1,5/09/1971,15:00,KSV Waregem,Lierse SK,KSV Waregem,16:23,2,1
+4010846,71/72,1,5/09/1971,19:30,RFC Luik,Antwerp FC,RFC Luik,19:52,1,0
+4010846,71/72,1,5/09/1971,19:30,RFC Luik,Antwerp FC,RFC Luik,19:61,2,0
+4010846,71/72,1,5/09/1971,19:30,RFC Luik,Antwerp FC,Antwerp FC,20:16,2,1
+4010846,71/72,1,5/09/1971,19:30,RFC Luik,Antwerp FC,RFC Luik,19:80,3,1
+4010846,71/72,1,5/09/1971,19:30,RFC Luik,Antwerp FC,Antwerp FC,20:27,3,2
+4010851,71/72,2,11/09/1971,20:00,RSC Anderlecht,KSV Waregem,RSC Anderlecht,20:42,1,0
+4010851,71/72,2,11/09/1971,20:00,RSC Anderlecht,KSV Waregem,KSV Waregem,20:57,1,1
+4010852,71/72,2,11/09/1971,20:00,Antwerp FC,KV Mechelen,Antwerp FC,21:26,1,0
+4010853,71/72,2,11/09/1971,20:00,Lierse SK,Beerschot VAV,Lierse SK,21:28,1,0
+4010854,71/72,2,11/09/1971,20:00,Club Brugge,KFC Diest,Club Brugge,21:11,1,0
+4010854,71/72,2,11/09/1971,20:00,Club Brugge,KFC Diest,Club Brugge,20:10,2,0
+4010854,71/72,2,11/09/1971,20:00,Club Brugge,KFC Diest,Club Brugge,20:53,3,0
+4010854,71/72,2,11/09/1971,20:00,Club Brugge,KFC Diest,Club Brugge,21:3,4,0
+4010855,71/72,2,11/09/1971,20:00,St-Truidense VV,RRC Brüssel,RRC Brüssel,20:02,0,1
+4010857,71/72,2,12/09/1971,15:00,SK Beveren-Waes,RFC Luik,SK Beveren-Waes,15:38,1,0
+4010858,71/72,2,12/09/1971,15:00,RCC Schaerbeek,Union SG,Union SG,15:12,0,1
+4010860,71/72,3,19/09/1971,15:00,Beerschot VAV,Standard Luik,Standard Luik,15:20,0,1
+4010860,71/72,3,19/09/1971,15:00,Beerschot VAV,Standard Luik,Standard Luik,15:28,0,2
+4010860,71/72,3,19/09/1971,15:00,Beerschot VAV,Standard Luik,Beerschot VAV,15:35,1,2
+4010860,71/72,3,19/09/1971,15:00,Beerschot VAV,Standard Luik,Standard Luik,15:26,1,3
+4010861,71/72,3,19/09/1971,15:00,Cercle Brugge,RSC Anderlecht,Cercle Brugge,15:21,1,0
+4010863,71/72,3,19/09/1971,15:00,KFC Diest,SK Beveren-Waes,SK Beveren-Waes,15:00,0,1
+4010863,71/72,3,19/09/1971,15:00,KFC Diest,SK Beveren-Waes,SK Beveren-Waes,15:25,0,2
+4010863,71/72,3,19/09/1971,15:00,KFC Diest,SK Beveren-Waes,KFC Diest,15:38,1,2
+4010863,71/72,3,19/09/1971,15:00,KFC Diest,SK Beveren-Waes,KFC Diest,15:55,2,2
+4010863,71/72,3,19/09/1971,15:00,KFC Diest,SK Beveren-Waes,SK Beveren-Waes,15:27,2,3
+4010864,71/72,3,19/09/1971,15:00,RFC Luik,Club Brugge,RFC Luik,15:40,1,0
+4010864,71/72,3,19/09/1971,15:00,RFC Luik,Club Brugge,Club Brugge,15:22,1,1
+4010865,71/72,3,19/09/1971,15:00,KV Mechelen,Lierse SK,KV Mechelen,15:43,1,0
+4010865,71/72,3,19/09/1971,15:00,KV Mechelen,Lierse SK,Lierse SK,15:57,1,1
+4010865,71/72,3,19/09/1971,15:00,KV Mechelen,Lierse SK,Lierse SK,15:07,1,2
+4010866,71/72,3,19/09/1971,15:00,KSV Waregem,St-Truidense VV,St-Truidense VV,15:15,0,1
+4010867,71/72,4,24/09/1971,20:00,RSC Anderlecht,RRC Brüssel,RRC Brüssel,20:19,0,1
+4010873,71/72,4,26/09/1971,15:00,Club Brugge,KSV Waregem,Club Brugge,15:42,1,0
+4010873,71/72,4,26/09/1971,15:00,Club Brugge,KSV Waregem,Club Brugge,15:49,2,0
+4010873,71/72,4,26/09/1971,15:00,Club Brugge,KSV Waregem,Club Brugge,15:53,3,0
+4010873,71/72,4,26/09/1971,15:00,Club Brugge,KSV Waregem,KSV Waregem,15:10,3,1
+4010868,71/72,4,26/09/1971,15:00,Standard Luik,RFC Luik,Standard Luik,15:37,1,0
+4010868,71/72,4,26/09/1971,15:00,Standard Luik,RFC Luik,Standard Luik,15:47,2,0
+4010868,71/72,4,26/09/1971,15:00,Standard Luik,RFC Luik,Standard Luik,15:56,3,0
+4010869,71/72,4,26/09/1971,15:00,Antwerp FC,KFC Diest,Antwerp FC,15:44,1,0
+4010869,71/72,4,26/09/1971,15:00,Antwerp FC,KFC Diest,KFC Diest,15:25,1,1
+4010871,71/72,4,26/09/1971,15:00,SK Beveren-Waes,Union SG,Union SG,15:16,0,1
+4010872,71/72,4,26/09/1971,15:00,Lierse SK,Cercle Brugge,Cercle Brugge,15:10,0,1
+4010870,71/72,4,26/09/1971,20:00,St-Truidense VV,Beerschot VAV,Beerschot VAV,20:01,0,1
+4010870,71/72,4,26/09/1971,20:00,St-Truidense VV,Beerschot VAV,St-Truidense VV,20:0,1,1
+4010875,71/72,5,2/10/1971,20:00,Beerschot VAV,SK Beveren-Waes,Beerschot VAV,20:19,1,0
+4010875,71/72,5,2/10/1971,20:00,Beerschot VAV,SK Beveren-Waes,SK Beveren-Waes,20:05,1,1
+4010875,71/72,5,2/10/1971,20:00,Beerschot VAV,SK Beveren-Waes,Beerschot VAV,21:15,2,1
+4010876,71/72,5,3/10/1971,15:00,St-Truidense VV,Standard Luik,Standard Luik,15:40,0,1
+4010876,71/72,5,3/10/1971,15:00,St-Truidense VV,Standard Luik,St-Truidense VV,15:47,1,1
+4010876,71/72,5,3/10/1971,15:00,St-Truidense VV,Standard Luik,Standard Luik,15:04,1,2
+4010877,71/72,5,3/10/1971,15:00,RSC Anderlecht,Antwerp FC,RSC Anderlecht,15:15,1,0
+4010877,71/72,5,3/10/1971,15:00,RSC Anderlecht,Antwerp FC,RSC Anderlecht,15:1,2,0
+4010877,71/72,5,3/10/1971,15:00,RSC Anderlecht,Antwerp FC,RSC Anderlecht,15:36,3,0
+4010877,71/72,5,3/10/1971,15:00,RSC Anderlecht,Antwerp FC,Antwerp FC,15:55,3,1
+4010877,71/72,5,3/10/1971,15:00,RSC Anderlecht,Antwerp FC,Antwerp FC,15:09,3,2
+4010879,71/72,5,3/10/1971,15:00,KV Mechelen,Club Brugge,KV Mechelen,15:20,1,0
+4010879,71/72,5,3/10/1971,15:00,KV Mechelen,Club Brugge,Club Brugge,15:25,1,1
+4010879,71/72,5,3/10/1971,15:00,KV Mechelen,Club Brugge,Club Brugge,15:15,1,2
+4010880,71/72,5,3/10/1971,15:00,KSV Waregem,RCC Schaerbeek,KSV Waregem,16:25,1,0
+4010880,71/72,5,3/10/1971,15:00,KSV Waregem,RCC Schaerbeek,RCC Schaerbeek,15:22,1,1
+4010880,71/72,5,3/10/1971,15:00,KSV Waregem,RCC Schaerbeek,RCC Schaerbeek,15:25,1,2
+4010881,71/72,5,3/10/1971,15:00,RFC Luik,KFC Diest,RFC Luik,15:34,1,0
+4010881,71/72,5,3/10/1971,15:00,RFC Luik,KFC Diest,RFC Luik,15:46,2,0
+4010881,71/72,5,3/10/1971,15:00,RFC Luik,KFC Diest,KFC Diest,15:56,2,1
+4010883,71/72,6,9/10/1971,20:00,Antwerp FC,RRC Brüssel,RRC Brüssel,20:29,0,1
+4010883,71/72,6,9/10/1971,20:00,Antwerp FC,RRC Brüssel,RRC Brüssel,20:58,0,2
+4010884,71/72,6,10/10/1971,15:00,Standard Luik,RSC Anderlecht,Standard Luik,15:24,1,0
+4010884,71/72,6,10/10/1971,15:00,Standard Luik,RSC Anderlecht,Standard Luik,15:52,2,0
+4010884,71/72,6,10/10/1971,15:00,Standard Luik,RSC Anderlecht,Standard Luik,15:58,3,0
+4010886,71/72,6,10/10/1971,15:00,SK Beveren-Waes,KSV Waregem,KSV Waregem,15:12,0,1
+4010886,71/72,6,10/10/1971,15:00,SK Beveren-Waes,KSV Waregem,SK Beveren-Waes,15:30,1,1
+4010886,71/72,6,10/10/1971,15:00,SK Beveren-Waes,KSV Waregem,KSV Waregem,15:47,1,2
+4010886,71/72,6,10/10/1971,15:00,SK Beveren-Waes,KSV Waregem,KSV Waregem,15:05,1,3
+4010887,71/72,6,10/10/1971,15:00,Club Brugge,Cercle Brugge,Club Brugge,15:18,1,0
+4010887,71/72,6,10/10/1971,15:00,Club Brugge,Cercle Brugge,Cercle Brugge,15:00,1,1
+4010889,71/72,6,10/10/1971,15:00,Union SG,RFC Luik,RFC Luik,15:57,0,1
+4010889,71/72,6,10/10/1971,15:00,Union SG,RFC Luik,Union SG,15:57,1,1
+4010890,71/72,6,10/10/1971,15:00,Lierse SK,St-Truidense VV,Lierse SK,15:43,1,0
+4010890,71/72,6,10/10/1971,15:00,Lierse SK,St-Truidense VV,St-Truidense VV,15:48,1,1
+4010890,71/72,6,10/10/1971,15:00,Lierse SK,St-Truidense VV,St-Truidense VV,15:01,1,2
+4010891,71/72,7,16/10/1971,20:00,RSC Anderlecht,Union SG,RSC Anderlecht,20:16,1,0
+4010891,71/72,7,16/10/1971,20:00,RSC Anderlecht,Union SG,RSC Anderlecht,20:33,2,0
+4010891,71/72,7,16/10/1971,20:00,RSC Anderlecht,Union SG,RSC Anderlecht,20:57,3,0
+4010891,71/72,7,16/10/1971,20:00,RSC Anderlecht,Union SG,RSC Anderlecht,21:3,4,0
+4010891,71/72,7,16/10/1971,20:00,RSC Anderlecht,Union SG,RSC Anderlecht,21:5,5,0
+4010892,71/72,7,16/10/1971,20:00,Beerschot VAV,Club Brugge,Club Brugge,20:13,0,1
+4010892,71/72,7,16/10/1971,20:00,Beerschot VAV,Club Brugge,Club Brugge,20:41,0,2
+4010892,71/72,7,16/10/1971,20:00,Beerschot VAV,Club Brugge,Beerschot VAV,20:53,1,2
+4010892,71/72,7,16/10/1971,20:00,Beerschot VAV,Club Brugge,Club Brugge,20:17,1,3
+4010895,71/72,7,17/10/1971,15:00,St-Truidense VV,RCC Schaerbeek,RCC Schaerbeek,15:25,0,1
+4010895,71/72,7,17/10/1971,15:00,St-Truidense VV,RCC Schaerbeek,RCC Schaerbeek,15:44,0,2
+4010895,71/72,7,17/10/1971,15:00,St-Truidense VV,RCC Schaerbeek,St-Truidense VV,15:53,1,2
+4010895,71/72,7,17/10/1971,15:00,St-Truidense VV,RCC Schaerbeek,RCC Schaerbeek,15:55,1,3
+4010895,71/72,7,17/10/1971,15:00,St-Truidense VV,RCC Schaerbeek,RCC Schaerbeek,15:21,1,4
+4010897,71/72,7,17/10/1971,15:00,Cercle Brugge,Antwerp FC,Cercle Brugge,15:35,1,0
+4010897,71/72,7,17/10/1971,15:00,Cercle Brugge,Antwerp FC,Cercle Brugge,15:53,2,0
+4010897,71/72,7,17/10/1971,15:00,Cercle Brugge,Antwerp FC,Cercle Brugge,15:57,3,0
+4010897,71/72,7,17/10/1971,15:00,Cercle Brugge,Antwerp FC,Cercle Brugge,16:3,4,0
+4010900,71/72,8,24/10/1971,15:00,RCC Schaerbeek,RSC Anderlecht,RSC Anderlecht,15:10,0,1
+4010900,71/72,8,24/10/1971,15:00,RCC Schaerbeek,RSC Anderlecht,RSC Anderlecht,15:15,0,2
+4010903,71/72,8,24/10/1971,15:00,KFC Diest,Cercle Brugge,Cercle Brugge,15:18,0,1
+4010904,71/72,8,24/10/1971,15:00,RFC Luik,Lierse SK,Lierse SK,15:09,0,1
+4010904,71/72,8,24/10/1971,15:00,RFC Luik,Lierse SK,Lierse SK,15:15,0,2
+4010907,71/72,9,30/10/1971,20:00,RSC Anderlecht,Club Brugge,RSC Anderlecht,21:0,1,0
+4010907,71/72,9,30/10/1971,20:00,RSC Anderlecht,Club Brugge,Club Brugge,20:05,1,1
+4010908,71/72,9,30/10/1971,20:00,St-Truidense VV,Antwerp FC,St-Truidense VV,20:25,1,0
+4010908,71/72,9,30/10/1971,20:00,St-Truidense VV,Antwerp FC,Antwerp FC,20:34,1,1
+4010909,71/72,9,30/10/1971,20:00,Beerschot VAV,Union SG,Union SG,20:12,0,1
+4010909,71/72,9,30/10/1971,20:00,Beerschot VAV,Union SG,Beerschot VAV,20:31,1,1
+4010910,71/72,9,31/10/1971,15:00,Standard Luik,RCC Schaerbeek,Standard Luik,15:15,1,0
+4010910,71/72,9,31/10/1971,15:00,Standard Luik,RCC Schaerbeek,Standard Luik,15:25,2,0
+4010910,71/72,9,31/10/1971,15:00,Standard Luik,RCC Schaerbeek,Standard Luik,15:48,3,0
+4010911,71/72,9,31/10/1971,15:00,Lierse SK,SK Beveren-Waes,SK Beveren-Waes,15:12,0,1
+4010911,71/72,9,31/10/1971,15:00,Lierse SK,SK Beveren-Waes,Lierse SK,16:6,1,1
+4010911,71/72,9,31/10/1971,15:00,Lierse SK,SK Beveren-Waes,SK Beveren-Waes,15:28,1,2
+4010913,71/72,9,31/10/1971,15:00,RRC Brüssel,KFC Diest,KFC Diest,15:16,0,1
+4010913,71/72,9,31/10/1971,15:00,RRC Brüssel,KFC Diest,KFC Diest,15:25,0,2
+4010914,71/72,9,31/10/1971,15:00,KSV Waregem,RFC Luik,KSV Waregem,15:57,1,0
+4010914,71/72,9,31/10/1971,15:00,KSV Waregem,RFC Luik,KSV Waregem,15:50,2,0
+4010916,71/72,10,14/11/1971,15:00,SK Beveren-Waes,RSC Anderlecht,RSC Anderlecht,15:17,0,1
+4010916,71/72,10,14/11/1971,15:00,SK Beveren-Waes,RSC Anderlecht,SK Beveren-Waes,15:57,1,1
+4010916,71/72,10,14/11/1971,15:00,SK Beveren-Waes,RSC Anderlecht,RSC Anderlecht,15:13,1,2
+4010917,71/72,10,14/11/1971,15:00,KV Mechelen,Beerschot VAV,KV Mechelen,15:15,1,0
+4010917,71/72,10,14/11/1971,15:00,KV Mechelen,Beerschot VAV,KV Mechelen,15:18,2,0
+4010917,71/72,10,14/11/1971,15:00,KV Mechelen,Beerschot VAV,KV Mechelen,15:28,3,0
+4010918,71/72,10,14/11/1971,15:00,RFC Luik,Cercle Brugge,Cercle Brugge,15:00,0,1
+4010918,71/72,10,14/11/1971,15:00,RFC Luik,Cercle Brugge,Cercle Brugge,15:22,0,2
+4010918,71/72,10,14/11/1971,15:00,RFC Luik,Cercle Brugge,RFC Luik,15:22,1,2
+4010919,71/72,10,14/11/1971,15:00,Club Brugge,St-Truidense VV,Club Brugge,15:24,1,0
+4010919,71/72,10,14/11/1971,15:00,Club Brugge,St-Truidense VV,Club Brugge,15:58,2,0
+4010919,71/72,10,14/11/1971,15:00,Club Brugge,St-Truidense VV,Club Brugge,16:0,3,0
+4010919,71/72,10,14/11/1971,15:00,Club Brugge,St-Truidense VV,St-Truidense VV,15:04,3,1
+4010920,71/72,10,14/11/1971,15:00,RCC Schaerbeek,Lierse SK,Lierse SK,15:19,0,1
+4010920,71/72,10,14/11/1971,15:00,RCC Schaerbeek,Lierse SK,RCC Schaerbeek,15:54,1,1
+4010920,71/72,10,14/11/1971,15:00,RCC Schaerbeek,Lierse SK,Lierse SK,15:00,1,2
+4010921,71/72,10,14/11/1971,15:00,KFC Diest,KSV Waregem,KFC Diest,15:16,1,0
+4010921,71/72,10,14/11/1971,15:00,KFC Diest,KSV Waregem,KFC Diest,16:8,2,0
+4010921,71/72,10,14/11/1971,15:00,KFC Diest,KSV Waregem,KFC Diest,16:21,3,0
+4010921,71/72,10,14/11/1971,15:00,KFC Diest,KSV Waregem,KSV Waregem,15:25,3,1
+4010922,71/72,10,14/11/1971,15:00,Union SG,RRC Brüssel,Union SG,15:40,1,0
+4010922,71/72,10,14/11/1971,15:00,Union SG,RRC Brüssel,Union SG,16:16,2,0
+4010922,71/72,10,14/11/1971,15:00,Union SG,RRC Brüssel,Union SG,16:25,3,0
+4010922,71/72,10,14/11/1971,15:00,Union SG,RRC Brüssel,RRC Brüssel,15:28,3,1
+4010923,71/72,11,27/11/1971,20:00,Beerschot VAV,RFC Luik,RFC Luik,20:15,0,1
+4010923,71/72,11,27/11/1971,20:00,Beerschot VAV,RFC Luik,RFC Luik,20:20,0,2
+4010924,71/72,11,28/11/1971,15:00,Standard Luik,Union SG,Standard Luik,15:23,1,0
+4010924,71/72,11,28/11/1971,15:00,Standard Luik,Union SG,Standard Luik,16:2,2,0
+4010924,71/72,11,28/11/1971,15:00,Standard Luik,Union SG,Union SG,15:26,2,1
+4010925,71/72,11,28/11/1971,15:00,RSC Anderlecht,KFC Diest,RSC Anderlecht,15:11,1,0
+4010925,71/72,11,28/11/1971,15:00,RSC Anderlecht,KFC Diest,RSC Anderlecht,15:23,2,0
+4010925,71/72,11,28/11/1971,15:00,RSC Anderlecht,KFC Diest,RSC Anderlecht,15:29,3,0
+4010925,71/72,11,28/11/1971,15:00,RSC Anderlecht,KFC Diest,RSC Anderlecht,15:42,4,0
+4010925,71/72,11,28/11/1971,15:00,RSC Anderlecht,KFC Diest,RSC Anderlecht,15:47,5,0
+4010925,71/72,11,28/11/1971,15:00,RSC Anderlecht,KFC Diest,RSC Anderlecht,15:57,6,0
+4010925,71/72,11,28/11/1971,15:00,RSC Anderlecht,KFC Diest,RSC Anderlecht,15:59,7,0
+4010925,71/72,11,28/11/1971,15:00,RSC Anderlecht,KFC Diest,KFC Diest,15:05,7,1
+4010926,71/72,11,28/11/1971,15:00,Lierse SK,Antwerp FC,Antwerp FC,15:00,0,1
+4010926,71/72,11,28/11/1971,15:00,Lierse SK,Antwerp FC,Antwerp FC,15:50,0,2
+4010926,71/72,11,28/11/1971,15:00,Lierse SK,Antwerp FC,Antwerp FC,15:25,0,3
+4010929,71/72,11,28/11/1971,15:00,St-Truidense VV,KV Mechelen,KV Mechelen,15:47,0,1
+4010929,71/72,11,28/11/1971,15:00,St-Truidense VV,KV Mechelen,KV Mechelen,15:14,0,2
+4010930,71/72,11,28/11/1971,15:00,KSV Waregem,RRC Brüssel,KSV Waregem,16:29,1,0
+4010930,71/72,11,28/11/1971,15:00,KSV Waregem,RRC Brüssel,RRC Brüssel,15:03,1,1
+4010930,71/72,11,28/11/1971,15:00,KSV Waregem,RRC Brüssel,RRC Brüssel,15:29,1,2
+4010949,71/72,14,19/12/1971,15:00,Cercle Brugge,Beerschot VAV,Beerschot VAV,15:54,0,1
+4010949,71/72,14,19/12/1971,15:00,Cercle Brugge,Beerschot VAV,Beerschot VAV,15:15,0,2
+4010949,71/72,14,19/12/1971,15:00,Cercle Brugge,Beerschot VAV,Cercle Brugge,16:25,1,2
+4010949,71/72,14,19/12/1971,15:00,Cercle Brugge,Beerschot VAV,Beerschot VAV,15:28,1,3
+4010973,71/72,17,23/01/1972,15:00,Cercle Brugge,Standard Luik,Standard Luik,15:22,0,1
+4010973,71/72,17,23/01/1972,15:00,Cercle Brugge,Standard Luik,Cercle Brugge,15:29,1,1
+4010973,71/72,17,23/01/1972,15:00,Cercle Brugge,Standard Luik,Cercle Brugge,15:45,2,1
+4010973,71/72,17,23/01/1972,15:00,Cercle Brugge,Standard Luik,Standard Luik,15:51,2,2
+4010989,71/72,19,6/02/1972,15:00,Beerschot VAV,St-Truidense VV,Beerschot VAV,15:37,1,0
+4010989,71/72,19,6/02/1972,15:00,Beerschot VAV,St-Truidense VV,Beerschot VAV,16:13,2,0
+4010989,71/72,19,6/02/1972,15:00,Beerschot VAV,St-Truidense VV,St-Truidense VV,15:18,2,1
+4011004,71/72,21,20/02/1972,15:00,Beerschot VAV,RCC Schaerbeek,Beerschot VAV,16:4,1,0
+4011004,71/72,21,20/02/1972,15:00,Beerschot VAV,RCC Schaerbeek,RCC Schaerbeek,15:06,1,1
+4011013,71/72,22,27/02/1972,15:00,RCC Schaerbeek,St-Truidense VV,St-Truidense VV,15:49,0,1
+4011019,71/72,23,4/03/1972,20:00,Standard Luik,Club Brugge,Standard Luik,21:27,1,0
+4011019,71/72,23,4/03/1972,20:00,Standard Luik,Club Brugge,Standard Luik,21:6,2,0
+4011019,71/72,23,4/03/1972,20:00,Standard Luik,Club Brugge,Standard Luik,21:14,3,0
+4011019,71/72,23,4/03/1972,20:00,Standard Luik,Club Brugge,Standard Luik,21:16,4,0
+4011027,71/72,24,12/03/1972,15:00,KFC Diest,RRC Brüssel,RRC Brüssel,15:44,0,1
+4011027,71/72,24,12/03/1972,15:00,KFC Diest,RRC Brüssel,RRC Brüssel,15:09,0,2
+4011028,71/72,24,12/03/1972,15:00,RFC Luik,KSV Waregem,RFC Luik,16:29,1,0
+4011028,71/72,24,12/03/1972,15:00,RFC Luik,KSV Waregem,RFC Luik,15:19,2,0
+4011028,71/72,24,12/03/1972,15:00,RFC Luik,KSV Waregem,RFC Luik,15:54,3,0
+4011028,71/72,24,12/03/1972,15:00,RFC Luik,KSV Waregem,RFC Luik,16:0,4,0
+4011028,71/72,24,12/03/1972,15:00,RFC Luik,KSV Waregem,KSV Waregem,15:29,4,1
+4011035,71/72,25,18/03/1972,19:00,RSC Anderlecht,SK Beveren-Waes,RSC Anderlecht,19:28,1,0
+4011035,71/72,25,18/03/1972,19:00,RSC Anderlecht,SK Beveren-Waes,SK Beveren-Waes,19:34,1,1
+4011035,71/72,25,18/03/1972,19:00,RSC Anderlecht,SK Beveren-Waes,RSC Anderlecht,20:0,2,1
+4011034,71/72,25,18/03/1972,20:00,Standard Luik,Antwerp FC,Standard Luik,20:51,1,0
+4011034,71/72,25,18/03/1972,20:00,Standard Luik,Antwerp FC,Antwerp FC,20:02,1,1
+4011045,71/72,26,26/03/1972,15:00,RRC Brüssel,KSV Waregem,RRC Brüssel,15:50,1,0
+4011045,71/72,26,26/03/1972,15:00,RRC Brüssel,KSV Waregem,KSV Waregem,15:55,1,1
+4011045,71/72,26,26/03/1972,15:00,RRC Brüssel,KSV Waregem,KSV Waregem,15:17,1,2
+4011056,71/72,27,9/04/1972,15:00,RSC Anderlecht,RFC Luik,RSC Anderlecht,15:47,1,0
+4011060,71/72,28,15/04/1972,20:00,RRC Brüssel,Beerschot VAV,Beerschot VAV,20:15,0,1
+4011069,71/72,29,23/04/1972,15:00,Standard Luik,KSV Waregem,KSV Waregem,15:21,0,1
+4011083,72/73,1,1/09/1972,20:15,Antwerp FC,RRC Brüssel,RRC Brüssel,20:54,0,1
+4011085,72/73,1,2/09/1972,20:00,Beerschot VAV,KV Mechelen,KV Mechelen,20:25,0,1
+4011085,72/73,1,2/09/1972,20:00,Beerschot VAV,KV Mechelen,Beerschot VAV,20:55,1,1
+4011085,72/73,1,2/09/1972,20:00,Beerschot VAV,KV Mechelen,KV Mechelen,20:00,1,2
+4011086,72/73,1,2/09/1972,20:00,Lierse SK,Berchem Sport,Berchem Sport,20:37,0,1
+4011087,72/73,1,2/09/1972,20:00,Club Brugge,KFC Diest,Club Brugge,20:57,1,0
+4011087,72/73,1,2/09/1972,20:00,Club Brugge,KFC Diest,KFC Diest,20:10,1,1
+4011087,72/73,1,2/09/1972,20:00,Club Brugge,KFC Diest,Club Brugge,20:21,2,1
+4011088,72/73,1,3/09/1972,15:00,RFC Luik,Standard Luik,Standard Luik,15:49,0,1
+4011093,72/73,2,9/09/1972,20:00,Cercle Brugge,RFC Luik,Cercle Brugge,20:35,1,0
+4011093,72/73,2,9/09/1972,20:00,Cercle Brugge,RFC Luik,RFC Luik,20:16,1,1
+4011093,72/73,2,9/09/1972,20:00,Cercle Brugge,RFC Luik,Cercle Brugge,20:16,2,1
+4011094,72/73,2,10/09/1972,15:00,Standard Luik,Beringen FC,Standard Luik,15:30,1,0
+4011095,72/73,2,10/09/1972,15:00,KFC Diest,Beerschot VAV,Beerschot VAV,15:25,0,1
+4011095,72/73,2,10/09/1972,15:00,KFC Diest,Beerschot VAV,Beerschot VAV,15:45,0,2
+4011095,72/73,2,10/09/1972,15:00,KFC Diest,Beerschot VAV,KFC Diest,15:48,1,2
+4011095,72/73,2,10/09/1972,15:00,KFC Diest,Beerschot VAV,Beerschot VAV,15:53,1,3
+4011096,72/73,2,10/09/1972,15:00,Berchem Sport,Club Brugge,Berchem Sport,15:12,1,0
+4011096,72/73,2,10/09/1972,15:00,Berchem Sport,Club Brugge,Club Brugge,15:20,1,1
+4011098,72/73,2,10/09/1972,15:00,Union SG,Lierse SK,Lierse SK,15:05,0,1
+4011099,72/73,3,16/09/1972,20:00,Beerschot VAV,RFC Luik,RFC Luik,20:32,0,1
+4011099,72/73,3,16/09/1972,20:00,Beerschot VAV,RFC Luik,Beerschot VAV,20:48,1,1
+4011099,72/73,3,16/09/1972,20:00,Beerschot VAV,RFC Luik,RFC Luik,20:18,1,2
+4011100,72/73,3,16/09/1972,20:00,RCC Schaerbeek,RRC Brüssel,RRC Brüssel,20:43,0,1
+4011102,72/73,3,17/09/1972,15:00,Lierse SK,RSC Anderlecht,Lierse SK,15:20,1,0
+4011102,72/73,3,17/09/1972,15:00,Lierse SK,RSC Anderlecht,RSC Anderlecht,15:24,1,1
+4011103,72/73,3,17/09/1972,15:00,Club Brugge,Antwerp FC,Club Brugge,16:6,1,0
+4011103,72/73,3,17/09/1972,15:00,Club Brugge,Antwerp FC,Antwerp FC,15:57,1,1
+4011104,72/73,3,17/09/1972,15:00,KFC Diest,Berchem Sport,Berchem Sport,15:03,0,1
+4011105,72/73,3,17/09/1972,15:00,KV Mechelen,Beringen FC,KV Mechelen,15:47,1,0
+4011105,72/73,3,17/09/1972,15:00,KV Mechelen,Beringen FC,Beringen FC,15:47,1,1
+4011106,72/73,3,17/09/1972,15:00,Union SG,Cercle Brugge,Cercle Brugge,15:38,0,1
+4011107,72/73,4,23/09/1972,20:00,RSC Anderlecht,RCC Schaerbeek,RSC Anderlecht,20:26,1,0
+4011107,72/73,4,23/09/1972,20:00,RSC Anderlecht,RCC Schaerbeek,RCC Schaerbeek,20:55,1,1
+4011109,72/73,4,23/09/1972,20:00,St-Truidense VV,KFC Diest,St-Truidense VV,20:14,1,0
+4011109,72/73,4,23/09/1972,20:00,St-Truidense VV,KFC Diest,KFC Diest,20:33,1,1
+4011110,72/73,4,23/09/1972,20:00,RFC Luik,KV Mechelen,KV Mechelen,20:50,0,1
+4011112,72/73,4,24/09/1972,15:00,RRC Brüssel,Beerschot VAV,Beerschot VAV,15:22,0,1
+4011114,72/73,4,24/09/1972,15:00,Beringen FC,Union SG,Beringen FC,15:21,1,0
+4011114,72/73,4,24/09/1972,15:00,Beringen FC,Union SG,Beringen FC,15:51,2,0
+4011114,72/73,4,24/09/1972,15:00,Beringen FC,Union SG,Union SG,15:56,2,1
+4011115,72/73,5,7/10/1972,20:00,Lierse SK,Antwerp FC,Antwerp FC,20:10,0,1
+4011117,72/73,5,8/10/1972,15:00,Standard Luik,Club Brugge,Standard Luik,15:20,1,0
+4011117,72/73,5,8/10/1972,15:00,Standard Luik,Club Brugge,Club Brugge,15:37,1,1
+4011118,72/73,5,8/10/1972,15:00,Beerschot VAV,RSC Anderlecht,Beerschot VAV,16:24,1,0
+4011118,72/73,5,8/10/1972,15:00,Beerschot VAV,RSC Anderlecht,Beerschot VAV,15:10,2,0
+4011118,72/73,5,8/10/1972,15:00,Beerschot VAV,RSC Anderlecht,RSC Anderlecht,15:35,2,1
+4011118,72/73,5,8/10/1972,15:00,Beerschot VAV,RSC Anderlecht,RSC Anderlecht,15:20,2,2
+4011118,72/73,5,8/10/1972,15:00,Beerschot VAV,RSC Anderlecht,RSC Anderlecht,15:24,2,3
+4011120,72/73,5,8/10/1972,15:00,KFC Diest,Beringen FC,Beringen FC,15:23,0,1
+4011120,72/73,5,8/10/1972,15:00,KFC Diest,Beringen FC,Beringen FC,15:24,0,2
+4011120,72/73,5,8/10/1972,15:00,KFC Diest,Beringen FC,Beringen FC,15:26,0,3
+4011120,72/73,5,8/10/1972,15:00,KFC Diest,Beringen FC,KFC Diest,15:57,1,3
+4011120,72/73,5,8/10/1972,15:00,KFC Diest,Beringen FC,KFC Diest,16:11,2,3
+4011123,72/73,6,14/10/1972,20:00,RSC Anderlecht,Berchem Sport,RSC Anderlecht,21:30,1,0
+4011123,72/73,6,14/10/1972,20:00,RSC Anderlecht,Berchem Sport,RSC Anderlecht,21:6,2,0
+4011123,72/73,6,14/10/1972,20:00,RSC Anderlecht,Berchem Sport,RSC Anderlecht,21:22,3,0
+4011123,72/73,6,14/10/1972,20:00,RSC Anderlecht,Berchem Sport,Berchem Sport,20:30,3,1
+4011124,72/73,6,14/10/1972,20:00,St-Truidense VV,Beerschot VAV,Beerschot VAV,20:21,0,1
+4011124,72/73,6,14/10/1972,20:00,St-Truidense VV,Beerschot VAV,Beerschot VAV,20:24,0,2
+4011125,72/73,6,15/10/1972,15:00,RRC Brüssel,Standard Luik,RRC Brüssel,15:15,1,0
+4011125,72/73,6,15/10/1972,15:00,RRC Brüssel,Standard Luik,Standard Luik,15:40,1,1
+4011126,72/73,6,15/10/1972,15:00,Antwerp FC,Union SG,Antwerp FC,15:38,1,0
+4011126,72/73,6,15/10/1972,15:00,Antwerp FC,Union SG,Antwerp FC,15:50,2,0
+4011126,72/73,6,15/10/1972,15:00,Antwerp FC,Union SG,Antwerp FC,16:10,3,0
+4011128,72/73,6,15/10/1972,15:00,Lierse SK,Cercle Brugge,Lierse SK,16:25,1,0
+4011128,72/73,6,15/10/1972,15:00,Lierse SK,Cercle Brugge,Lierse SK,15:1,2,0
+4011128,72/73,6,15/10/1972,15:00,Lierse SK,Cercle Brugge,Cercle Brugge,15:16,2,1
+4011129,72/73,6,15/10/1972,15:00,Club Brugge,KV Mechelen,KV Mechelen,15:27,0,1
+4011129,72/73,6,15/10/1972,15:00,Club Brugge,KV Mechelen,Club Brugge,15:43,1,1
+4011129,72/73,6,15/10/1972,15:00,Club Brugge,KV Mechelen,KV Mechelen,15:47,1,2
+4011129,72/73,6,15/10/1972,15:00,Club Brugge,KV Mechelen,Club Brugge,16:0,2,2
+4011131,72/73,7,21/10/1972,20:00,Beerschot VAV,Antwerp FC,Beerschot VAV,20:31,1,0
+4011131,72/73,7,21/10/1972,20:00,Beerschot VAV,Antwerp FC,Antwerp FC,20:42,1,1
+4011137,72/73,7,22/10/1972,15:00,KFC Diest,RRC Brüssel,RRC Brüssel,15:27,0,1
+4011137,72/73,7,22/10/1972,15:00,KFC Diest,RRC Brüssel,RRC Brüssel,15:29,0,2
+4011137,72/73,7,22/10/1972,15:00,KFC Diest,RRC Brüssel,RRC Brüssel,15:30,0,3
+4011133,72/73,7,22/10/1972,15:00,KV Mechelen,Lierse SK,KV Mechelen,15:10,1,0
+4011133,72/73,7,22/10/1972,15:00,KV Mechelen,Lierse SK,KV Mechelen,15:42,2,0
+4011133,72/73,7,22/10/1972,15:00,KV Mechelen,Lierse SK,Lierse SK,15:16,2,1
+4011133,72/73,7,22/10/1972,15:00,KV Mechelen,Lierse SK,Lierse SK,15:26,2,2
+4011136,72/73,7,22/10/1972,15:00,RFC Luik,RSC Anderlecht,RSC Anderlecht,15:52,0,1
+4011136,72/73,7,22/10/1972,15:00,RFC Luik,RSC Anderlecht,RSC Anderlecht,15:00,0,2
+4011136,72/73,7,22/10/1972,15:00,RFC Luik,RSC Anderlecht,RSC Anderlecht,15:07,0,3
+4011136,72/73,7,22/10/1972,15:00,RFC Luik,RSC Anderlecht,RSC Anderlecht,15:22,0,4
+4011136,72/73,7,22/10/1972,15:00,RFC Luik,RSC Anderlecht,RSC Anderlecht,15:25,0,5
+4011140,72/73,8,28/10/1972,20:00,Lierse SK,RCC Schaerbeek,Lierse SK,20:49,1,0
+4011140,72/73,8,28/10/1972,20:00,Lierse SK,RCC Schaerbeek,Lierse SK,20:16,2,0
+4011140,72/73,8,28/10/1972,20:00,Lierse SK,RCC Schaerbeek,RCC Schaerbeek,20:37,2,1
+4011140,72/73,8,28/10/1972,20:00,Lierse SK,RCC Schaerbeek,RCC Schaerbeek,20:49,2,2
+4011141,72/73,8,29/10/1972,15:00,St-Truidense VV,KV Mechelen,KV Mechelen,15:24,0,1
+4011142,72/73,8,29/10/1972,15:00,Standard Luik,Cercle Brugge,Standard Luik,15:18,1,0
+4011142,72/73,8,29/10/1972,15:00,Standard Luik,Cercle Brugge,Standard Luik,15:47,2,0
+4011142,72/73,8,29/10/1972,15:00,Standard Luik,Cercle Brugge,Standard Luik,16:8,3,0
+4011149,72/73,9,5/11/1972,15:00,Beerschot VAV,Club Brugge,Club Brugge,15:37,0,1
+4011149,72/73,9,5/11/1972,15:00,Beerschot VAV,Club Brugge,Beerschot VAV,15:51,1,1
+4011149,72/73,9,5/11/1972,15:00,Beerschot VAV,Club Brugge,Club Brugge,15:02,1,2
+4011150,72/73,9,5/11/1972,15:00,KFC Diest,Lierse SK,KFC Diest,15:40,1,0
+4011150,72/73,9,5/11/1972,15:00,KFC Diest,Lierse SK,KFC Diest,16:14,2,0
+4011150,72/73,9,5/11/1972,15:00,KFC Diest,Lierse SK,Lierse SK,15:21,2,1
+4011152,72/73,9,5/11/1972,15:00,RCC Schaerbeek,Standard Luik,Standard Luik,15:10,0,1
+4011152,72/73,9,5/11/1972,15:00,RCC Schaerbeek,Standard Luik,Standard Luik,15:27,0,2
+4011158,72/73,10,12/11/1972,15:00,Lierse SK,Beerschot VAV,Beerschot VAV,15:22,0,1
+4011158,72/73,10,12/11/1972,15:00,Lierse SK,Beerschot VAV,Lierse SK,15:44,1,1
+4011158,72/73,10,12/11/1972,15:00,Lierse SK,Beerschot VAV,Lierse SK,16:16,2,1
+4011165,72/73,11,26/11/1972,15:00,RCC Schaerbeek,Club Brugge,RCC Schaerbeek,16:10,1,0
+4011170,72/73,11,26/11/1972,15:00,RSC Anderlecht,Standard Luik,RSC Anderlecht,16:21,1,0
+4011170,72/73,11,26/11/1972,15:00,RSC Anderlecht,Standard Luik,RSC Anderlecht,15:34,2,0
+4011170,72/73,11,26/11/1972,15:00,RSC Anderlecht,Standard Luik,Standard Luik,15:49,2,1
+4011170,72/73,11,26/11/1972,15:00,RSC Anderlecht,Standard Luik,Standard Luik,15:21,2,2
+>>>>>>> 73f33c9 (Update)

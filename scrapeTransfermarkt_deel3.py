@@ -178,8 +178,12 @@ def prepareDataMatch(soup, seizoen, speeldag, matchnumber):
      
      # While loop om de doelpunten te doorlopen per match
      i = 0
+<<<<<<< HEAD
      while i < len(goalData):
         # Als er een : teken is -> split de data om de stand te krijgen.
+=======
+     while i < len(goalData) - 1:
+>>>>>>> 73f33c9 (Update)
         if ":" in goalData[i]:
            standen = goalData[i].split(":")
            newhuisstand = standen[0]
