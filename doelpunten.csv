@@ -35,6 +35,7 @@
 4008214,60/61,2,11/09/1960,15:00,ARA Gent,Beerschot AC,ARA Gent,15:52,2,0
 4008226,60/61,3,18/09/1960,15:00,Union SG,Antwerp FC,Antwerp FC,15:05,0,1
 <<<<<<< HEAD
+<<<<<<< HEAD
 4008203,60/61,1,4/09/1960,15:00,St-Truidense VV,Standard Luik,Standard Luik,15:14,0,1
 4008203,60/61,1,4/09/1960,15:00,St-Truidense VV,Standard Luik,Standard Luik,15:19,0,2
 4008204,60/61,1,4/09/1960,15:00,Eendracht Aalst,Antwerp FC,Antwerp FC,15:18,0,1
@@ -79,6 +80,11 @@
 4008443,61/62,1,2/09/1961,19:30,ARA Gent,Daring Club,Daring Club,19:58,1,1
 4008443,61/62,1,2/09/1961,19:30,ARA Gent,Daring Club,ARA Gent,19:75,2,1
 >>>>>>> 73f33c9 (Update)
+=======
+4008443,61/62,1,2/09/1961,19:30,ARA Gent,Daring Club,ARA Gent,19:48,1,0
+4008443,61/62,1,2/09/1961,19:30,ARA Gent,Daring Club,Daring Club,19:58,1,1
+4008443,61/62,1,2/09/1961,19:30,ARA Gent,Daring Club,ARA Gent,19:75,2,1
+>>>>>>> 73f33c9 (Update)
 4008443,61/62,1,2/09/1961,19:30,ARA Gent,Daring Club,Daring Club,19:53,2,2
 4008444,61/62,1,3/09/1961,15:00,Standard Luik,Beerschot AC,Beerschot AC,15:15,0,1
 4008445,61/62,1,3/09/1961,15:00,Lierse SK,Eendracht Aalst,Lierse SK,15:10,1,0
@@ -112,17 +118,23 @@
 4008456,61/62,2,10/09/1961,15:00,KFC Diest,RSC Anderlecht,KFC Diest,15:37,1,0
 4008456,61/62,2,10/09/1961,15:00,KFC Diest,RSC Anderlecht,KFC Diest,15:29,2,0
 <<<<<<< HEAD
+<<<<<<< HEAD
 4008461,61/62,3,17/09/1961,15:00,Antwerp FC,RSC Anderlecht,RSC Anderlecht,15:00,0,1
 4008461,61/62,3,17/09/1961,15:00,Antwerp FC,RSC Anderlecht,RSC Anderlecht,15:10,0,2
 4008461,61/62,3,17/09/1961,15:00,Antwerp FC,RSC Anderlecht,Antwerp FC,15:10,1,2
 4008461,61/62,3,17/09/1961,15:00,Antwerp FC,RSC Anderlecht,RSC Anderlecht,15:39,1,3
 4008461,61/62,3,17/09/1961,15:00,Antwerp FC,RSC Anderlecht,RSC Anderlecht,15:03,1,4
 =======
+=======
+>>>>>>> 73f33c9 (Update)
 4008461,61/62,3,17/09/1961,15:00,Union SG,RFC Luik,RFC Luik,15:00,0,1
 4008461,61/62,3,17/09/1961,15:00,Union SG,RFC Luik,RFC Luik,15:10,0,2
 4008461,61/62,3,17/09/1961,15:00,Union SG,RFC Luik,Union SG,15:10,1,2
 4008461,61/62,3,17/09/1961,15:00,Union SG,RFC Luik,RFC Luik,15:39,1,3
 4008461,61/62,3,17/09/1961,15:00,Union SG,RFC Luik,RFC Luik,15:03,1,4
+<<<<<<< HEAD
+>>>>>>> 73f33c9 (Update)
+=======
 >>>>>>> 73f33c9 (Update)
 4008683,62/63,1,1/09/1962,19:30,RSC Anderlecht,KFC Diest,RSC Anderlecht,19:78,1,0
 4008684,62/63,1,1/09/1962,19:30,Antwerp FC,ARA Gent,Antwerp FC,20:50,1,0
@@ -190,6 +202,7 @@
 4008703,62/63,3,16/09/1962,15:00,Beringen FC,Daring Club,Beringen FC,16:10,6,0
 4008703,62/63,3,16/09/1962,15:00,Beringen FC,Daring Club,Daring Club,15:18,6,1
 <<<<<<< HEAD
+<<<<<<< HEAD
 4008723,62/63,6,7/10/1962,15:00,Olymp. Charleroi,RFC Luik,Olymp. Charleroi,15:21,1,0
 4008723,62/63,6,7/10/1962,15:00,Olymp. Charleroi,RFC Luik,Olymp. Charleroi,15:32,2,0
 4008723,62/63,6,7/10/1962,15:00,Olymp. Charleroi,RFC Luik,Olymp. Charleroi,15:34,3,0
@@ -198,6 +211,8 @@
 4008724,62/63,6,7/10/1962,15:00,St-Truidense VV,Union SG,St-Truidense VV,16:3,3,0
 4008724,62/63,6,7/10/1962,15:00,St-Truidense VV,Union SG,Union SG,15:29,3,1
 =======
+=======
+>>>>>>> 73f33c9 (Update)
 4008723,62/63,6,7/10/1962,15:00,Standard Luik,ARA Gent,Standard Luik,15:21,1,0
 4008723,62/63,6,7/10/1962,15:00,Standard Luik,ARA Gent,Standard Luik,15:32,2,0
 4008723,62/63,6,7/10/1962,15:00,Standard Luik,ARA Gent,Standard Luik,15:34,3,0
@@ -205,6 +220,9 @@
 4008724,62/63,6,7/10/1962,15:00,RSC Anderlecht,Antwerp FC,RSC Anderlecht,16:2,2,0
 4008724,62/63,6,7/10/1962,15:00,RSC Anderlecht,Antwerp FC,RSC Anderlecht,16:3,3,0
 4008724,62/63,6,7/10/1962,15:00,RSC Anderlecht,Antwerp FC,Antwerp FC,15:29,3,1
+<<<<<<< HEAD
+>>>>>>> 73f33c9 (Update)
+=======
 >>>>>>> 73f33c9 (Update)
 4008739,62/63,8,28/10/1962,15:00,RSC Anderlecht,Standard Luik,RSC Anderlecht,15:20,1,0
 4008739,62/63,8,28/10/1962,15:00,RSC Anderlecht,Standard Luik,Standard Luik,15:25,1,1
@@ -257,6 +275,7 @@
 4008940,63/64,3,22/09/1963,15:00,KV Mechelen,Standard Luik,Standard Luik,15:02,0,3
 4008941,63/64,3,22/09/1963,15:00,RSC Anderlecht,Beerschot AC,Beerschot AC,15:06,0,1
 <<<<<<< HEAD
+<<<<<<< HEAD
 4008948,63/64,4,29/09/1963,15:00,Standard Luik,St-Truidense VV,St-Truidense VV,15:00,0,1
 4008948,63/64,4,29/09/1963,15:00,Standard Luik,St-Truidense VV,St-Truidense VV,15:42,0,2
 4008948,63/64,4,29/09/1963,15:00,Standard Luik,St-Truidense VV,St-Truidense VV,15:44,0,3
@@ -276,6 +295,8 @@
 4008961,63/64,5,6/10/1963,15:00,RSC Anderlecht,St-Truidense VV,St-Truidense VV,15:37,0,1
 4008961,63/64,5,6/10/1963,15:00,RSC Anderlecht,St-Truidense VV,RSC Anderlecht,15:37,1,1
 =======
+=======
+>>>>>>> 73f33c9 (Update)
 4008948,63/64,4,29/09/1963,15:00,Daring Club,KV Mechelen,KV Mechelen,15:00,0,1
 4008948,63/64,4,29/09/1963,15:00,Daring Club,KV Mechelen,KV Mechelen,15:42,0,2
 4008948,63/64,4,29/09/1963,15:00,Daring Club,KV Mechelen,KV Mechelen,15:44,0,3
@@ -294,6 +315,9 @@
 4008958,63/64,5,6/10/1963,15:00,Antwerp FC,Lierse SK,Lierse SK,15:29,6,5
 4008961,63/64,5,6/10/1963,15:00,KFC Diest,Beerschot AC,Beerschot AC,15:37,0,1
 4008961,63/64,5,6/10/1963,15:00,KFC Diest,Beerschot AC,KFC Diest,15:37,1,1
+<<<<<<< HEAD
+>>>>>>> 73f33c9 (Update)
+=======
 >>>>>>> 73f33c9 (Update)
 4009092,63/64,22,16/02/1964,15:00,Standard Luik,Daring Club,Standard Luik,15:14,1,0
 4009092,63/64,22,16/02/1964,15:00,Standard Luik,Daring Club,Standard Luik,15:29,2,0
@@ -316,8 +340,13 @@
 4009165,64/65,1,5/09/1964,20:00,ARA Gent,RFC Luik,ARA Gent,20:38,2,3
 4009166,64/65,1,6/09/1964,15:00,Standard Luik,Cercle Brugge,Standard Luik,15:22,1,0
 <<<<<<< HEAD
+<<<<<<< HEAD
 4009166,64/65,1,6/09/1964,15:00,Standard Luik,Cercle Brugge,Cercle Brugge,15:07,1,1
 4009166,64/65,1,6/09/1964,15:00,Standard Luik,Cercle Brugge,Standard Luik,16:7,2,1
+=======
+4009166,64/65,1,6/09/1964,15:00,Standard Luik,Cercle Brugge,Standard Luik,16:7,2,1
+4009166,64/65,1,6/09/1964,15:00,Standard Luik,Cercle Brugge,Cercle Brugge,15:01,2,1
+>>>>>>> 73f33c9 (Update)
 =======
 4009166,64/65,1,6/09/1964,15:00,Standard Luik,Cercle Brugge,Standard Luik,16:7,2,1
 4009166,64/65,1,6/09/1964,15:00,Standard Luik,Cercle Brugge,Cercle Brugge,15:01,2,1
@@ -407,6 +436,7 @@
 4009194,64/65,4,27/09/1964,15:00,RFC Tilleur,Club Brugge,Club Brugge,15:58,1,2
 4009195,64/65,5,10/10/1964,19:30,ARA Gent,Beringen FC,ARA Gent,19:40,1,0
 <<<<<<< HEAD
+<<<<<<< HEAD
 4009200,64/65,5,11/10/1964,15:00,Berchem Sport,Lierse SK,Berchem Sport,15:48,1,0
 4009200,64/65,5,11/10/1964,15:00,Berchem Sport,Lierse SK,Lierse SK,15:54,1,1
 4009200,64/65,5,11/10/1964,15:00,Berchem Sport,Lierse SK,Berchem Sport,16:7,2,1
@@ -417,6 +447,8 @@
 4009275,64/65,5,3/01/1965,14:30,KFC Diest,Club Brugge,KFC Diest,14:73,2,0
 4009275,64/65,5,3/01/1965,14:30,KFC Diest,Club Brugge,KFC Diest,14:81,3,0
 =======
+=======
+>>>>>>> 73f33c9 (Update)
 4009200,64/65,5,11/10/1964,15:00,RFC Luik,Antwerp FC,RFC Luik,15:48,1,0
 4009200,64/65,5,11/10/1964,15:00,RFC Luik,Antwerp FC,Antwerp FC,15:54,1,1
 4009200,64/65,5,11/10/1964,15:00,RFC Luik,Antwerp FC,RFC Luik,16:7,2,1
@@ -426,6 +458,9 @@
 4009275,64/65,5,3/01/1965,14:30,Cercle Brugge,RFC Tilleur,Cercle Brugge,14:60,1,0
 4009275,64/65,5,3/01/1965,14:30,Cercle Brugge,RFC Tilleur,Cercle Brugge,14:73,2,0
 4009275,64/65,5,3/01/1965,14:30,Cercle Brugge,RFC Tilleur,Cercle Brugge,14:81,3,0
+<<<<<<< HEAD
+>>>>>>> 73f33c9 (Update)
+=======
 >>>>>>> 73f33c9 (Update)
 4009202,64/65,6,17/10/1964,19:30,RSC Anderlecht,KFC Diest,RSC Anderlecht,20:59,1,0
 4009202,64/65,6,17/10/1964,19:30,RSC Anderlecht,KFC Diest,KFC Diest,19:55,1,1
@@ -445,17 +480,23 @@
 4009240,64/65,10,22/11/1964,14:00,RFC Tilleur,Lierse SK,RFC Tilleur,14:12,2,0
 4009240,64/65,10,22/11/1964,14:00,RFC Tilleur,Lierse SK,RFC Tilleur,14:50,3,0
 <<<<<<< HEAD
+<<<<<<< HEAD
 4009247,64/65,11,29/11/1964,15:00,Daring Club,RFC Tilleur,Daring Club,16:14,1,0
 4009247,64/65,11,29/11/1964,15:00,Daring Club,RFC Tilleur,RFC Tilleur,15:52,1,1
 4009247,64/65,11,29/11/1964,15:00,Daring Club,RFC Tilleur,RFC Tilleur,15:00,1,2
 4009247,64/65,11,29/11/1964,15:00,Daring Club,RFC Tilleur,RFC Tilleur,15:11,1,3
 4009247,64/65,11,29/11/1964,15:00,Daring Club,RFC Tilleur,Daring Club,16:12,2,3
 =======
+=======
+>>>>>>> 73f33c9 (Update)
 4009247,64/65,11,29/11/1964,15:00,RFC Luik,Standard Luik,RFC Luik,16:14,1,0
 4009247,64/65,11,29/11/1964,15:00,RFC Luik,Standard Luik,Standard Luik,15:52,1,1
 4009247,64/65,11,29/11/1964,15:00,RFC Luik,Standard Luik,Standard Luik,15:00,1,2
 4009247,64/65,11,29/11/1964,15:00,RFC Luik,Standard Luik,Standard Luik,15:11,1,3
 4009247,64/65,11,29/11/1964,15:00,RFC Luik,Standard Luik,RFC Luik,16:12,2,3
+<<<<<<< HEAD
+>>>>>>> 73f33c9 (Update)
+=======
 >>>>>>> 73f33c9 (Update)
 4009252,64/65,12,6/12/1964,14:00,RFC Tilleur,Antwerp FC,RFC Tilleur,15:29,1,0
 4009252,64/65,12,6/12/1964,14:00,RFC Tilleur,Antwerp FC,RFC Tilleur,14:13,2,0
@@ -474,15 +515,21 @@
 4009267,64/65,14,20/12/1964,14:30,Standard Luik,Club Brugge,Standard Luik,14:80,5,0
 4009267,64/65,14,20/12/1964,14:30,Standard Luik,Club Brugge,Standard Luik,15:39,6,0
 <<<<<<< HEAD
+<<<<<<< HEAD
 4009277,64/65,16,10/01/1965,14:30,Beerschot AC,St-Truidense VV,St-Truidense VV,14:44,0,1
 4009277,64/65,16,10/01/1965,14:30,Beerschot AC,St-Truidense VV,St-Truidense VV,15:01,0,2
 4009277,64/65,16,10/01/1965,14:30,Beerschot AC,St-Truidense VV,St-Truidense VV,14:35,0,3
 4009277,64/65,16,10/01/1965,14:30,Beerschot AC,St-Truidense VV,St-Truidense VV,14:55,0,4
 =======
+=======
+>>>>>>> 73f33c9 (Update)
 4009277,64/65,16,10/01/1965,14:30,Cercle Brugge,Standard Luik,Standard Luik,14:44,0,1
 4009277,64/65,16,10/01/1965,14:30,Cercle Brugge,Standard Luik,Standard Luik,15:01,0,2
 4009277,64/65,16,10/01/1965,14:30,Cercle Brugge,Standard Luik,Standard Luik,14:35,0,3
 4009277,64/65,16,10/01/1965,14:30,Cercle Brugge,Standard Luik,Standard Luik,14:55,0,4
+<<<<<<< HEAD
+>>>>>>> 73f33c9 (Update)
+=======
 >>>>>>> 73f33c9 (Update)
 4009323,64/65,22,20/02/1965,19:30,RSC Anderlecht,ARA Gent,RSC Anderlecht,19:72,1,0
 4009323,64/65,22,20/02/1965,19:30,RSC Anderlecht,ARA Gent,RSC Anderlecht,20:38,2,0
@@ -511,15 +558,21 @@
 4009407,65/66,1,5/09/1965,15:00,RFC Luik,Beringen FC,RFC Luik,15:50,4,0
 4009408,65/66,1,5/09/1965,15:00,Cercle Brugge,St-Truidense VV,St-Truidense VV,15:12,0,1
 <<<<<<< HEAD
+<<<<<<< HEAD
 4009410,65/66,1,5/09/1965,15:00,ARA Gent,RRC Brï¿½ssel,RRC Brï¿½ssel,15:47,0,1
 4009410,65/66,1,5/09/1965,15:00,ARA Gent,RRC Brï¿½ssel,ARA Gent,16:17,1,1
 4009412,65/66,2,12/09/1965,15:00,RRC Brï¿½ssel,Standard Luik,RRC Brï¿½ssel,15:20,1,0
 4009412,65/66,2,12/09/1965,15:00,RRC Brï¿½ssel,Standard Luik,Standard Luik,15:18,1,1
 =======
+=======
+>>>>>>> 73f33c9 (Update)
 4009410,65/66,1,5/09/1965,15:00,ARA Gent,RRC Brüssel,RRC Brüssel,15:47,0,1
 4009410,65/66,1,5/09/1965,15:00,ARA Gent,RRC Brüssel,ARA Gent,16:17,1,1
 4009412,65/66,2,12/09/1965,15:00,RRC Brüssel,Standard Luik,RRC Brüssel,15:20,1,0
 4009412,65/66,2,12/09/1965,15:00,RRC Brüssel,Standard Luik,Standard Luik,15:18,1,1
+<<<<<<< HEAD
+>>>>>>> 73f33c9 (Update)
+=======
 >>>>>>> 73f33c9 (Update)
 4009414,65/66,2,12/09/1965,15:00,Club Brugge,Beerschot AC,Club Brugge,15:43,1,0
 4009414,65/66,2,12/09/1965,15:00,Club Brugge,Beerschot AC,Beerschot AC,15:03,1,1
@@ -558,6 +611,7 @@
 4009494,65/66,13,12/12/1965,14:30,RFC Tilleur,Standard Luik,RFC Tilleur,14:57,2,0
 4009494,65/66,13,12/12/1965,14:30,RFC Tilleur,Standard Luik,Standard Luik,15:29,2,1
 <<<<<<< HEAD
+<<<<<<< HEAD
 4009503,65/66,14,19/12/1965,14:30,Beerschot AC,RRC Brï¿½ssel,RRC Brï¿½ssel,14:51,0,1
 4009503,65/66,14,19/12/1965,14:30,Beerschot AC,RRC Brï¿½ssel,RRC Brï¿½ssel,14:52,0,2
 4009503,65/66,14,19/12/1965,14:30,Beerschot AC,RRC Brï¿½ssel,RRC Brï¿½ssel,14:57,0,3
@@ -571,6 +625,8 @@
 4009622,65/66,15,30/04/1966,19:30,Lierse SK,Daring Club,Daring Club,19:47,0,1
 4009622,65/66,15,30/04/1966,19:30,Lierse SK,Daring Club,Daring Club,20:12,0,2
 =======
+=======
+>>>>>>> 73f33c9 (Update)
 4009503,65/66,14,19/12/1965,14:30,Beerschot AC,RRC Brüssel,RRC Brüssel,14:51,0,1
 4009503,65/66,14,19/12/1965,14:30,Beerschot AC,RRC Brüssel,RRC Brüssel,14:52,0,2
 4009503,65/66,14,19/12/1965,14:30,Beerschot AC,RRC Brüssel,RRC Brüssel,14:57,0,3
@@ -1690,4 +1746,7 @@
 4011170,72/73,11,26/11/1972,15:00,RSC Anderlecht,Standard Luik,RSC Anderlecht,15:34,2,0
 4011170,72/73,11,26/11/1972,15:00,RSC Anderlecht,Standard Luik,Standard Luik,15:49,2,1
 4011170,72/73,11,26/11/1972,15:00,RSC Anderlecht,Standard Luik,Standard Luik,15:21,2,2
+<<<<<<< HEAD
+>>>>>>> 73f33c9 (Update)
+=======
 >>>>>>> 73f33c9 (Update)

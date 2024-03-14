@@ -179,8 +179,12 @@ def prepareDataMatch(soup, seizoen, speeldag, matchnumber):
      # While loop om de doelpunten te doorlopen per match
      i = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
      while i < len(goalData):
         # Als er een : teken is -> split de data om de stand te krijgen.
+=======
+     while i < len(goalData) - 1:
+>>>>>>> 73f33c9 (Update)
 =======
      while i < len(goalData) - 1:
 >>>>>>> 73f33c9 (Update)
