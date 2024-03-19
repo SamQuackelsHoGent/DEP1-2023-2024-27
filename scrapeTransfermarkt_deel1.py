@@ -17,13 +17,13 @@ def getData():
           headers={'User-Agent': 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Odin/88.4324.2.10 Safari/537.36 Model/Hisense-MT9602 VIDAA/6.0(Hisense;SmartTV;43A53FUV;MTK9602/V0000.06.12A.N0406;UHD;HU43A6100F;)'}
           page= requests.get(URL, headers=headers)
           soup= BeautifulSoup(page.content, "html.parser")
-          prepareData(soup, seizoen, speeldag)
+          prepareData(soup, year, speeldag)
     print("Done")
 # Methode die de data schrijft naar het wedstrijden.csv file
-def writeData(id, seizoen, speeldag, datum, tijd, huisploeg, huisstand, uitstand, uitploeg):
+def writeData(seizoen, speeldag, datum, tijd, id, huisploeg, uitploeg, huisstand, uitstand):
     with open('wedstrijden.csv', 'a', newline='\n') as file:
-        writer = csv.writer(file)
-        writer.writerow([id, seizoen, speeldag, datum, tijd, huisploeg, huisstand, uitstand, uitploeg])
+        writer = csv.writer(file, delimiter=";")
+        writer.writerow([seizoen, speeldag, datum, tijd, id, huisploeg, uitploeg, huisstand, uitstand, ])
 
 # methode om datum in het goede formaat om te zetten
 def changeDateFormat(datum):
@@ -45,7 +45,7 @@ def changeDateFormat(datum):
     # Veranderd de maand naar het juiste formaat
     dag, maand, jaar = datum.split()
     maand = maand_afkortingen[maand.lower()]
-    return f"{dag}/{maand}/{jaar}"
+    return f"{jaar}-{maand}-{dag}"
 
 # Methode om de data te scheiden
 def prepareData(soup, seizoen, speeldag):
@@ -144,6 +144,6 @@ def prepareData(soup, seizoen, speeldag):
        print(id, seizoen, speeldag, datum, tijd, huisploeg, huisstand, uitstand, uitploeg)
        quit
 
-    writeData(id, seizoen, speeldag, datum, tijd, huisploeg, huisstand, uitstand, uitploeg)
+    writeData(seizoen, speeldag, datum, tijd, id, huisploeg, uitploeg, huisstand, uitstand)
       
 getData()

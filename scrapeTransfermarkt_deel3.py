@@ -12,7 +12,7 @@ ploegen = []
 # Methode om de data te scrapen
 def getData():
     # For loop om alle seizoenen te doorlopen
-    for year in range (1960, datetime.date.today().year - 1):
+    for year in range (1960, datetime.date.today().year):
         seizoen = (str(year)[2:] + "/" + str(year + 1)[2:])
         # For loop om alle dagen per seizoen te doorlopen.
         for day in range (1, 34):
@@ -21,6 +21,8 @@ def getData():
           headers={'User-Agent': 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Odin/88.4324.2.10 Safari/537.36 Model/Hisense-MT9602 VIDAA/6.0(Hisense;SmartTV;43A53FUV;MTK9602/V0000.06.12A.N0406;UHD;HU43A6100F;)'}
           page= requests.get(URL, headers=headers)
           soup= BeautifulSoup(page.content, "html.parser")
+          # if (day == 33 and seizoen=="81/82"):
+          #    print("Ok")
           amountOfGames = 0
           for i in range (0,20):
             possibleData = soup.select(f"#main main div.row div[class='large-8 columns'] div[class='box']:nth-of-type({str(i + 1)}) table tbody tr td span a[title='Wedstrijdverslag']")
@@ -28,14 +30,14 @@ def getData():
               amountOfGames = i
           getPloegen(soup, seizoen, day)
           for matchcount in range(1,amountOfGames):
-            prepareDataMatch(soup, seizoen, day, matchcount)
+            prepareDataMatch(soup, year, day, matchcount)
     print("Done")
 
 # Methode om de data weg te schrijven naar het doelpunten.csv file
-def writeData(match_id, seizoen, speeldag, datum, tijd, huisteam, uitteam, goalploeg, tijdstip, newhuisstand, newuitstand):
+def writeData(seizoen, speeldag, datum, tijd, match_id, huisploeg, uitploeg, tijdpunt, tijdstip, goalploeg, newhuisstand, newuitstand):
     with open('doelpunten.csv', 'a', newline='\n') as file:
-        writer = csv.writer(file)
-        writer.writerow([match_id, seizoen, speeldag, datum, tijd, huisteam, uitteam, goalploeg, tijdstip, newhuisstand, newuitstand])
+        writer = csv.writer(file, delimiter=";")
+        writer.writerow([seizoen, speeldag, datum, tijd, match_id, huisploeg, uitploeg, tijdpunt, tijdstip, goalploeg, newhuisstand, newuitstand])
 
 # Methode om de verschillende ploegen op te halen
 def getPloegen(soup, seizoen, speeldag):
@@ -79,15 +81,26 @@ def changeDateFormat(datum):
     # Veranderd de maand naar het juiste formaat
     dag, maand, jaar = datum.split()
     maand = maand_afkortingen[maand.lower()]
-    return f"{dag}/{maand}/{jaar}"
+    return f"{jaar}-{maand}-{dag}"
 
 # methode om de data te scrapen
 def prepareDataMatch(soup, seizoen, speeldag, matchnumber):
      # declareer de variabelen
+     
      global ploegen
      datum = ""
      tijd= ""
+
+     if len(ploegen) > 1:
+      huisploeg = ploegen.pop(0)
+      uitploeg = ploegen.pop(0)
+     else:
+      return
      
+     if (seizoen == "02/03"):
+        if "Lommel" in ploegen or "Moeskroen" in ploegen:
+           return
+
      # Soup om de match id op te halen
      idstext = soup.select(f"#main main div.row div[class='large-8 columns'] div[class='box']:nth-of-type({str(matchnumber + 1)}) table tbody tr td span a[title='Wedstrijdverslag']")
      if idstext == []:
@@ -124,6 +137,7 @@ def prepareDataMatch(soup, seizoen, speeldag, matchnumber):
         match = re.match(".*[\d]{2}:[\d]{2}.*", x)
         if match:
            tijd = re.search("[\d]{2}:[\d]{2}", x).group()
+           break
      
      # Doorloop de genrieke data adhv een while loop
      x = 0
@@ -153,16 +167,14 @@ def prepareDataMatch(soup, seizoen, speeldag, matchnumber):
       elif "   " in data[x]:
         del data[x]
       # Verwijder foute data
-      elif any(ploeg in str(data[x]) for ploeg in ploegen):
-        del data[x]
+      # elif any(ploeg in str(data[x]) for ploeg in ploegen):
+      #   del data[x]
       # Verwijder foute data
       elif "voorspellingen" in data[x] or "Wedstrijdverslag" in data[x]:
         del data[x]
       else:
          x += 1
      # Ploegen ophalen
-     huisploeg = ploegen.pop(0)
-     uitploeg = ploegen.pop(0)
      
      # While loop om de doelpunten per match te vinden
      goalData = []
@@ -175,7 +187,8 @@ def prepareDataMatch(soup, seizoen, speeldag, matchnumber):
      datum = changeDateFormat(goalData.pop(0))
      huisstand = 0
      uitstand = 0
-     
+     if len(goalData) % 2 != 0:
+        return
      # While loop om de doelpunten te doorlopen per match
      i = 0
         # Als er een : teken is -> split de data om de stand te krijgen.
@@ -187,20 +200,29 @@ def prepareDataMatch(soup, seizoen, speeldag, matchnumber):
            
            # Als de thuisploeg scoort
            if int(newhuisstand) > int(huisstand):
+              if not "'" in goalData[i-1]:
+                 return
               tijdpunt = int(re.search("[\d]*", goalData[i-1]).group())
-              tijdstip = str(int(tijd.split(":")[0]) + int(tijdpunt/60)) + ":" + str(int(tijd.split(":")[1]) + tijdpunt % 60)
-              # Schrijf de data weg naar de csv file
-              writeData(match_id, seizoen, speeldag, datum, tijd, huisploeg, uitploeg, huisploeg, tijdstip, newhuisstand, newuitstand)
-           
-           # Als de uitploeg scoort
-           if int(newuitstand) > int(uitstand):
-              tijdpunt = int(re.search("[\d]*", goalData[i+1]).group())
-              minuten = int(tijd.split(":")[0]) * 60 + int(tijd.split(":")[1]) + tijdpunt % 60
+              minuten = int(tijd.split(":")[0]) * 60 + int(tijd.split(":")[1]) + tijdpunt
               tijdstip = str(int(minuten/60)) + ":" + str(int(minuten % 60))
               tijdstip = datetime.datetime.strptime(tijdstip, "%H:%M")
               tijdstip = tijdstip.strftime("%H:%M")
               # Schrijf de data weg naar de csv file
-              writeData(match_id, seizoen, speeldag, datum, tijd, huisploeg, uitploeg, uitploeg, tijdstip, newhuisstand, newuitstand)
+            #   writeData(match_id, seizoen, speeldag, datum, tijd, huisploeg, uitploeg, huisploeg, tijdpunt, tijdstip, newhuisstand, newuitstand)
+              writeData(seizoen, speeldag, datum, tijd, match_id, huisploeg, uitploeg, tijdpunt, tijdstip, huisploeg, newhuisstand, newuitstand)
+           
+           # Als de uitploeg scoort
+           if int(newuitstand) > int(uitstand):
+              if not "'" in goalData[i+1]:
+                 return
+              tijdpunt = int(re.search("[\d]*", goalData[i+1]).group())
+              minuten = int(tijd.split(":")[0]) * 60 + int(tijd.split(":")[1]) + tijdpunt
+              tijdstip = str(int(minuten/60)) + ":" + str(int(minuten % 60))
+              tijdstip = datetime.datetime.strptime(tijdstip, "%H:%M")
+              tijdstip = tijdstip.strftime("%H:%M")
+              # Schrijf de data weg naar de csv file
+            #   writeData(match_id, seizoen, speeldag, datum, tijd, huisploeg, uitploeg, uitploeg, tijdpunt, tijdstip, newhuisstand, newuitstand)
+              writeData(seizoen, speeldag, datum, tijd, match_id, huisploeg, uitploeg, tijdpunt, tijdstip, uitploeg, newhuisstand, newuitstand)
            
            huisstand = newhuisstand
            uitstand = newuitstand

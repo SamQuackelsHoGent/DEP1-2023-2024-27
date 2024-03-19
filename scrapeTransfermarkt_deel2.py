@@ -51,13 +51,13 @@ def getData():
           page= requests.get(URL, headers=headers)
           soup= BeautifulSoup(page.content, "html.parser")
 
-          prepareData(soup, seizoen, speeldag)
+          prepareData(soup, year, day)
     print("Done")
 
 # Methode die de data schrijft naar het klassementen.csv file
 def writeData(seizoen, speeldag, stand, clubnaam, gespeeldeMatchen, gewonnenMatchen, gelijkspeeldeMatchen, verlorenMatchen, doelpunten, puntenverschil, punten):
     with open('klassementen.csv', 'a', newline='\n') as file:
-        writer = csv.writer(file)
+        writer = csv.writer(file, delimiter=";")
         writer.writerow([seizoen, speeldag, stand, clubnaam, gespeeldeMatchen, gewonnenMatchen, gelijkspeeldeMatchen, verlorenMatchen, doelpunten, puntenverschil, punten])
 
 # Methode om de data te scheiden
