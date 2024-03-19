@@ -10,3 +10,7 @@
 - line 12240: value "stand" changed from 29 to 9
 - line 20339: value "stand" changed from 39 to 9
 - line 20340: value "stand" changed from 39 to 9
+
+Seizoen 75/76 -> Niet elke ploeg speelt op een speeldag
+Seizoen 02/03 -> Niet elke ploeg speelt op een speeldag
+Seizoen 09/10 -> Moeskroen heeft 0 matchen gespeeld doorheen het seizoen
