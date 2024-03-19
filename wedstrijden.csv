@@ -2,98 +2,49 @@
 4008203,60/61,1,4/09/1960,15:00,Sint-Truidense VV,0,2,Standard Luik
 4008204,60/61,1,4/09/1960,15:00,KSC Eendracht Aalst,3,2,R Antwerp FC
 4008205,60/61,1,4/09/1960,15:00,Olympic Charleroi,0,7,RSC Anderlecht
-<<<<<<< HEAD
-4008206,60/61,1,4/09/1960,15:00,Royal Beerschot AC,1,0,Stade Verviétois
-4008207,60/61,1,4/09/1960,15:00,Club Brugge,1,2,Union Saint-Gilloise
-4008208,60/61,1,4/09/1960,15:00,Daring Club Brussel,2,1,K Patro Eisden
-4008209,60/61,1,4/09/1960,15:00,RFC Luik,2,1,Association Royale Athlétique Gent
-=======
 4008206,60/61,1,4/09/1960,15:00,Royal Beerschot AC,1,0,Stade Vervitois
 4008207,60/61,1,4/09/1960,15:00,Club Brugge,1,2,Union Saint-Gilloise
 4008208,60/61,1,4/09/1960,15:00,Daring Club Brussel,2,1,K Patro Eisden
 4008209,60/61,1,4/09/1960,15:00,RFC Luik,2,1,Association Royale Athl�tique Gent
->>>>>>> cb1fc91 (klassement done)
 4008210,60/61,1,4/09/1960,15:00,Waterschei SV THOR (- 1988),5,0,Lierse SK (- 2018)
 4008211,60/61,2,11/09/1960,15:00,Standard Luik,3,0,KSC Eendracht Aalst
 4008212,60/61,2,11/09/1960,15:00,RSC Anderlecht,2,3,RFC Luik
 4008213,60/61,2,11/09/1960,15:00,R Antwerp FC,2,3,Daring Club Brussel
-<<<<<<< HEAD
-4008214,60/61,2,11/09/1960,15:00,Association Royale Athlétique Gent,3,0,Royal Beerschot AC
-4008215,60/61,2,11/09/1960,15:00,K Patro Eisden,1,1,Club Brugge
-4008216,60/61,2,11/09/1960,15:00,Lierse SK (- 2018),1,0,Olympic Charleroi
-4008217,60/61,2,11/09/1960,15:00,Union Saint-Gilloise,3,0,Sint-Truidense VV
-4008218,60/61,2,11/09/1960,15:00,Stade Verviétois,1,3,Waterschei SV THOR (- 1988)
-=======
 4008214,60/61,2,11/09/1960,15:00,Association Royale Athl�tique Gent,3,0,Royal Beerschot AC
 4008215,60/61,2,11/09/1960,15:00,K Patro Eisden,1,1,Club Brugge
 4008216,60/61,2,11/09/1960,15:00,Lierse SK (- 2018),1,0,Olympic Charleroi
 4008217,60/61,2,11/09/1960,15:00,Union Saint-Gilloise,3,0,Sint-Truidense VV
 4008218,60/61,2,11/09/1960,15:00,Stade Vervi�tois,1,3,Waterschei SV THOR (- 1988)
->>>>>>> cb1fc91 (klassement done)
 4008219,60/61,3,18/09/1960,15:00,Standard Luik,0,0,Olympic Charleroi
 4008220,60/61,3,18/09/1960,15:00,KSC Eendracht Aalst,0,0,RSC Anderlecht
 4008221,60/61,3,18/09/1960,15:00,Union Saint-Gilloise,0,1,R Antwerp FC
 4008222,60/61,3,18/09/1960,15:00,Royal Beerschot AC,3,0,Lierse SK (- 2018)
-<<<<<<< HEAD
-4008223,60/61,3,18/09/1960,15:00,Club Brugge,1,1,Stade Verviétois
-4008224,60/61,3,18/09/1960,15:00,Daring Club Brussel,3,1,Association Royale Athlétique Gent
-4008225,60/61,3,18/09/1960,15:00,Sint-Truidense VV,2,0,K Patro Eisden
-4008226,60/61,3,18/09/1960,15:00,Waterschei SV THOR (- 1988),0,1,RFC Luik
-4008227,60/61,4,25/09/1960,15:00,K Patro Eisden,0,3,Standard Luik
-4008228,60/61,4,25/09/1960,15:00,Stade Verviétois,0,4,KSC Eendracht Aalst
-=======
 4008223,60/61,3,18/09/1960,15:00,Club Brugge,1,1,Stade Vervi�tois
 4008224,60/61,3,18/09/1960,15:00,Daring Club Brussel,3,1,Association Royale Athl�tique Gent
 4008225,60/61,3,18/09/1960,15:00,Sint-Truidense VV,2,0,K Patro Eisden
 4008226,60/61,3,18/09/1960,15:00,Waterschei SV THOR (- 1988),0,1,RFC Luik
 4008227,60/61,4,25/09/1960,15:00,K Patro Eisden,0,3,Standard Luik
 4008228,60/61,4,25/09/1960,15:00,Stade Vervi�tois,0,4,KSC Eendracht Aalst
->>>>>>> cb1fc91 (klassement done)
 4008229,60/61,4,25/09/1960,15:00,RSC Anderlecht,3,1,Waterschei SV THOR (- 1988)
 4008230,60/61,4,25/09/1960,15:00,R Antwerp FC,0,0,Club Brugge
 4008231,60/61,4,25/09/1960,15:00,Olympic Charleroi,4,1,Royal Beerschot AC
 4008232,60/61,4,25/09/1960,15:00,Lierse SK (- 2018),3,4,Daring Club Brussel
-<<<<<<< HEAD
-4008233,60/61,4,25/09/1960,15:00,Association Royale Athlétique Gent,3,0,Sint-Truidense VV
-4008234,60/61,4,25/09/1960,15:00,RFC Luik,2,1,Union Saint-Gilloise
-4008235,60/61,5,9/10/1960,15:00,Standard Luik,5,2,Stade Verviétois
-=======
 4008233,60/61,4,25/09/1960,15:00,Association Royale Athl�tique Gent,3,0,Sint-Truidense VV
 4008234,60/61,4,25/09/1960,15:00,RFC Luik,2,1,Union Saint-Gilloise
 4008235,60/61,5,9/10/1960,15:00,Standard Luik,5,2,Stade Vervi�tois
->>>>>>> cb1fc91 (klassement done)
 4008236,60/61,5,9/10/1960,15:00,Union Saint-Gilloise,5,2,KSC Eendracht Aalst
 4008237,60/61,5,9/10/1960,15:00,Sint-Truidense VV,2,2,RSC Anderlecht
 4008238,60/61,5,9/10/1960,15:00,Royal Beerschot AC,2,1,R Antwerp FC
 4008239,60/61,5,9/10/1960,15:00,Club Brugge,0,0,Waterschei SV THOR (- 1988)
 4008240,60/61,5,9/10/1960,15:00,Daring Club Brussel,1,1,RFC Luik
 4008241,60/61,5,9/10/1960,15:00,K Patro Eisden,0,2,Lierse SK (- 2018)
-<<<<<<< HEAD
-4008242,60/61,5,9/10/1960,15:00,Association Royale Athlétique Gent,1,1,Olympic Charleroi
-=======
 4008242,60/61,5,9/10/1960,15:00,Association Royale Athl�tique Gent,1,1,Olympic Charleroi
->>>>>>> cb1fc91 (klassement done)
 4008243,60/61,6,16/10/1960,15:00,RFC Luik,0,0,Standard Luik
 4008244,60/61,6,16/10/1960,15:00,KSC Eendracht Aalst,3,0,Sint-Truidense VV
 4008245,60/61,6,16/10/1960,15:00,RSC Anderlecht,4,0,Lierse SK (- 2018)
 4008246,60/61,6,16/10/1960,15:00,R Antwerp FC,2,2,K Patro Eisden
 4008247,60/61,6,16/10/1960,15:00,Club Brugge,3,2,Royal Beerschot AC
 4008248,60/61,6,16/10/1960,15:00,Olympic Charleroi,2,1,Daring Club Brussel
-<<<<<<< HEAD
-4008249,60/61,6,16/10/1960,15:00,Waterschei SV THOR (- 1988),2,2,Association Royale Athlétique Gent
-4008250,60/61,6,16/10/1960,15:00,Stade Verviétois,1,0,Union Saint-Gilloise
-4008251,60/61,7,23/10/1960,15:00,Standard Luik,2,1,RSC Anderlecht
-4008252,60/61,7,23/10/1960,15:00,KSC Eendracht Aalst,3,1,Club Brugge
-4008253,60/61,7,23/10/1960,15:00,R Antwerp FC,4,1,Stade Verviétois
-4008254,60/61,7,23/10/1960,15:00,Daring Club Brussel,0,0,Royal Beerschot AC
-4008255,60/61,7,23/10/1960,15:00,K Patro Eisden,2,1,Waterschei SV THOR (- 1988)
-4008256,60/61,7,23/10/1960,15:00,Lierse SK (- 2018),1,0,Association Royale Athlétique Gent
-4008257,60/61,7,23/10/1960,15:00,Sint-Truidense VV,1,0,RFC Luik
-4008258,60/61,7,23/10/1960,15:00,Union Saint-Gilloise,1,0,Olympic Charleroi
-4008259,60/61,8,6/11/1960,15:00,Royal Beerschot AC,1,2,Standard Luik
-4008260,60/61,8,6/11/1960,15:00,Association Royale Athlétique Gent,1,2,KSC Eendracht Aalst
-4008261,60/61,8,6/11/1960,15:00,RSC Anderlecht,2,2,Stade Verviétois
-=======
 4008249,60/61,6,16/10/1960,15:00,Waterschei SV THOR (- 1988),2,2,Association Royale Athl�tique Gent
 4008250,60/61,6,16/10/1960,15:00,Stade Vervi�tois,1,0,Union Saint-Gilloise
 4008251,60/61,7,23/10/1960,15:00,Standard Luik,2,1,RSC Anderlecht
@@ -107,7 +58,6 @@
 4008259,60/61,8,6/11/1960,15:00,Royal Beerschot AC,1,2,Standard Luik
 4008260,60/61,8,6/11/1960,15:00,Association Royale Athl�tique Gent,1,2,KSC Eendracht Aalst
 4008261,60/61,8,6/11/1960,15:00,RSC Anderlecht,2,2,Stade Vervi�tois
->>>>>>> cb1fc91 (klassement done)
 4008262,60/61,8,6/11/1960,15:00,Waterschei SV THOR (- 1988),3,1,R Antwerp FC
 4008263,60/61,8,6/11/1960,15:00,RFC Luik,1,1,Club Brugge
 4008264,60/61,8,6/11/1960,15:00,Daring Club Brussel,1,3,Union Saint-Gilloise
@@ -116,18 +66,6 @@
 4008267,60/61,9,13/11/1960,15:00,Standard Luik,2,1,Lierse SK (- 2018)
 4008268,60/61,9,13/11/1960,15:00,KSC Eendracht Aalst,3,1,Waterschei SV THOR (- 1988)
 4008269,60/61,9,13/11/1960,15:00,Union Saint-Gilloise,0,2,RSC Anderlecht
-<<<<<<< HEAD
-4008270,60/61,9,13/11/1960,15:00,R Antwerp FC,1,3,Association Royale Athlétique Gent
-4008271,60/61,9,13/11/1960,15:00,K Patro Eisden,0,1,Royal Beerschot AC
-4008272,60/61,9,13/11/1960,15:00,Club Brugge,4,2,Daring Club Brussel
-4008273,60/61,9,13/11/1960,15:00,Stade Verviétois,0,1,RFC Luik
-4008274,60/61,9,13/11/1960,15:00,Sint-Truidense VV,1,1,Olympic Charleroi
-4008275,60/61,10,27/11/1960,15:00,Association Royale Athlétique Gent,2,1,Standard Luik
-4008276,60/61,10,27/11/1960,15:00,Royal Beerschot AC,9,2,KSC Eendracht Aalst
-4008277,60/61,10,27/11/1960,15:00,RSC Anderlecht,3,2,R Antwerp FC
-4008278,60/61,10,27/11/1960,15:00,Olympic Charleroi,3,0,Club Brugge
-4008279,60/61,10,27/11/1960,15:00,Daring Club Brussel,2,0,Stade Verviétois
-=======
 4008270,60/61,9,13/11/1960,15:00,R Antwerp FC,1,3,Association Royale Athl�tique Gent
 4008271,60/61,9,13/11/1960,15:00,K Patro Eisden,0,1,Royal Beerschot AC
 4008272,60/61,9,13/11/1960,15:00,Club Brugge,4,2,Daring Club Brussel
@@ -138,7 +76,6 @@
 4008277,60/61,10,27/11/1960,15:00,RSC Anderlecht,3,2,R Antwerp FC
 4008278,60/61,10,27/11/1960,15:00,Olympic Charleroi,3,0,Club Brugge
 4008279,60/61,10,27/11/1960,15:00,Daring Club Brussel,2,0,Stade Vervi�tois
->>>>>>> cb1fc91 (klassement done)
 4008280,60/61,10,27/11/1960,15:00,RFC Luik,3,1,K Patro Eisden
 4008281,60/61,10,27/11/1960,15:00,Lierse SK (- 2018),3,2,Union Saint-Gilloise
 4008282,60/61,10,27/11/1960,15:00,Waterschei SV THOR (- 1988),2,1,Sint-Truidense VV
@@ -149,42 +86,22 @@
 4008379,60/61,11,12/03/1961,15:00,Union Saint-Gilloise,0,0,Standard Luik
 4008381,60/61,11,19/03/1961,15:00,R Antwerp FC,2,1,Lierse SK (- 2018)
 4008391,60/61,11,29/03/1961,19:30,RSC Anderlecht,1,0,Daring Club Brussel
-<<<<<<< HEAD
-4008394,60/61,11,2/04/1961,15:00,Stade Verviétois,2,2,Association Royale Athlétique Gent
-=======
 4008394,60/61,11,2/04/1961,15:00,Stade Vervi�tois,2,2,Association Royale Athl�tique Gent
->>>>>>> cb1fc91 (klassement done)
 4008285,60/61,12,11/12/1960,14:45,Standard Luik,1,2,Waterschei SV THOR (- 1988)
 4008286,60/61,12,11/12/1960,14:45,KSC Eendracht Aalst,2,2,RFC Luik
 4008287,60/61,12,11/12/1960,14:45,K Patro Eisden,0,1,RSC Anderlecht
 4008288,60/61,12,11/12/1960,14:45,R Antwerp FC,1,0,Olympic Charleroi
 4008289,60/61,12,11/12/1960,14:45,Union Saint-Gilloise,1,3,Royal Beerschot AC
-<<<<<<< HEAD
-4008290,60/61,12,11/12/1960,14:45,Club Brugge,0,1,Association Royale Athlétique Gent
-4008291,60/61,12,11/12/1960,14:45,Sint-Truidense VV,1,0,Daring Club Brussel
-4008292,60/61,12,11/12/1960,14:45,Stade Verviétois,2,0,Lierse SK (- 2018)
-4008293,60/61,13,18/12/1960,14:45,Olympic Charleroi,0,0,Stade Verviétois
-=======
 4008290,60/61,12,11/12/1960,14:45,Club Brugge,0,1,Association Royale Athl�tique Gent
 4008291,60/61,12,11/12/1960,14:45,Sint-Truidense VV,1,0,Daring Club Brussel
 4008292,60/61,12,11/12/1960,14:45,Stade Vervi�tois,2,0,Lierse SK (- 2018)
 4008293,60/61,13,18/12/1960,14:45,Olympic Charleroi,0,0,Stade Vervi�tois
->>>>>>> cb1fc91 (klassement done)
 4008294,60/61,13,18/12/1960,14:45,Waterschei SV THOR (- 1988),4,0,Union Saint-Gilloise
 4008295,60/61,13,18/12/1960,14:45,Daring Club Brussel,3,1,Standard Luik
 4008296,60/61,13,18/12/1960,14:45,Lierse SK (- 2018),3,1,KSC Eendracht Aalst
 4008297,60/61,13,18/12/1960,14:45,RSC Anderlecht,0,0,Club Brugge
 4008298,60/61,13,18/12/1960,14:45,RFC Luik,1,1,R Antwerp FC
 4008299,60/61,13,18/12/1960,14:45,Royal Beerschot AC,1,1,Sint-Truidense VV
-<<<<<<< HEAD
-4008300,60/61,13,18/12/1960,14:45,Association Royale Athlétique Gent,1,1,K Patro Eisden
-4008301,60/61,14,24/12/1960,17:00,Royal Beerschot AC,1,0,RSC Anderlecht
-4008302,60/61,14,24/12/1960,17:00,Association Royale Athlétique Gent,1,3,Union Saint-Gilloise
-4008303,60/61,14,25/12/1960,14:45,Sint-Truidense VV,1,0,R Antwerp FC
-4008304,60/61,14,25/12/1960,14:45,Daring Club Brussel,3,0,Waterschei SV THOR (- 1988)
-4008366,60/61,14,1/03/1961,19:00,Standard Luik,2,2,Club Brugge
-4008377,60/61,14,12/03/1961,15:00,K Patro Eisden,3,2,Stade Verviétois
-=======
 4008300,60/61,13,18/12/1960,14:45,Association Royale Athl�tique Gent,1,1,K Patro Eisden
 4008301,60/61,14,24/12/1960,17:00,Royal Beerschot AC,1,0,RSC Anderlecht
 4008302,60/61,14,24/12/1960,17:00,Association Royale Athl�tique Gent,1,3,Union Saint-Gilloise
@@ -192,78 +109,42 @@
 4008304,60/61,14,25/12/1960,14:45,Daring Club Brussel,3,0,Waterschei SV THOR (- 1988)
 4008366,60/61,14,1/03/1961,19:00,Standard Luik,2,2,Club Brugge
 4008377,60/61,14,12/03/1961,15:00,K Patro Eisden,3,2,Stade Vervi�tois
->>>>>>> cb1fc91 (klassement done)
 4008378,60/61,14,12/03/1961,15:00,Lierse SK (- 2018),1,1,RFC Luik
 4008380,60/61,14,18/03/1961,17:00,Olympic Charleroi,1,1,KSC Eendracht Aalst
 4008435,60/61,15,11/05/1961,15:00,R Antwerp FC,1,4,Standard Luik
 4008436,60/61,15,11/05/1961,15:00,KSC Eendracht Aalst,1,2,Daring Club Brussel
-<<<<<<< HEAD
-4008437,60/61,15,11/05/1961,15:00,RSC Anderlecht,0,5,Association Royale Athlétique Gent
-=======
 4008437,60/61,15,11/05/1961,15:00,RSC Anderlecht,0,5,Association Royale Athl�tique Gent
->>>>>>> cb1fc91 (klassement done)
 4008438,60/61,15,11/05/1961,15:00,Waterschei SV THOR (- 1988),2,3,Royal Beerschot AC
 4008439,60/61,15,11/05/1961,15:00,Club Brugge,4,1,Lierse SK (- 2018)
 4008440,60/61,15,11/05/1961,15:00,Union Saint-Gilloise,4,0,K Patro Eisden
 4008441,60/61,15,11/05/1961,15:00,RFC Luik,1,1,Olympic Charleroi
-<<<<<<< HEAD
-4008442,60/61,15,11/05/1961,15:00,Stade Verviétois,1,3,Sint-Truidense VV
-=======
 4008442,60/61,15,11/05/1961,15:00,Stade Vervi�tois,1,3,Sint-Truidense VV
->>>>>>> cb1fc91 (klassement done)
 4008305,60/61,16,8/01/1961,14:45,R Antwerp FC,5,1,KSC Eendracht Aalst
 4008306,60/61,16,8/01/1961,14:45,RSC Anderlecht,1,1,Olympic Charleroi
 4008307,60/61,16,8/01/1961,14:45,Union Saint-Gilloise,4,1,Club Brugge
 4008308,60/61,16,8/01/1961,14:45,K Patro Eisden,0,1,Daring Club Brussel
-<<<<<<< HEAD
-4008309,60/61,16,8/01/1961,14:45,Association Royale Athlétique Gent,1,1,RFC Luik
-4008310,60/61,16,8/01/1961,14:45,Lierse SK (- 2018),3,1,Waterschei SV THOR (- 1988)
-4008382,60/61,16,19/03/1961,15:00,Stade Verviétois,0,0,Royal Beerschot AC
-=======
 4008309,60/61,16,8/01/1961,14:45,Association Royale Athl�tique Gent,1,1,RFC Luik
 4008310,60/61,16,8/01/1961,14:45,Lierse SK (- 2018),3,1,Waterschei SV THOR (- 1988)
 4008382,60/61,16,19/03/1961,15:00,Stade Vervi�tois,0,0,Royal Beerschot AC
->>>>>>> cb1fc91 (klassement done)
 4008392,60/61,16,1/04/1961,18:00,Standard Luik,1,0,Sint-Truidense VV
 4008311,60/61,17,15/01/1961,15:00,KSC Eendracht Aalst,3,3,Standard Luik
 4008312,60/61,17,15/01/1961,15:00,RFC Luik,0,0,RSC Anderlecht
 4008313,60/61,17,15/01/1961,15:00,Daring Club Brussel,1,1,R Antwerp FC
-<<<<<<< HEAD
-4008314,60/61,17,15/01/1961,15:00,Royal Beerschot AC,2,0,Association Royale Athlétique Gent
-4008315,60/61,17,15/01/1961,15:00,Club Brugge,3,1,K Patro Eisden
-4008316,60/61,17,15/01/1961,15:00,Sint-Truidense VV,1,0,Union Saint-Gilloise
-4008317,60/61,17,15/01/1961,15:00,Waterschei SV THOR (- 1988),4,0,Stade Verviétois
-=======
 4008314,60/61,17,15/01/1961,15:00,Royal Beerschot AC,2,0,Association Royale Athl�tique Gent
 4008315,60/61,17,15/01/1961,15:00,Club Brugge,3,1,K Patro Eisden
 4008316,60/61,17,15/01/1961,15:00,Sint-Truidense VV,1,0,Union Saint-Gilloise
 4008317,60/61,17,15/01/1961,15:00,Waterschei SV THOR (- 1988),4,0,Stade Vervi�tois
->>>>>>> cb1fc91 (klassement done)
 4008393,60/61,17,1/04/1961,17:00,Olympic Charleroi,0,0,Lierse SK (- 2018)
 4008318,60/61,18,22/01/1961,15:00,Olympic Charleroi,0,2,Standard Luik
 4008319,60/61,18,22/01/1961,15:00,RSC Anderlecht,7,0,KSC Eendracht Aalst
 4008320,60/61,18,22/01/1961,15:00,R Antwerp FC,3,1,Union Saint-Gilloise
 4008321,60/61,18,22/01/1961,15:00,Lierse SK (- 2018),1,1,Royal Beerschot AC
-<<<<<<< HEAD
-4008322,60/61,18,22/01/1961,15:00,Stade Verviétois,0,3,Club Brugge
-4008323,60/61,18,22/01/1961,15:00,Association Royale Athlétique Gent,0,1,Daring Club Brussel
-=======
 4008322,60/61,18,22/01/1961,15:00,Stade Vervi�tois,0,3,Club Brugge
 4008323,60/61,18,22/01/1961,15:00,Association Royale Athl�tique Gent,0,1,Daring Club Brussel
->>>>>>> cb1fc91 (klassement done)
 4008324,60/61,18,22/01/1961,15:00,K Patro Eisden,0,0,Sint-Truidense VV
 4008325,60/61,18,22/01/1961,15:00,RFC Luik,0,1,Waterschei SV THOR (- 1988)
 4008326,60/61,19,29/01/1961,15:00,Royal Beerschot AC,3,1,Olympic Charleroi
 4008327,60/61,19,29/01/1961,15:00,Daring Club Brussel,2,2,Lierse SK (- 2018)
-<<<<<<< HEAD
-4008328,60/61,19,29/01/1961,15:00,Sint-Truidense VV,3,2,Association Royale Athlétique Gent
-4008329,60/61,19,29/01/1961,15:00,Union Saint-Gilloise,0,9,RFC Luik
-4008330,60/61,19,29/01/1961,15:00,Standard Luik,4,0,K Patro Eisden
-4008331,60/61,19,29/01/1961,15:00,KSC Eendracht Aalst,1,0,Stade Verviétois
-4008332,60/61,19,29/01/1961,15:00,Waterschei SV THOR (- 1988),2,4,RSC Anderlecht
-4008333,60/61,19,29/01/1961,15:00,Club Brugge,1,1,R Antwerp FC
-4008334,60/61,20,5/02/1961,15:00,Stade Verviétois,3,3,Standard Luik
-=======
 4008328,60/61,19,29/01/1961,15:00,Sint-Truidense VV,3,2,Association Royale Athl�tique Gent
 4008329,60/61,19,29/01/1961,15:00,Union Saint-Gilloise,0,9,RFC Luik
 4008330,60/61,19,29/01/1961,15:00,Standard Luik,4,0,K Patro Eisden
@@ -271,39 +152,19 @@
 4008332,60/61,19,29/01/1961,15:00,Waterschei SV THOR (- 1988),2,4,RSC Anderlecht
 4008333,60/61,19,29/01/1961,15:00,Club Brugge,1,1,R Antwerp FC
 4008334,60/61,20,5/02/1961,15:00,Stade Vervi�tois,3,3,Standard Luik
->>>>>>> cb1fc91 (klassement done)
 4008335,60/61,20,5/02/1961,15:00,KSC Eendracht Aalst,2,0,Union Saint-Gilloise
 4008336,60/61,20,5/02/1961,15:00,RSC Anderlecht,1,0,Sint-Truidense VV
 4008337,60/61,20,5/02/1961,15:00,R Antwerp FC,3,0,Royal Beerschot AC
 4008338,60/61,20,5/02/1961,15:00,Waterschei SV THOR (- 1988),2,1,Club Brugge
 4008339,60/61,20,5/02/1961,15:00,RFC Luik,0,0,Daring Club Brussel
 4008340,60/61,20,5/02/1961,15:00,Lierse SK (- 2018),1,0,K Patro Eisden
-<<<<<<< HEAD
-4008341,60/61,20,5/02/1961,15:00,Olympic Charleroi,1,1,Association Royale Athlétique Gent
-=======
 4008341,60/61,20,5/02/1961,15:00,Olympic Charleroi,1,1,Association Royale Athl�tique Gent
->>>>>>> cb1fc91 (klassement done)
 4008342,60/61,21,12/02/1961,15:00,Standard Luik,2,0,RFC Luik
 4008343,60/61,21,12/02/1961,15:00,Sint-Truidense VV,2,2,KSC Eendracht Aalst
 4008344,60/61,21,12/02/1961,15:00,Lierse SK (- 2018),1,2,RSC Anderlecht
 4008345,60/61,21,12/02/1961,15:00,K Patro Eisden,2,0,R Antwerp FC
 4008346,60/61,21,12/02/1961,15:00,Royal Beerschot AC,2,3,Club Brugge
 4008347,60/61,21,12/02/1961,15:00,Daring Club Brussel,1,1,Olympic Charleroi
-<<<<<<< HEAD
-4008348,60/61,21,12/02/1961,15:00,Association Royale Athlétique Gent,4,2,Waterschei SV THOR (- 1988)
-4008349,60/61,21,12/02/1961,15:00,Union Saint-Gilloise,1,0,Stade Verviétois
-4008350,60/61,22,19/02/1961,15:00,RSC Anderlecht,1,1,Standard Luik
-4008351,60/61,22,19/02/1961,15:00,Club Brugge,2,2,KSC Eendracht Aalst
-4008352,60/61,22,19/02/1961,15:00,Stade Verviétois,2,2,R Antwerp FC
-4008353,60/61,22,19/02/1961,15:00,Royal Beerschot AC,2,1,Daring Club Brussel
-4008354,60/61,22,19/02/1961,15:00,Waterschei SV THOR (- 1988),0,2,K Patro Eisden
-4008355,60/61,22,19/02/1961,15:00,Association Royale Athlétique Gent,1,1,Lierse SK (- 2018)
-4008356,60/61,22,19/02/1961,15:00,RFC Luik,1,0,Sint-Truidense VV
-4008357,60/61,22,19/02/1961,15:00,Olympic Charleroi,1,0,Union Saint-Gilloise
-4008358,60/61,23,26/02/1961,15:00,Standard Luik,1,0,Royal Beerschot AC
-4008359,60/61,23,26/02/1961,15:00,KSC Eendracht Aalst,1,1,Association Royale Athlétique Gent
-4008360,60/61,23,26/02/1961,15:00,Stade Verviétois,0,2,RSC Anderlecht
-=======
 4008348,60/61,21,12/02/1961,15:00,Association Royale Athl�tique Gent,4,2,Waterschei SV THOR (- 1988)
 4008349,60/61,21,12/02/1961,15:00,Union Saint-Gilloise,1,0,Stade Vervi�tois
 4008350,60/61,22,19/02/1961,15:00,RSC Anderlecht,1,1,Standard Luik
@@ -317,7 +178,6 @@
 4008358,60/61,23,26/02/1961,15:00,Standard Luik,1,0,Royal Beerschot AC
 4008359,60/61,23,26/02/1961,15:00,KSC Eendracht Aalst,1,1,Association Royale Athl�tique Gent
 4008360,60/61,23,26/02/1961,15:00,Stade Vervi�tois,0,2,RSC Anderlecht
->>>>>>> cb1fc91 (klassement done)
 4008361,60/61,23,26/02/1961,15:00,R Antwerp FC,1,0,Waterschei SV THOR (- 1988)
 4008362,60/61,23,26/02/1961,15:00,Club Brugge,3,0,Olympic Charleroi
 4008363,60/61,23,26/02/1961,15:00,Union Saint-Gilloise,3,4,Daring Club Brussel
@@ -329,62 +189,29 @@
 4008370,60/61,24,5/03/1961,15:00,Lierse SK (- 2018),2,2,R Antwerp FC
 4008371,60/61,24,5/03/1961,15:00,Royal Beerschot AC,0,2,RFC Luik
 4008372,60/61,24,5/03/1961,15:00,Sint-Truidense VV,4,0,Club Brugge
-<<<<<<< HEAD
-4008373,60/61,24,5/03/1961,15:00,Association Royale Athlétique Gent,0,2,Stade Verviétois
-=======
 4008373,60/61,24,5/03/1961,15:00,Association Royale Athl�tique Gent,0,2,Stade Vervi�tois
->>>>>>> cb1fc91 (klassement done)
 4008374,60/61,24,5/03/1961,15:00,Olympic Charleroi,1,1,Waterschei SV THOR (- 1988)
 4008383,60/61,25,26/03/1961,15:00,RSC Anderlecht,1,0,Royal Beerschot AC
 4008384,60/61,25,26/03/1961,15:00,R Antwerp FC,2,0,Sint-Truidense VV
 4008385,60/61,25,26/03/1961,15:00,Waterschei SV THOR (- 1988),2,1,Daring Club Brussel
-<<<<<<< HEAD
-4008386,60/61,25,26/03/1961,15:00,Stade Verviétois,2,0,K Patro Eisden
-4008387,60/61,25,26/03/1961,15:00,Union Saint-Gilloise,2,1,Association Royale Athlétique Gent
-=======
 4008386,60/61,25,26/03/1961,15:00,Stade Vervi�tois,2,0,K Patro Eisden
 4008387,60/61,25,26/03/1961,15:00,Union Saint-Gilloise,2,1,Association Royale Athl�tique Gent
->>>>>>> cb1fc91 (klassement done)
 4008388,60/61,25,26/03/1961,15:00,RFC Luik,2,0,Lierse SK (- 2018)
 4008389,60/61,25,26/03/1961,15:00,KSC Eendracht Aalst,2,2,Olympic Charleroi
 4008390,60/61,25,26/03/1961,15:00,Club Brugge,1,1,Standard Luik
 4008395,60/61,26,9/04/1961,15:00,Standard Luik,2,0,R Antwerp FC
 4008396,60/61,26,9/04/1961,15:00,Daring Club Brussel,0,0,KSC Eendracht Aalst
-<<<<<<< HEAD
-4008397,60/61,26,9/04/1961,15:00,Association Royale Athlétique Gent,3,1,RSC Anderlecht
-=======
 4008397,60/61,26,9/04/1961,15:00,Association Royale Athl�tique Gent,3,1,RSC Anderlecht
->>>>>>> cb1fc91 (klassement done)
 4008398,60/61,26,9/04/1961,15:00,Royal Beerschot AC,0,0,Waterschei SV THOR (- 1988)
 4008399,60/61,26,9/04/1961,15:00,Lierse SK (- 2018),6,2,Club Brugge
 4008400,60/61,26,9/04/1961,15:00,K Patro Eisden,1,1,Union Saint-Gilloise
 4008401,60/61,26,9/04/1961,15:00,Olympic Charleroi,0,3,RFC Luik
-<<<<<<< HEAD
-4008402,60/61,26,9/04/1961,15:00,Sint-Truidense VV,1,0,Stade Verviétois
-=======
 4008402,60/61,26,9/04/1961,15:00,Sint-Truidense VV,1,0,Stade Vervi�tois
->>>>>>> cb1fc91 (klassement done)
 4008403,60/61,27,16/04/1961,15:00,Lierse SK (- 2018),0,6,Standard Luik
 4008404,60/61,27,16/04/1961,15:00,Waterschei SV THOR (- 1988),1,0,KSC Eendracht Aalst
 4008405,60/61,27,16/04/1961,15:00,RSC Anderlecht,3,0,Union Saint-Gilloise
 4008406,60/61,27,16/04/1961,15:00,Olympic Charleroi,2,0,R Antwerp FC
 4008407,60/61,27,16/04/1961,15:00,Royal Beerschot AC,3,2,K Patro Eisden
-<<<<<<< HEAD
-4008408,60/61,27,16/04/1961,15:00,Association Royale Athlétique Gent,4,1,Club Brugge
-4008409,60/61,27,16/04/1961,15:00,Daring Club Brussel,0,3,Sint-Truidense VV
-4008410,60/61,27,16/04/1961,15:00,RFC Luik,1,0,Stade Verviétois
-4008411,60/61,28,23/04/1961,15:00,R Antwerp FC,0,2,RSC Anderlecht
-4008412,60/61,28,23/04/1961,15:00,Club Brugge,1,1,RFC Luik
-4008413,60/61,28,23/04/1961,15:00,Stade Verviétois,2,1,Daring Club Brussel
-4008414,60/61,28,23/04/1961,15:00,K Patro Eisden,2,2,Olympic Charleroi
-4008415,60/61,28,23/04/1961,15:00,Union Saint-Gilloise,4,4,Lierse SK (- 2018)
-4008416,60/61,28,23/04/1961,15:00,Sint-Truidense VV,0,0,Waterschei SV THOR (- 1988)
-4008417,60/61,28,23/04/1961,15:00,Standard Luik,3,1,Association Royale Athlétique Gent
-4008418,60/61,28,23/04/1961,15:00,KSC Eendracht Aalst,1,1,Royal Beerschot AC
-4008419,60/61,29,30/04/1961,15:00,Royal Beerschot AC,3,0,Union Saint-Gilloise
-4008420,60/61,29,30/04/1961,15:00,Daring Club Brussel,1,0,Club Brugge
-4008421,60/61,29,30/04/1961,15:00,Lierse SK (- 2018),1,1,Stade Verviétois
-=======
 4008408,60/61,27,16/04/1961,15:00,Association Royale Athl�tique Gent,4,1,Club Brugge
 4008409,60/61,27,16/04/1961,15:00,Daring Club Brussel,0,3,Sint-Truidense VV
 4008410,60/61,27,16/04/1961,15:00,RFC Luik,1,0,Stade Vervi�tois
@@ -399,32 +226,20 @@
 4008419,60/61,29,30/04/1961,15:00,Royal Beerschot AC,3,0,Union Saint-Gilloise
 4008420,60/61,29,30/04/1961,15:00,Daring Club Brussel,1,0,Club Brugge
 4008421,60/61,29,30/04/1961,15:00,Lierse SK (- 2018),1,1,Stade Vervi�tois
->>>>>>> cb1fc91 (klassement done)
 4008422,60/61,29,30/04/1961,15:00,Olympic Charleroi,1,2,Sint-Truidense VV
 4008423,60/61,29,30/04/1961,15:00,Waterschei SV THOR (- 1988),1,1,Standard Luik
 4008424,60/61,29,30/04/1961,15:00,RFC Luik,3,1,KSC Eendracht Aalst
 4008425,60/61,29,30/04/1961,15:00,RSC Anderlecht,0,1,K Patro Eisden
-<<<<<<< HEAD
-4008426,60/61,29,30/04/1961,15:00,Association Royale Athlétique Gent,1,2,R Antwerp FC
-=======
 4008426,60/61,29,30/04/1961,15:00,Association Royale Athl�tique Gent,1,2,R Antwerp FC
->>>>>>> cb1fc91 (klassement done)
 4008427,60/61,30,7/05/1961,15:00,Standard Luik,7,0,Daring Club Brussel
 4008428,60/61,30,7/05/1961,15:00,KSC Eendracht Aalst,1,3,Lierse SK (- 2018)
 4008429,60/61,30,7/05/1961,15:00,Club Brugge,3,2,RSC Anderlecht
 4008430,60/61,30,7/05/1961,15:00,R Antwerp FC,3,2,RFC Luik
 4008431,60/61,30,7/05/1961,15:00,Sint-Truidense VV,0,0,Royal Beerschot AC
-<<<<<<< HEAD
-4008432,60/61,30,7/05/1961,15:00,K Patro Eisden,0,5,Association Royale Athlétique Gent
-4008433,60/61,30,7/05/1961,15:00,Stade Verviétois,0,0,Olympic Charleroi
-4008434,60/61,30,7/05/1961,15:00,Union Saint-Gilloise,0,1,Waterschei SV THOR (- 1988)
-4008443,61/62,1,2/09/1961,19:30,Association Royale Athlétique Gent,2,2,Daring Club Brussel
-=======
 4008432,60/61,30,7/05/1961,15:00,K Patro Eisden,0,5,Association Royale Athl�tique Gent
 4008433,60/61,30,7/05/1961,15:00,Stade Vervi�tois,0,0,Olympic Charleroi
 4008434,60/61,30,7/05/1961,15:00,Union Saint-Gilloise,0,1,Waterschei SV THOR (- 1988)
 4008443,61/62,1,2/09/1961,19:30,Association Royale Athl�tique Gent,2,2,Daring Club Brussel
->>>>>>> cb1fc91 (klassement done)
 4008444,61/62,1,3/09/1961,15:00,Standard Luik,1,1,Royal Beerschot AC
 4008445,61/62,1,3/09/1961,15:00,Lierse SK (- 2018),2,3,KSC Eendracht Aalst
 4008446,61/62,1,3/09/1961,15:00,RSC Anderlecht,6,1,Waterschei SV THOR (- 1988)
@@ -438,17 +253,10 @@
 4008454,61/62,2,10/09/1961,15:00,Daring Club Brussel,1,4,R Antwerp FC
 4008455,61/62,2,10/09/1961,15:00,Royal Beerschot AC,2,2,Lierse SK (- 2018)
 4008456,61/62,2,10/09/1961,15:00,RFC Luik,3,0,Cercle Brugge
-<<<<<<< HEAD
-4008457,61/62,2,10/09/1961,15:00,Waterschei SV THOR (- 1988),1,3,Association Royale Athlétique Gent
-4008458,61/62,2,10/09/1961,15:00,Olympic Charleroi,1,0,Union Saint-Gilloise
-4008459,61/62,3,17/09/1961,15:00,Olympic Charleroi,7,2,Cercle Brugge
-4008460,61/62,3,17/09/1961,15:00,Association Royale Athlétique Gent,1,0,KFC Diest
-=======
 4008457,61/62,2,10/09/1961,15:00,Waterschei SV THOR (- 1988),1,3,Association Royale Athl�tique Gent
 4008458,61/62,2,10/09/1961,15:00,Olympic Charleroi,1,0,Union Saint-Gilloise
 4008459,61/62,3,17/09/1961,15:00,Olympic Charleroi,7,2,Cercle Brugge
 4008460,61/62,3,17/09/1961,15:00,Association Royale Athl�tique Gent,1,0,KFC Diest
->>>>>>> cb1fc91 (klassement done)
 4008461,61/62,3,17/09/1961,15:00,Union Saint-Gilloise,0,0,RFC Luik
 4008462,61/62,3,17/09/1961,15:00,Lierse SK (- 2018),2,4,Waterschei SV THOR (- 1988)
 4008463,61/62,3,17/09/1961,15:00,Standard Luik,1,1,Daring Club Brussel
@@ -460,11 +268,7 @@
 4008469,61/62,4,24/09/1961,15:00,RSC Anderlecht,2,0,Club Brugge
 4008470,61/62,4,24/09/1961,15:00,Waterschei SV THOR (- 1988),1,1,R Antwerp FC
 4008471,61/62,4,24/09/1961,15:00,Royal Beerschot AC,2,0,Olympic Charleroi
-<<<<<<< HEAD
-4008472,61/62,4,24/09/1961,15:00,Cercle Brugge,1,3,Association Royale Athlétique Gent
-=======
 4008472,61/62,4,24/09/1961,15:00,Cercle Brugge,1,3,Association Royale Athl�tique Gent
->>>>>>> cb1fc91 (klassement done)
 4008473,61/62,4,24/09/1961,15:00,Daring Club Brussel,1,1,Sint-Truidense VV
 4008474,61/62,4,24/09/1961,15:00,RFC Luik,1,0,Lierse SK (- 2018)
 4008475,61/62,5,1/10/1961,15:00,Olympic Charleroi,1,2,Standard Luik
@@ -474,19 +278,11 @@
 4008479,61/62,5,1/10/1961,15:00,Lierse SK (- 2018),3,5,Cercle Brugge
 4008480,61/62,5,1/10/1961,15:00,Club Brugge,1,1,Daring Club Brussel
 4008481,61/62,5,1/10/1961,15:00,Union Saint-Gilloise,1,0,KFC Diest
-<<<<<<< HEAD
-4008482,61/62,5,1/10/1961,15:00,Sint-Truidense VV,1,2,Association Royale Athlétique Gent
-4008483,61/62,6,8/10/1961,15:00,Standard Luik,2,1,RFC Luik
-4008484,61/62,6,8/10/1961,15:00,Royal Beerschot AC,1,1,KSC Eendracht Aalst
-4008485,61/62,6,8/10/1961,15:00,RSC Anderlecht,1,1,Lierse SK (- 2018)
-4008486,61/62,6,8/10/1961,15:00,Association Royale Athlétique Gent,2,6,R Antwerp FC
-=======
 4008482,61/62,5,1/10/1961,15:00,Sint-Truidense VV,1,2,Association Royale Athl�tique Gent
 4008483,61/62,6,8/10/1961,15:00,Standard Luik,2,1,RFC Luik
 4008484,61/62,6,8/10/1961,15:00,Royal Beerschot AC,1,1,KSC Eendracht Aalst
 4008485,61/62,6,8/10/1961,15:00,RSC Anderlecht,1,1,Lierse SK (- 2018)
 4008486,61/62,6,8/10/1961,15:00,Association Royale Athl�tique Gent,2,6,R Antwerp FC
->>>>>>> cb1fc91 (klassement done)
 4008487,61/62,6,8/10/1961,15:00,Cercle Brugge,0,2,Club Brugge
 4008488,61/62,6,8/10/1961,15:00,Daring Club Brussel,1,3,Olympic Charleroi
 4008489,61/62,6,8/10/1961,15:00,KFC Diest,2,2,Sint-Truidense VV
@@ -497,31 +293,19 @@
 4008494,61/62,7,15/10/1961,15:00,Union Saint-Gilloise,1,3,R Antwerp FC
 4008495,61/62,7,15/10/1961,15:00,Royal Beerschot AC,1,2,RFC Luik
 4008496,61/62,7,15/10/1961,15:00,Club Brugge,1,4,Lierse SK (- 2018)
-<<<<<<< HEAD
-4008497,61/62,7,15/10/1961,15:00,Olympic Charleroi,0,0,Association Royale Athlétique Gent
-=======
 4008497,61/62,7,15/10/1961,15:00,Olympic Charleroi,0,0,Association Royale Athl�tique Gent
->>>>>>> cb1fc91 (klassement done)
 4008498,61/62,7,15/10/1961,15:00,Sint-Truidense VV,4,1,Waterschei SV THOR (- 1988)
 4008499,61/62,8,22/10/1961,15:00,Waterschei SV THOR (- 1988),2,0,Standard Luik
 4008500,61/62,8,22/10/1961,15:00,RFC Luik,2,1,KSC Eendracht Aalst
 4008501,61/62,8,22/10/1961,15:00,RSC Anderlecht,1,1,Union Saint-Gilloise
 4008502,61/62,8,22/10/1961,15:00,R Antwerp FC,0,3,Olympic Charleroi
 4008503,61/62,8,22/10/1961,15:00,Cercle Brugge,0,0,Royal Beerschot AC
-<<<<<<< HEAD
-4008504,61/62,8,22/10/1961,15:00,Association Royale Athlétique Gent,0,0,Club Brugge
-=======
 4008504,61/62,8,22/10/1961,15:00,Association Royale Athl�tique Gent,0,0,Club Brugge
->>>>>>> cb1fc91 (klassement done)
 4008505,61/62,8,22/10/1961,15:00,KFC Diest,3,1,Daring Club Brussel
 4008506,61/62,8,22/10/1961,15:00,Lierse SK (- 2018),1,3,Sint-Truidense VV
 4008507,61/62,9,29/10/1961,15:00,Standard Luik,4,1,Lierse SK (- 2018)
 4008508,61/62,9,29/10/1961,15:00,Daring Club Brussel,3,0,KSC Eendracht Aalst
-<<<<<<< HEAD
-4008509,61/62,9,29/10/1961,15:00,Association Royale Athlétique Gent,1,5,RSC Anderlecht
-=======
 4008509,61/62,9,29/10/1961,15:00,Association Royale Athl�tique Gent,1,5,RSC Anderlecht
->>>>>>> cb1fc91 (klassement done)
 4008510,61/62,9,29/10/1961,15:00,Cercle Brugge,3,1,R Antwerp FC
 4008511,61/62,9,29/10/1961,15:00,Royal Beerschot AC,2,1,Union Saint-Gilloise
 4008512,61/62,9,29/10/1961,15:00,Sint-Truidense VV,1,2,Club Brugge
@@ -534,28 +318,17 @@
 4008519,61/62,10,5/11/1961,15:00,Club Brugge,3,0,Olympic Charleroi
 4008520,61/62,10,5/11/1961,15:00,Union Saint-Gilloise,2,3,Daring Club Brussel
 4008521,61/62,10,5/11/1961,15:00,Lierse SK (- 2018),1,2,KFC Diest
-<<<<<<< HEAD
-4008522,61/62,10,5/11/1961,15:00,RFC Luik,4,0,Association Royale Athlétique Gent
-=======
 4008522,61/62,10,5/11/1961,15:00,RFC Luik,4,0,Association Royale Athl�tique Gent
->>>>>>> cb1fc91 (klassement done)
 4008523,61/62,11,19/11/1961,15:00,Standard Luik,2,1,RSC Anderlecht
 4008524,61/62,11,19/11/1961,15:00,Olympic Charleroi,0,0,KSC Eendracht Aalst
 4008525,61/62,11,19/11/1961,15:00,KFC Diest,1,1,R Antwerp FC
 4008526,61/62,11,19/11/1961,15:00,Royal Beerschot AC,1,0,Club Brugge
 4008527,61/62,11,19/11/1961,15:00,Cercle Brugge,5,1,Waterschei SV THOR (- 1988)
 4008528,61/62,11,19/11/1961,15:00,Daring Club Brussel,1,2,RFC Luik
-<<<<<<< HEAD
-4008529,61/62,11,19/11/1961,15:00,Association Royale Athlétique Gent,3,1,Lierse SK (- 2018)
-4008530,61/62,11,19/11/1961,15:00,Sint-Truidense VV,1,3,Union Saint-Gilloise
-4008531,61/62,12,26/11/1961,15:00,Union Saint-Gilloise,0,2,Standard Luik
-4008532,61/62,12,26/11/1961,15:00,KSC Eendracht Aalst,0,1,Association Royale Athlétique Gent
-=======
 4008529,61/62,11,19/11/1961,15:00,Association Royale Athl�tique Gent,3,1,Lierse SK (- 2018)
 4008530,61/62,11,19/11/1961,15:00,Sint-Truidense VV,1,3,Union Saint-Gilloise
 4008531,61/62,12,26/11/1961,15:00,Union Saint-Gilloise,0,2,Standard Luik
 4008532,61/62,12,26/11/1961,15:00,KSC Eendracht Aalst,0,1,Association Royale Athl�tique Gent
->>>>>>> cb1fc91 (klassement done)
 4008533,61/62,12,26/11/1961,15:00,Olympic Charleroi,1,3,RSC Anderlecht
 4008534,61/62,12,26/11/1961,15:00,Lierse SK (- 2018),5,1,R Antwerp FC
 4008535,61/62,12,26/11/1961,15:00,Royal Beerschot AC,2,2,Daring Club Brussel
@@ -565,20 +338,12 @@
 4008539,61/62,13,3/12/1961,14:45,Standard Luik,2,0,Sint-Truidense VV
 4008540,61/62,13,3/12/1961,14:45,RSC Anderlecht,2,0,KSC Eendracht Aalst
 4008541,61/62,13,3/12/1961,14:45,R Antwerp FC,1,1,Club Brugge
-<<<<<<< HEAD
-4008542,61/62,13,3/12/1961,14:45,Association Royale Athlétique Gent,3,0,Royal Beerschot AC
-=======
 4008542,61/62,13,3/12/1961,14:45,Association Royale Athl�tique Gent,3,0,Royal Beerschot AC
->>>>>>> cb1fc91 (klassement done)
 4008543,61/62,13,3/12/1961,14:45,Cercle Brugge,1,4,Union Saint-Gilloise
 4008544,61/62,13,3/12/1961,14:45,Lierse SK (- 2018),1,2,Daring Club Brussel
 4008545,61/62,13,3/12/1961,14:45,KFC Diest,1,0,RFC Luik
 4008546,61/62,13,3/12/1961,14:45,Waterschei SV THOR (- 1988),1,1,Olympic Charleroi
-<<<<<<< HEAD
-4008547,61/62,14,10/12/1961,14:45,Standard Luik,0,0,Association Royale Athlétique Gent
-=======
 4008547,61/62,14,10/12/1961,14:45,Standard Luik,0,0,Association Royale Athl�tique Gent
->>>>>>> cb1fc91 (klassement done)
 4008548,61/62,14,10/12/1961,14:45,KSC Eendracht Aalst,1,2,R Antwerp FC
 4008549,61/62,14,10/12/1961,14:45,Royal Beerschot AC,1,5,RSC Anderlecht
 4008550,61/62,14,10/12/1961,14:45,Daring Club Brussel,5,0,Cercle Brugge
@@ -592,22 +357,14 @@
 4008558,61/62,15,17/12/1961,14:45,KFC Diest,0,0,Royal Beerschot AC
 4008559,61/62,15,17/12/1961,14:45,RFC Luik,1,0,Club Brugge
 4008560,61/62,15,17/12/1961,14:45,Waterschei SV THOR (- 1988),1,2,Daring Club Brussel
-<<<<<<< HEAD
-4008561,61/62,15,17/12/1961,14:45,Association Royale Athlétique Gent,0,1,Union Saint-Gilloise
-=======
 4008561,61/62,15,17/12/1961,14:45,Association Royale Athl�tique Gent,0,1,Union Saint-Gilloise
->>>>>>> cb1fc91 (klassement done)
 4008562,61/62,15,17/12/1961,14:45,Lierse SK (- 2018),1,0,Olympic Charleroi
 4008563,61/62,16,31/12/1961,14:45,Royal Beerschot AC,0,1,Standard Luik
 4008564,61/62,16,31/12/1961,14:45,KSC Eendracht Aalst,1,0,Lierse SK (- 2018)
 4008565,61/62,16,31/12/1961,14:45,Waterschei SV THOR (- 1988),0,4,RSC Anderlecht
 4008566,61/62,16,31/12/1961,14:45,RFC Luik,0,0,R Antwerp FC
 4008567,61/62,16,31/12/1961,14:45,Club Brugge,3,1,Union Saint-Gilloise
-<<<<<<< HEAD
-4008568,61/62,16,31/12/1961,14:45,Daring Club Brussel,0,0,Association Royale Athlétique Gent
-=======
 4008568,61/62,16,31/12/1961,14:45,Daring Club Brussel,0,0,Association Royale Athl�tique Gent
->>>>>>> cb1fc91 (klassement done)
 4008629,61/62,16,4/03/1962,15:00,Olympic Charleroi,0,2,Sint-Truidense VV
 4008632,61/62,16,11/03/1962,15:00,KFC Diest,2,0,Cercle Brugge
 4008569,61/62,17,7/01/1962,14:45,Standard Luik,3,0,Club Brugge
@@ -616,11 +373,7 @@
 4008572,61/62,17,7/01/1962,14:45,Lierse SK (- 2018),2,1,Royal Beerschot AC
 4008627,61/62,17,4/03/1962,15:00,Cercle Brugge,3,0,RFC Luik
 4008631,61/62,17,11/03/1962,15:00,Sint-Truidense VV,5,1,KSC Eendracht Aalst
-<<<<<<< HEAD
-4008633,61/62,17,11/03/1962,15:00,Association Royale Athlétique Gent,2,2,Waterschei SV THOR (- 1988)
-=======
 4008633,61/62,17,11/03/1962,15:00,Association Royale Athl�tique Gent,2,2,Waterschei SV THOR (- 1988)
->>>>>>> cb1fc91 (klassement done)
 4008634,61/62,17,11/03/1962,15:00,Union Saint-Gilloise,1,0,Olympic Charleroi
 4008573,61/62,18,14/01/1962,14:45,Standard Luik,1,0,Olympic Charleroi
 4008574,61/62,18,14/01/1962,14:45,Waterschei SV THOR (- 1988),2,2,KSC Eendracht Aalst
@@ -629,29 +382,17 @@
 4008577,61/62,18,14/01/1962,14:45,Cercle Brugge,1,2,Lierse SK (- 2018)
 4008578,61/62,18,14/01/1962,14:45,Daring Club Brussel,1,1,Club Brugge
 4008579,61/62,18,14/01/1962,14:45,KFC Diest,3,1,Union Saint-Gilloise
-<<<<<<< HEAD
-4008580,61/62,18,14/01/1962,14:45,Association Royale Athlétique Gent,3,0,Sint-Truidense VV
-4008581,61/62,19,21/01/1962,15:00,RFC Luik,1,0,Standard Luik
-4008582,61/62,19,21/01/1962,15:00,KSC Eendracht Aalst,0,0,Royal Beerschot AC
-4008583,61/62,19,21/01/1962,15:00,Lierse SK (- 2018),2,3,RSC Anderlecht
-4008584,61/62,19,21/01/1962,15:00,R Antwerp FC,2,1,Association Royale Athlétique Gent
-=======
 4008580,61/62,18,14/01/1962,14:45,Association Royale Athl�tique Gent,3,0,Sint-Truidense VV
 4008581,61/62,19,21/01/1962,15:00,RFC Luik,1,0,Standard Luik
 4008582,61/62,19,21/01/1962,15:00,KSC Eendracht Aalst,0,0,Royal Beerschot AC
 4008583,61/62,19,21/01/1962,15:00,Lierse SK (- 2018),2,3,RSC Anderlecht
 4008584,61/62,19,21/01/1962,15:00,R Antwerp FC,2,1,Association Royale Athl�tique Gent
->>>>>>> cb1fc91 (klassement done)
 4008585,61/62,19,21/01/1962,15:00,Club Brugge,1,1,Cercle Brugge
 4008586,61/62,19,21/01/1962,15:00,Olympic Charleroi,3,0,Daring Club Brussel
 4008587,61/62,19,21/01/1962,15:00,Sint-Truidense VV,2,0,KFC Diest
 4008588,61/62,19,21/01/1962,15:00,Union Saint-Gilloise,2,1,Waterschei SV THOR (- 1988)
 4008589,61/62,20,28/01/1962,15:00,Standard Luik,2,0,Union Saint-Gilloise
-<<<<<<< HEAD
-4008590,61/62,20,28/01/1962,15:00,Association Royale Athlétique Gent,2,1,KSC Eendracht Aalst
-=======
 4008590,61/62,20,28/01/1962,15:00,Association Royale Athl�tique Gent,2,1,KSC Eendracht Aalst
->>>>>>> cb1fc91 (klassement done)
 4008591,61/62,20,28/01/1962,15:00,RSC Anderlecht,3,0,Olympic Charleroi
 4008592,61/62,20,28/01/1962,15:00,R Antwerp FC,1,1,Lierse SK (- 2018)
 4008593,61/62,20,28/01/1962,15:00,Daring Club Brussel,3,1,Royal Beerschot AC
@@ -665,11 +406,7 @@
 4008600,61/62,21,4/02/1962,15:00,Royal Beerschot AC,5,0,Association Royale Athlétique Gent
 =======
 4008600,61/62,21,4/02/1962,15:00,Royal Beerschot AC,5,0,Association Royale Athl�tique Gent
->>>>>>> cb1fc91 (klassement done)
-4008601,61/62,21,4/02/1962,15:00,Union Saint-Gilloise,1,1,Cercle Brugge
-4008602,61/62,21,4/02/1962,15:00,RFC Luik,1,1,KFC Diest
 4008603,61/62,21,4/02/1962,15:00,Olympic Charleroi,3,0,Waterschei SV THOR (- 1988)
-4008628,61/62,21,4/03/1962,15:00,Daring Club Brussel,1,2,Lierse SK (- 2018)
 4008604,61/62,22,11/02/1962,15:00,R Antwerp FC,5,1,Cercle Brugge
 4008605,61/62,22,11/02/1962,15:00,Union Saint-Gilloise,3,0,Royal Beerschot AC
 4008606,61/62,22,11/02/1962,15:00,Club Brugge,2,2,Sint-Truidense VV
