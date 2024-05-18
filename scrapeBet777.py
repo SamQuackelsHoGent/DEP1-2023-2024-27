@@ -39,6 +39,7 @@ def prepareData(json_object):
                 outcomes = jmespath.search(f'tree[0].competitions[0].events[{x}].markets[{y}].outcome_count', json_object)
                 # For loop om de percentages te doorlopen
                 for z in range (0, outcomes):
+                    goalRequirement = 2.5
                     odds = str((jmespath.search(f'tree[0].competitions[0].events[{x}].markets[{y}].outcomes[{z}].odds', json_object)))
                     match str((jmespath.search(f'tree[0].competitions[0].events[{x}].markets[{y}].outcomes[{z}].name', json_object))):
                         case "Ja":
@@ -53,17 +54,23 @@ def prepareData(json_object):
                             oddsWinnaarX = odds
                         case "Meer dan (2.5)":
                             totaalgoalsplus = odds
-                        case ("Onder (2.5)"):
+                        case "Onder (2.5)":
+                            totaalgoalsmin = odds
+                        case "Meer dan (3.5)":
+                            goalRequirement = 3.5
+                            totaalgoalsplus = odds
+                        case "Onder (3.5)":
+                            goalRequirement = 3.5
                             totaalgoalsmin = odds
                         case _:
                             print("Woopsie")
-            writeData(huisploeg, wegploeg, oddsWinnaar1, oddsWinnaarX, oddsWinnaar2, totaalgoalsplus, totaalgoalsmin, beideteams, beideteamsniet)
+            writeData(huisploeg, wegploeg, oddsWinnaar1, oddsWinnaarX, oddsWinnaar2, totaalgoalsplus, totaalgoalsmin, beideteams, beideteamsniet, goalRequirement)
 
 # Methode die de data wegschrijft naar het dataBet777.csv file
-def writeData(huisploeg, wegploeg, oddsWinnaar1, oddsWinnaarX, oddsWinnaar2, totaalgoalsplus, totaalgoalsmin, beideteams, beideteamsniet):
+def writeData(huisploeg, wegploeg, oddsWinnaar1, oddsWinnaarX, oddsWinnaar2, totaalgoalsplus, totaalgoalsmin, beideteams, beideteamsniet, goalRequirement):
     with open('dataBet777.csv', 'a', newline='\n') as file:
         writer = csv.writer(file)
-        writer.writerow([huisploeg, wegploeg, oddsWinnaar1, oddsWinnaarX, oddsWinnaar2, totaalgoalsplus, totaalgoalsmin, beideteams, beideteamsniet])
+        writer.writerow([huisploeg, wegploeg, oddsWinnaar1, oddsWinnaarX, oddsWinnaar2, totaalgoalsplus, totaalgoalsmin, beideteams, beideteamsniet, goalRequirement])
 
 
 # def clearData():
